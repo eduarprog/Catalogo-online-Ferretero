@@ -23,8 +23,7 @@ z-index: 9999;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
-  ;
+ 
   
 }
 
@@ -35,10 +34,7 @@ a:hover{
   align-content: center;
 }
 
-.fijo ul li {
-  float: left;
-  
-}
+
 
 .fijo ul li a {
   display: block;
@@ -232,7 +228,7 @@ body::-webkit-scrollbar-thumb:hover{
               
               <input type="hidden" name="_template" value="box">
               <input type="hidden" name="_subject" value="¡Nuevo envío!">
-              <input type="hidden" name="_next" value="http://127.0.0.1:5501/inicio.html">
+              <input type="hidden" name="_next" value="http://127.0.0.1:5501/cotizacion.php">
               <input type="hidden" name="_captcha" value="false" >
         
               <br>

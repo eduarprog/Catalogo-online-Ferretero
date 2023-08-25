@@ -51,11 +51,7 @@ z-index: 9999;
   
 }
 
-.fijo ul li {
-  float: left;
-  
-  
-}
+
 
 .fijo ul li a {
   display: block;

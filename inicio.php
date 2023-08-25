@@ -58,10 +58,6 @@ pointer-events: none;
   text-decoration: none;
 }
 
-.fijo ul li {
-  float: left;
-  
-}
 
 .fijo ul li a {
   display: block;
