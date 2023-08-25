@@ -76,22 +76,6 @@ body::-webkit-scrollbar-thumb:hover{
     </style>
 </head>
 
-<script>
-  window.onscroll = function() {
-  var whatsappButton = document.getElementById("whatsapp-button");
-  var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
-
-  if (scrollPosition > 100) {
-    whatsappButton.style.opacity = "1";
- 
-  }
-};
-
-
-</script>
-
-
-
   <!--Menu Principal-->
 
 <body>
@@ -196,46 +180,40 @@ body::-webkit-scrollbar-thumb:hover{
   
 </div>
 
-
+<hr>
 <center>
-        <hr  class="featurette-divider">
-        
-          <div class="card text-white bg-danger mb-3" style="max-width: 30rem;">
-            <div class="card-header">Cotización via correo</div>
-            <div class="card-body">
-              <form action="https://formsubmit.co/eduardoantoniosanchezbaez@gmail.com" method="POST">
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1">Nombre o Empresa</span>
-                <input required="true" type="text" name="name" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
-              </div>
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1">RNC (opcional)</span>
-                <input  type="text" name="name" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
-              </div>
-              <div class="input-group mb-3">
-                <input required="true" type="email" name="email" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <span class="input-group-text" id="basic-addon2">@ejemplo.com</span>
-              </div>
-            
-              <div class="input-group">
-                <span class="input-group-text">Cotizacion:</span>
-                <textarea required="true"  name="Mensaje" class="form-control" aria-label="With textarea"></textarea>
-              </div>
-              
-              <br>
-              
-              <button  type="submit" class="btn btn-outline-light"  > Enviar</button>
-              
-              <input type="hidden" name="_template" value="box">
-              <input type="hidden" name="_subject" value="¡Nuevo envío!">
-              <input type="hidden" name="_next" value="http://127.0.0.1:5501/cotizacion.php">
-              <input type="hidden" name="_captcha" value="false" >
-        
-              <br>
-              <br>
-              <p class="card-text">Te estaremos respondiendo lo mas pronto posible.</p>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-danger text-white">
+                    <h4>Formulario de Cotización </h4>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="rnc" class="form-label">RNC</label>
+                            <input type="text" class="form-control" id="rnc" placeholder="Escribre el RNC">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="nombre@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Productos</label>
+                            <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
             </div>
-          </div>
+        </div>
+    </div>
+</div>
+
           <hr class="featurette-divider">
         <div class="container">
        
@@ -250,13 +228,20 @@ body::-webkit-scrollbar-thumb:hover{
         
         <footer class="pie_pagina" style="background-color: #CA0403;" >
         <br>
+        <div class="container" style="color:#fff" >
         <h4 style="color:#fff" >SIGUENOS!</h4>
         <li class="nav-link">
         <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" target="_blank" rel="noopener">
-        <i class="fa-brands fa-instagram fa-beat" style="color: #f7f7f8;"></i></a>
-        </li>
+        <i class="fa-brands fa-instagram " style="color: #f7f7f8;"></i></a>
+        &nbsp;
+        <a href="https://www.youtube.com/feed/library" target="_blank" rel="noopener" >
+        <i class="fa-brands fa-youtube" style="color: #f6f7f9;"></i></a>
+        &nbsp;
         <a href="https://www.facebook.com/ferreteriajotta.r" target="_blank" rel="noopener">
-        <i class="fa-brands fa-facebook fa-beat" style="color: #fafafa;"></i>
+        <i class="fa-brands fa-facebook " style="color: #fafafa;"></i></a>
+      &nbsp;
+      <a href="https://www.google.com/search?q=Ferreteria+JOTTA-R&stick=H4sIAAAAAAAA_-NgU1I1qLBITTQ1M0wztDQ0SjIxTjO3MqhINDYxsbAwNEu1SDGwNDcyW8Qq5JZaVJRaklqUmajg5R8S4qgbBAAQ6KcnPgAAAA&hl=es-419&mat=CS9Gc3mrRgX2ElYBeenfiIAh5igBiDrIRyrwST16V58WjeUQyJWsRdYAwl0L1aKSbOQrvobhDCa6aLXzNrRo0kaKEixRIi20u2cAa5uAb6NCnLQEUTLQZ32wA0zTybq_9g&authuser=0" target="_blank" rel="noopener">
+      <i class="fa-solid fa-shop" style="color: #eceff3;"></i></a>
       </a>
           <div class="container" style="color:#fff" >
             

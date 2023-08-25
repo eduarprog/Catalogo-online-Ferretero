@@ -478,41 +478,37 @@ body::-webkit-scrollbar-thumb:hover{
 <iframe class="rounded mx-auto d-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.712139073683!2d-69.96746532590201!3d18.45137467128643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea561f1912b43f7%3A0xa3448816e8d09726!2sFerreteria%20JOTTA-R!5e0!3m2!1ses-419!2sdo!4v1681958612367!5m2!1ses-419!2sdo" width="1250" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 <br>
-<hr class="featurette-divider">
-<div class="si-pointer-events">
-  <div class="card text-white bg-danger mb-3" style="max-width: 30rem;">
-    <div class="card-header">Dejanos algun comentario:</div>
-    <div class="card-body">
-      <form action="https://formsubmit.co/eduardoantoniosanchezbaez@gmail.com" method="POST">
-      <div class="input-group mb-3">
-        <span class="input-group-text" id="basic-addon1">Nombre o Empresa</span>
-        <input required="true" type="text" name="name" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
-      </div>
-      <div class="input-group mb-3">
-        <input required="true" type="email" name="email" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
-        <span class="input-group-text" id="basic-addon2">@ejemplo.com</span>
-      </div>
-    
-      <div class="input-group">
-        <span class="input-group-text">Mensaje</span>
-        <textarea required="true"  name="Mensaje" class="form-control" aria-label="With textarea"></textarea>
-      </div>
-      <br>
-      
-      <button  type="submit" class="btn btn-outline-light"  > Enviar</button>
-      
-      <input type="hidden" name="_template" value="box">
-      <input type="hidden" name="_subject" value="¡Nuevo envío!">
-      <input type="hidden" name="_next" value="http://127.0.0.1:5501/inicio.html">
-      <input type="hidden" name="_captcha" value="false" >
-
-      <br>
-      <br>
-      <p class="card-text">Tus opiniones para nosotros siempre seran importantes para mejorar.</p>
+<hr>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-danger text-white " >
+                    <h4>Formulario de opiniones</h4>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="nombre@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
-    
+
+  <br>
      <!--Contacto via correo directo-->
      <div class="container">
 
@@ -562,61 +558,7 @@ body::-webkit-scrollbar-thumb:hover{
       </footer>
       
       
-      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-
-  <div class="modal-dialog">
-  
-    <div class="modal-content">
-    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    <div class="modal-header">
-    
-    
-    <h5 class="modal-title" id="staticBackdropLabel"></h5>
-    
-    <div class="card text-white bg-danger mb-3" style="max-width: 30rem;">
-   
-    <div class="card-header">Suscribete y recibe nuestras ofertas!</div>
-    <div class="card-body">
-      <form action="https://formsubmit.co/eduardoantoniosanchezbaez@gmail.com" method="POST">
-      <div class="input-group mb-3">
-        <span class="input-group-text" id="basic-addon1">Nombre o Empresa</span>
-        <input required="true" type="text" name="name" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
-      </div>
-      <div class="input-group mb-3">
-        <input required="true" type="email" name="email" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
-        <span class="input-group-text" id="basic-addon2">@ejemplo.com</span>
-      </div>
-    
-  
-  
-
-
-
-      <br>
-      <center>
-      <button  type="submit" class="btn btn-outline-light"  > Enviar</button>
-      </center>
-      <input type="hidden" name="_template" value="box">
-      <input type="hidden" name="_subject" value="¡Nuevo envío!">
-      <input type="hidden" name="_next" value="http://127.0.0.1:5501/inicio.html">
-      <input type="hidden" name="_captcha" value="false" >
-
-      
-      <br>
-      <p class="card-text">Se el primero en recibir nuestras ofertas, no esperes mas. </p>
-    </div>
-  </div>
-      
-      
-       
-  
      
-      
-      </div>
-    </div>
-    
-    
-  </div>
 
   
       
