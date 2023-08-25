@@ -24,7 +24,7 @@ z-index: 9999;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
+
   ;
   
 }
@@ -77,17 +77,6 @@ body::-webkit-scrollbar-thumb:hover{
   
 </head>
 
-<script>
-  window.onscroll = function() {
-  var whatsappButton = document.getElementById("whatsapp-button");
-  var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
-
-  if (scrollPosition > 100) {
-    whatsappButton.style.opacity = "1";
- 
-  }
-};
-</script>
   <!--Menu Principal-->
 
 <body>
