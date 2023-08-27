@@ -257,6 +257,7 @@ body::-webkit-scrollbar-thumb:hover{
 </div>
 
 <br>
+<br>
 <center>
 <h3><i class="fa-solid fa-layer-group fa-2xs" style="color: #f71d1d;"></i> &nbsp;Catalogo:</h3>
 </center>
@@ -484,23 +485,23 @@ body::-webkit-scrollbar-thumb:hover{
         <div class="col-md-6">
             <div class="card1">
                 <div class="card-header bg-danger text-white " >
-                    <h4>Formulario de opiniones</h4>
+                    <h4><i class="fa-solid fa-message fa-xs" style="color: #fafcff;"></i> &nbsp; Formulario de opiniones</h4>
                 </div>
                 <div class="card-body">
-                    <form>
+                    <form method="post">
                         <div class="mb-3">
-                            <label for="nombre" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                            <label for="nombre" class="form-label">Nombre <i class="fa-solid fa-asterisk fa-2xs" style="color: #e3020a;"></i></label>
+                            <input type="text" class="form-control" name="nombre" required="" placeholder="Tu nombre">
                         </div>
                         <div class="mb-3">
-                            <label for="email" class="form-label">Correo Electrónico</label>
-                            <input type="email" class="form-control" id="email" placeholder="nombre@example.com">
+                            <label for="email" class="form-label">Correo Electrónico <i class="fa-solid fa-asterisk fa-2xs" style="color: #e3020a;"></i></label>
+                            <input type="email" class="form-control" name="email" required="" placeholder="nombre@example.com">
                         </div>
                         <div class="mb-3">
-                            <label for="mensaje" class="form-label">Mensaje</label>
-                            <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+                            <label for="mensaje" class="form-label">Mensaje <i class="fa-solid fa-asterisk fa-2xs" style="color: #e3020a;"></i></label>
+                            <textarea class="form-control" name="mensaje" rows="4" required="" placeholder="Escribe tu mensaje aquí"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="submit" class="btn btn-light">Enviar</button>
                     </form>
                 </div>
             </div>
@@ -509,6 +510,11 @@ body::-webkit-scrollbar-thumb:hover{
 </div>
 
   <br>
+  <?php
+
+include("correo.php");
+
+?>
      <!--Contacto via correo directo-->
      <div class="container">
 

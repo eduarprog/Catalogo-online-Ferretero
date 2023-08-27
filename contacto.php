@@ -283,23 +283,23 @@ body::-webkit-scrollbar-thumb:hover{
         <div class="col-md-6">
             <div class="card1">
                 <div class="card-header bg-danger text-white " >
-                    <h4>Formulario de contacto</h4>
+                    <h4> <i class="fa-solid fa-address-book fa-xs" style="color: #effbfb;"></i> &nbsp;Formulario de contacto</h4>
                 </div>
                 <div class="card-body">
                     <form>
                         <div class="mb-3">
-                            <label for="nombre" class="form-label">Nombre o Empresa</label>
+                            <label for="nombre" class="form-label">Nombre o Empresa <i class="fa-solid fa-asterisk fa-2xs" style="color: #e3020a;"></i></label>
                             <input type="text" class="form-control" id="nombre" placeholder="Tu nombre o Empresa">
                         </div>
                         <div class="mb-3">
-                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <label for="email" class="form-label">Correo Electrónico <i class="fa-solid fa-asterisk fa-2xs" style="color: #e3020a;"></i></label>
                             <input type="email" class="form-control" id="email" placeholder="nombre@example.com">
                         </div>
                         <div class="mb-3">
-                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <label for="mensaje" class="form-label">Mensaje <i class="fa-solid fa-asterisk fa-2xs" style="color: #e3020a;"></i></label>
                             <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="submit" class="btn btn-light">Enviar</button>
                     </form>
                 </div>
             </div>
