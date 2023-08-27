@@ -439,7 +439,7 @@ body::-webkit-scrollbar-thumb:hover{
        
     
         <h3 class="featurette-heading"><i class="fa-solid fa-play fa-2xs" style="color: #f50f0f;"  ></i> &nbsp;Videos<span class="text-muted"></span></h3>
-        <iframe class="rounded" width="550" height="300" src="https://www.youtube.com/embed/mSivIt9FtLo?autoplay=1&mute=1" title="Modificar Barra de Scroll con CSS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="rounded" width="550" height="300" src="https://www.youtube.com/embed/v0qygdFroTc?autoplay=1&mute=1" title="Modificar Barra de Scroll con CSS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       <div class="col-md-5">
         
@@ -482,7 +482,7 @@ body::-webkit-scrollbar-thumb:hover{
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-6">
-            <div class="card">
+            <div class="card1">
                 <div class="card-header bg-danger text-white " >
                     <h4>Formulario de opiniones</h4>
                 </div>
@@ -522,7 +522,7 @@ body::-webkit-scrollbar-thumb:hover{
 
 <!--Pie de pagina-->
         
-        <footer class="pie_pagina" style="background-color: #CA0403; " >
+        <footer class="pie_pagina rounded" style="background-color: #CA0403; " >
         <br>
         <div class="container" style="color:#fff" >
         <h4 style="color:#fff" >SIGUENOS!</h4>
@@ -530,7 +530,7 @@ body::-webkit-scrollbar-thumb:hover{
         <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" target="_blank" rel="noopener">
         <i class="fa-brands fa-instagram " style="color: #f7f7f8;"></i></a>
         &nbsp;
-        <a href="https://www.youtube.com/feed/library" target="_blank" rel="noopener" >
+        <a href="https://www.youtube.com/@FerreteriaJotta-R" target="_blank" rel="noopener" >
         <i class="fa-brands fa-youtube" style="color: #f6f7f9;"></i></a>
         &nbsp;
         <a href="https://www.facebook.com/ferreteriajotta.r" target="_blank" rel="noopener">

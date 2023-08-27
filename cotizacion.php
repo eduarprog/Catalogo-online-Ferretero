@@ -119,9 +119,11 @@ body::-webkit-scrollbar-thumb:hover{
                   PRODUCTOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180" style="color: #f7f7f7;"></i>
                 </button>
               </a>
-              
-                <ul  class="dropdown-menu dropdown-menu-danger" >
-                <li><a class="dropdown-item" href="hogar.php"><i class="fa-solid fa-house" style="color: #e40c0c;"></i> &nbsp;   HOGAR</a></li>
+              <ul  class="dropdown-menu dropdown-menu-danger" >
+                <li> <a class="dropdown-item" href="index.php">  <i class="fa-solid fa-list" style="color: #e40c0c;"></i> 
+                &nbsp;   TODOS
+                </a></li>
+                  <li><a class="dropdown-item" href="hogar.php"><i class="fa-solid fa-house" style="color: #e40c0c;"></i> &nbsp;   HOGAR</a></li>
                   <li><a class="dropdown-item" href="plomeria.php"> <i class="fa-solid fa-toilet" style="color: #e40c0c;"></i> &nbsp; PLOMERIA</a></li>
                   <li><a class="dropdown-item" href="pinturas.php"> <i class="fa-solid fa-palette" style="color: #e40c0c;"></i> &nbsp; PINTURAS</a></li>
                   <li><a class="dropdown-item" href="electricos.php"> <i class="fa-solid fa-bolt" style="color: #e40c0c;"></i> &nbsp; ELECTRICOS</a></li>
@@ -185,7 +187,7 @@ body::-webkit-scrollbar-thumb:hover{
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-6">
-            <div class="card">
+            <div class="card1">
                 <div class="card-header bg-danger text-white">
                     <h4>Formulario de Cotización </h4>
                 </div>
@@ -193,7 +195,7 @@ body::-webkit-scrollbar-thumb:hover{
                     <form>
                         <div class="mb-3">
                             <label for="nombre" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre o Empresa">
                         </div>
                         <div class="mb-3">
                             <label for="rnc" class="form-label">RNC</label>
@@ -226,7 +228,7 @@ body::-webkit-scrollbar-thumb:hover{
           
           <!--Pie de pagina-->
         
-        <footer class="pie_pagina" style="background-color: #CA0403;" >
+        <footer class="pie_pagina rounded" style="background-color: #CA0403;" >
         <br>
         <div class="container" style="color:#fff" >
         <h4 style="color:#fff" >SIGUENOS!</h4>
@@ -234,7 +236,7 @@ body::-webkit-scrollbar-thumb:hover{
         <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" target="_blank" rel="noopener">
         <i class="fa-brands fa-instagram " style="color: #f7f7f8;"></i></a>
         &nbsp;
-        <a href="https://www.youtube.com/feed/library" target="_blank" rel="noopener" >
+        <a href="https://www.youtube.com/@FerreteriaJotta-R" target="_blank" rel="noopener" >
         <i class="fa-brands fa-youtube" style="color: #f6f7f9;"></i></a>
         &nbsp;
         <a href="https://www.facebook.com/ferreteriajotta.r" target="_blank" rel="noopener">
@@ -247,7 +249,7 @@ body::-webkit-scrollbar-thumb:hover{
             
 
           <hr>
-              &copy; 2023 - <b> Ferreteria Jotta-R </b> - Todos los Derechos Reservados
+              &copy; 2023 - <b> Ferreteria Jotta-R </b> - Todos los Derechos Reservados &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="img/logob2.png" height="50" width="50">
             </a>
 
             

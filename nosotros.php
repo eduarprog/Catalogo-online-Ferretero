@@ -342,7 +342,7 @@ body::-webkit-scrollbar-thumb:hover{
    <!--Pie de pagina-->
 
    <center>
-      <footer class="border-top footer text-muted" style="background-color: #CA0403;">
+      <footer class="border-top footer text-muted rounded" style="background-color: #CA0403;">
       
       <br>
       <div class="container" style="color:#fff" >
@@ -351,7 +351,7 @@ body::-webkit-scrollbar-thumb:hover{
         <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" target="_blank" rel="noopener">
         <i class="fa-brands fa-instagram " style="color: #f7f7f8;"></i></a>
         &nbsp;
-        <a href="https://www.youtube.com/feed/library" target="_blank" rel="noopener" >
+        <a href="https://www.youtube.com/@FerreteriaJotta-R" target="_blank" rel="noopener" >
         <i class="fa-brands fa-youtube" style="color: #f6f7f9;"></i></a>
         &nbsp;
         <a href="https://www.facebook.com/ferreteriajotta.r" target="_blank" rel="noopener">
@@ -369,6 +369,8 @@ body::-webkit-scrollbar-thumb:hover{
         </div>
     </footer>
     </div>
+    
+    
     <!--Pie de pagina-->
 
 
