@@ -189,7 +189,7 @@ body::-webkit-scrollbar-thumb:hover{
         <div class="col-md-6">
             <div class="card1">
                 <div class="card-header bg-danger text-white">
-                    <h4><i class="fa-solid fa-tag fa-xs" style="color: #f1f4f9;"></i> &nbsp; Formulario de Cotización </h4>
+                    <h4><i class="fa-solid fa-tags fa-xs" style="color: #f1f4f9;"></i> &nbsp; Formulario de Cotización </h4>
                 </div>
                 <div class="card-body">
                     <form>
@@ -219,7 +219,7 @@ body::-webkit-scrollbar-thumb:hover{
           <hr class="featurette-divider">
         <div class="container">
        
-          <h4>*Los precios pueden estar sujetos a cambios*</h4>
+          <h5>*Los precios pueden estar sujetos a cambios.</h5>
 
           
         

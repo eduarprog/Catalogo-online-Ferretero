@@ -278,9 +278,12 @@ body::-webkit-scrollbar-thumb:hover{
     <br>
     <br>
     <br>
-    
+    <br>
+    <br>
+    <br>
+    <br>
 
-    <h5 class="card-title">Hogar</h5>
+    <h3 class="card-title">Hogar</h3>
   </div>
 </div>
       </a>
@@ -297,7 +300,11 @@ body::-webkit-scrollbar-thumb:hover{
     <br>
     <br>
     <br>
-    <h5 class="card-title">Plomeria</h5>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="card-title">Plomeria</h3>
   </div>
 </div>
 </a>
@@ -313,7 +320,11 @@ body::-webkit-scrollbar-thumb:hover{
     <br>
     <br>
     <br>
-    <h5 class="card-title">Pinturas</h5>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="card-title">Pinturas</h3>
   </div>
 </div>
     </div>
@@ -335,7 +346,11 @@ body::-webkit-scrollbar-thumb:hover{
     <br>
     <br>
     <br>
-    <h5 class="card-title">Electricos</h5>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="card-title">Electricos</h3>
   </div>
 </div>
       </a>
@@ -351,7 +366,11 @@ body::-webkit-scrollbar-thumb:hover{
     <br>
     <br>
     <br>
-    <h5 class="card-title">Construcción</h5>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="card-title">Construcción</h3>
   </div>
 </div>
       </a>
@@ -367,7 +386,11 @@ body::-webkit-scrollbar-thumb:hover{
     <br>
     <br>
     <br>
-    <h5 class="card-title">Bombillos</h5>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 class="card-title">Bombillos</h3>
   </div>
 </div>
     </div>
