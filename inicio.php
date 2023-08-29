@@ -28,7 +28,7 @@
 
       body {
         font-family: 'Crimson Pro', serif;
-        font-size: 19px;
+        
         background-color: #EAECEC;
       }
 
@@ -511,20 +511,20 @@ body::-webkit-scrollbar-thumb:hover{
                     <h4><i class="fa-solid fa-message fa-xs" style="color: #fafcff;"></i> &nbsp; Formulario de opiniones</h4>
                 </div>
                 <div class="card-body">
-                    <form method="post">
+                    <form action="correo.php" method="post">
                         <div class="mb-3">
                             <label for="nombre" class="form-label">Nombre <i class="fa-solid fa-asterisk fa-2xs" style="color: #e3020a;"></i></label>
-                            <input type="text" class="form-control" name="nombre" required="" placeholder="Tu nombre">
+                            <input type="text" class="form-control" id="nombre" name="nombre" required="" placeholder="Tu nombre">
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Correo Electrónico <i class="fa-solid fa-asterisk fa-2xs" style="color: #e3020a;"></i></label>
-                            <input type="email" class="form-control" name="email" required="" placeholder="nombre@example.com">
+                            <input type="email" class="form-control" id="email" name="email" required="" placeholder="nombre@example.com">
                         </div>
                         <div class="mb-3">
                             <label for="mensaje" class="form-label">Mensaje <i class="fa-solid fa-asterisk fa-2xs" style="color: #e3020a;"></i></label>
-                            <textarea class="form-control" name="mensaje" rows="4" required="" placeholder="Escribe tu mensaje aquí"></textarea>
+                            <textarea class="form-control" id="mensaje" rows="4" name="mensaje" required="" placeholder="Escribe tu mensaje aquí"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-light">Enviar</button>
+                        <button type="submit" class="btn btn-light" id="btnSend" >Enviar</button>
                     </form>
                 </div>
             </div>
@@ -533,11 +533,7 @@ body::-webkit-scrollbar-thumb:hover{
 </div>
 
   <br>
-  <?php
 
-include("correo.php");
-
-?>
      <!--Contacto via correo directo-->
      <div class="container">
 

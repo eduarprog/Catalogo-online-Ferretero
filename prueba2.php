@@ -1,98 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- ... Resto de las etiquetas HEAD ... -->
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card Carousel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+    <script src="https://kit.fontawesome.com/f97fcd2c02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
+    <title>Productos | Ferreteria Jotta-R</title>
     <style>
-    body {
-    font-family: Arial, sans-serif;
+
+      body {
+        font-family: 'Crimson Pro', serif;
+        font-size: 19px;
+        background-image: linear-gradient(135deg,
+       #CA0403, #CA0403, #CA0403, #CA0403, #fff);
+        background-size: 500%;
+        
+        
+      }
+
+     @keyframes fanimado{
+        0%{
+          background-position: 0% 50%;
+        }
+        50%{
+          background-position: 100% 50%;
+        }
+        100%{
+          background-position: 0% 50%;
+        }
+      }
+
+      .fijo {
+        pointer-events: none;
+  position: fixed;
+z-index: 9999;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+  ;
+  
+}
+
+
+
+.fijo ul li a {
+  display: block;
+  pointer-events: auto;
+  text-decoration: none;
+  color: #333;
+}
+
+
+a:hover{
+  color: #fd0839;
+  text-decoration: none;
+  opacity: 0.8;
+  align-content: center;
+}
+
+
+
+.card{
+  
+  border: none;
+  background: #eee;
+  
+
+}
+.search {
+  width: 100%;
+      margin-bottom: auto;
+    margin-top: 20px;
+    height: 50px;
+        background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search-input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    margin-top: 5px;
+    caret-color: transparent;
+    line-height: 20px;
+    transition: width 0.4s linear
+}
+
+.search .search-input {
+    padding: 0 10px;
+    width: 100%;
+    caret-color: #536bf6;
+    font-size: 19px;
+    font-weight: 300;
+    color: black;
+    transition: width 0.4s linear;
+}
+
+
+.search-icon {
+        height: 34px;
+    width: 70px;
+    float: right;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    color: white;
+    background-color: #536bf6;
+    font-size: 17px;
+        bottom: 30px;
+        position: relative;
+        border-radius: 5px;
+        
+        
 }
 
-</style>
+.search-icon:hover{
+
+  color: #fff !important;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+
+.card-inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    border:none;
+    cursor: pointer;
+    transition: all 2s;
+}
+
+
+.card-inner:hover{
+
+   transform: scale(1.1);
+
+}
+
+.mg-text span{
+
+  font-size: 12px;
+
+}
+
+.mg-text{
+
+  line-height: 14px;
+}
+.container .card{
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  overflow: hidden;
+  transition: all 0.25s;
+
+}
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+.aa{
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid darkred;
+  background:  #CA0403;
+  display: inline-block;
+  box-sizing: border-box;
+  opacity: 0.8;
+  align-content: center;
+ 
+
+}
+.aa:hover{
+  opacity: 2;
+}
+.modal fade{
+  pointer-events: none;
+}
+.d-flex{
+  pointer-events: auto;
+}
+.navbar-brand{
+  pointer-events: auto;
+}
+.nav-link{
+  pointer-events: auto;
+}
+
+
+body::-webkit-scrollbar{
+  width: 11px;
+}
+body::-webkit-scrollbar-thumb{
+  background: #CA0403;
+  border-radius: 6px;
+}
+body::-webkit-scrollbar-thumb:hover{
+  background: #fd0839;
+  
+}
+    </style>
 </head>
 <body>
-    <div class="carousel-container">
-        <div class="card-carousel">
-            <div class="card">Card 1</div>
-            <div class="card">Card 2</div>
-            <div class="card">Card 3</div>
-            <div class="card">Card 4</div>
-            <div class="card">Card 2</div>
-            <div class="card">Card 3</div>
-            <!-- Agrega más tarjetas según sea necesario -->
+<div class="fijo">
+    <!-- ... Tu barra de navegación ... -->
+</div>
+
+<br>
+<br>
+<br>
+
+<form class="d-flex" id="form2" name="form2"  method="POST">
+    <div class="container mt-4">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-9">
+                <div class="card p-4 mt-3">
+                    <a href="prueba2.php" title="Refrescar" class="fa-solid fa-arrows-rotate " style=" background-color: transparent; color: #e20321;"></a>
+                    <div class="d-flex justify-content-center px-5">
+                        <div class="search">
+                            <input type="text"  class="search-input" name="buscar" placeholder="¿Qué estás buscando?">
+                            <input type="submit" value="Buscar" class="search-icon" style="background-color: #e20321 ; ">
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <button id="prevBtn">Anterior</button>
-        <button id="nextBtn">Siguiente</button>
     </div>
+</form>
 
-    <script>
-const cardCarousel = document.querySelector(".card-carousel");
-const prevBtn = document.getElementById("prevBtn");
-const nextBtn = document.getElementById("nextBtn");
+<?php
+require 'conexion.php';
+$conexion = conexion();
+$por_pagina = 6;
 
-const cards = document.querySelectorAll(".card");
-let cardIndex = 0;
+if (isset($_GET['pagina']))
+    $pagina = $_GET['pagina'];
+else
+    $pagina = 1;
 
-prevBtn.addEventListener("click", () => {
-    cardIndex = (cardIndex - 1 + cards.length) % cards.length;
-    updateCardVisibility();
-});
+$empieza = ($pagina - 1) * $por_pagina;
 
-nextBtn.addEventListener("click", () => {
-    cardIndex = (cardIndex + 1) % cards.length;
-    updateCardVisibility();
-});
-
-function updateCardVisibility() {
-    cards.forEach((card, index) => {
-        card.style.display = index === cardIndex ? "block" : "none";
-    });
+if (!empty($_POST['buscar'])) {
+    $buscar = $_POST['buscar'];
+    $sql = "SELECT * FROM registro  WHERE Nombre LIKE '%$buscar%' OR Descripcion LIKE '%$buscar%' OR categoria LIKE '%$buscar%'";
+} else {
+    $sql = "SELECT * FROM registro";
 }
 
-// Mostrar la primera tarjeta al cargar la página
-updateCardVisibility();
+$query = mysqli_query($conexion, $sql);
+$resultados_encontrados = false;
+?>
 
-    </script>
+<div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <?php
+        if ($query) {
+            if (mysqli_num_rows($query) > 0) {
+                while ($data = mysqli_fetch_assoc($query)) {
+                    $resultados_encontrados = true;
+                    // ... Tu código para mostrar los resultados ...
+                    ?>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <center>
+                                <img class="card-img-top" width="180" height="180" src="<?php echo $data['ImgRuta']?>">
+                            </center>
+                            <div class="card-body">
+                                <center>
+                                    <h5 class="card-title"><?php echo $data['Nombre'] ?></h5>
+                                </center>
+                                <br>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Detalles</button>
+                                    </div>
+                                    <h2 style="visibility:hidden" ><?php echo $data['categoria']?></h2>
+                                    <p class="card-text" style="color:green"> <b> <?php echo $data ['precio'] ?>$RD</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <?php
+                }
+            } else {
+                echo '<div class="alert alert-warning">No se encontraron resultados.</div>';
+            }
+        } else {
+            echo '<div class="alert alert-danger">Error en la consulta: ' . mysqli_error($conexion) . '</div>';
+        }
+        ?>
+    </div>
 
+    <?php
+    if (!$resultados_encontrados) {
+        echo '<div class="alert alert-warning">Los datos no existen.</div>';
+    }
+    ?>
 
-<!--Pie de pagina-->
-        
-<footer style="background-color: #CA0403; " >
-        <br>
-        <h4 style="color:#fff" >SIGUENOS!</h4>
-        <li class="nav-link">
-        <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" target="_blank" rel="noopener">
-        <i class="fa-brands fa-instagram fa-beat" style="color: #f7f7f8;"></i></a>
-        </li>
-        <a href="https://www.facebook.com/ferreteriajotta.r" target="_blank" rel="noopener">
-        <i class="fa-brands fa-facebook fa-beat" style="color: #fafafa;"></i>
-      </a>
-          <div class="container" style="color:#fff" >
-            
+    <?php
+    $total_registros = mysqli_num_rows($query);
+    $total_paginas = ceil($total_registros / $por_pagina);
 
-          <hr>
-              &copy; 2023 - <b> Ferreteria Jotta-R </b> - Todos los Derechos Reservados
-            </a>
+    echo "<center><a style='margin-left: 10px' class='aa' href='index.php?pagina=1'>" . 'Anterior' . "</a>";
 
-            
+    for ($i = 1; $i <= $total_paginas; $i++) {
+        echo "<a  style='margin-left: 10px' class='aa' href='index.php?pagina=" . $i . "'> " . $i . "</a>  ";
+    }
 
-              
-             
-            </div>
-          </nav>
-              
-          </div>
-          
-      </footer>
+    echo "<a  class='aa' style='margin-left: 10px'  href='index.php?pagina=$total_paginas'>" . 'Siguiente' . "</a></center>";
+    ?>
 
+</div>
 
+<!-- ... El pie de página y otros elementos HTML ... -->
 
-    
 </body>
 </html>
