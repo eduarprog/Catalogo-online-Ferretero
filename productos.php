@@ -224,7 +224,88 @@ body::-webkit-scrollbar-thumb:hover{
 </head>
 <body>
 <div class="fijo">
-    <!-- ... Tu barra de navegación ... -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
+        <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
+        
+        <li class="nav-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Ferreteria Jotta-R" >
+          <a  href="inicio.php" ><img src="img/logob2.png" width="65" height="65"></img></a>
+          </li>
+         
+        <div class="container">
+        
+          <a   class="navbar-brand" href="inicio.php" >INICIO</a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="nosotros.php">NOSOTROS</a>
+              </li>
+<li class="nav-item">
+              <div class="dropdown">
+                <a class="nav-link"
+                <button class="btn dropdown-toggle "  type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  SERVICIOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180" style="color: #f7f7f7;"></i>
+                </button>
+              </a>
+                <ul  class="dropdown-menu dropdown-menu-danger" >
+                  <li><a class="dropdown-item" href="cotizacion.php"><i class="fa-solid fa-tag" style="color: #e40c0c;" ></i> &nbsp; COTIZACION</a></li>
+                </ul>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link active"  aria-current="page" href="contacto.php"> CONTACTO</a>
+              </li>
+              <div class="dropdown" >
+                <a class="nav-link"
+                <button class="btn dropdown-toggle" type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  PRODUCTOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180" style="color: #f7f7f7;"></i>
+                </button>
+              </a>
+              
+                <ul  class="dropdown-menu dropdown-menu-danger" >
+                <li> <a class="dropdown-item" href="index.php">  <i class="fa-solid fa-list" style="color: #e40c0c;"></i> 
+                &nbsp;   TODOS
+                </a></li>
+                  <li><a class="dropdown-item" href="hogar.php"><i class="fa-solid fa-house" style="color: #e40c0c;"></i> &nbsp;   HOGAR</a></li>
+                  <li><a class="dropdown-item" href="plomeria.php"> <i class="fa-solid fa-toilet" style="color: #e40c0c;"></i> &nbsp; PLOMERIA</a></li>
+                  <li><a class="dropdown-item" href="pinturas.php"> <i class="fa-solid fa-palette" style="color: #e40c0c;"></i> &nbsp; PINTURAS</a></li>
+                  <li><a class="dropdown-item" href="electricos.php"> <i class="fa-solid fa-bolt" style="color: #e40c0c;"></i> &nbsp; ELECTRICOS</a></li>
+                  <li><a class="dropdown-item" href="construccion.php"> <i class="fa-solid fa-person-digging"  style="color: #e40c0c;"></i> &nbsp;CONSTRUCCION</a></li>
+                  <li><a class="dropdown-item" href="bombillos.php"><i class="fa-solid fa-lightbulb"  style="color: #e40c0c;"></i> &nbsp; BOMBILLOS</a></li>
+                </ul>
+              </div>
+              
+            </ul>
+          </ul>
+            
+          
+               
+  
+
+          
+      <form class="d-flex" id="form3" name="form3"  method="POST">
+              <select  class="btn btn-light dropdown-toggle"  data-bs-toggle="dropdown" class="form-select" aria-label="Default select example"  name="buscar" >
+              <option   selected >Categorias</option>
+  <option  value="Hogar">Hogar</option>
+  <option value="Plomeria">Plomeria</option>
+  <option value="Pinturas">Pinturas</option>
+  <option value="Electricos">Electricos</option>
+  <option value="Construcción">Construcción</option>
+  <option value="Bombillos">Bombillos</option>
+  <div class="space">
+  </div>
+              <input style="margin-left: 10px"  class="btn btn-outline-light" value="Filtrar"  data-bs-placement="top" type="submit"></button>
+            </form>
+          </div>
+        </div>
+      
+   
+              
+
+      </nav>
+
 </div>
 
 <br>
@@ -236,7 +317,7 @@ body::-webkit-scrollbar-thumb:hover{
         <div class="row d-flex justify-content-center">
             <div class="col-md-9">
                 <div class="card p-4 mt-3">
-                    <a href="prueba2.php" title="Refrescar" class="fa-solid fa-arrows-rotate " style=" background-color: transparent; color: #e20321;"></a>
+                    <a href="productos.php" title="Actualizar" class="fa-solid fa-arrows-rotate " style=" background-color: transparent; color: #e20321;"></a>
                     <div class="d-flex justify-content-center px-5">
                         <div class="search">
                             <input type="text"  class="search-input" name="buscar" placeholder="¿Qué estás buscando?">
@@ -250,10 +331,13 @@ body::-webkit-scrollbar-thumb:hover{
     </div>
 </form>
 
+<br>
+
+
 <?php
 require 'conexion.php';
 $conexion = conexion();
-$por_pagina = 6;
+$por_pagina = 3;
 
 if (isset($_GET['pagina']))
     $pagina = $_GET['pagina'];
@@ -266,7 +350,9 @@ if (!empty($_POST['buscar'])) {
     $buscar = $_POST['buscar'];
     $sql = "SELECT * FROM registro  WHERE Nombre LIKE '%$buscar%' OR Descripcion LIKE '%$buscar%' OR categoria LIKE '%$buscar%'";
 } else {
-    $sql = "SELECT * FROM registro";
+  
+  $sql="SELECT * FROM registro LIMIT $empieza,$por_pagina";
+  
 }
 
 $query = mysqli_query($conexion, $sql);
@@ -302,6 +388,7 @@ $resultados_encontrados = false;
                             </div>
                         </div>
                     </div>
+                    
                     <?php
                 }
             } else {
@@ -320,17 +407,57 @@ $resultados_encontrados = false;
     ?>
 
     <?php
+   $por_pagina=  1;
     $total_registros = mysqli_num_rows($query);
     $total_paginas = ceil($total_registros / $por_pagina);
 
-    echo "<center><a style='margin-left: 10px' class='aa' href='index.php?pagina=1'>" . 'Anterior' . "</a>";
+    echo "<br>
+    <center><a style='margin-left: 10px' class='aa' href='productos.php?pagina=1'>" . 'Anterior' . "</a>";
 
     for ($i = 1; $i <= $total_paginas; $i++) {
-        echo "<a  style='margin-left: 10px' class='aa' href='index.php?pagina=" . $i . "'> " . $i . "</a>  ";
+        echo "<a  style='margin-left: 10px' class='aa' href='productos.php?pagina=" . $i . "'> " . $i . "</a>  ";
     }
 
-    echo "<a  class='aa' style='margin-left: 10px'  href='index.php?pagina=$total_paginas'>" . 'Siguiente' . "</a></center>";
+    echo "<a  class='aa' style='margin-left: 10px'  href='productos.php?pagina=$total_paginas'>" . 'Siguiente' . "</a></center>";
+    
+    
     ?>
+
+    <br>
+
+<center>
+      <footer class="border-top footer text-muted" style="background-color: #CA0403;">
+      
+      <br>
+     
+        
+      <div class="container" style="color:#fff" >
+        <h4 style="color:#fff" >SIGUENOS!</h4>
+        <li class="nav-link">
+        <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" target="_blank" rel="noopener">
+        <i class="fa-brands fa-instagram " style="color: #f7f7f8;"></i></a>
+        &nbsp;
+        <a href="https://www.youtube.com/@FerreteriaJotta-R" target="_blank" rel="noopener" >
+        <i class="fa-brands fa-youtube" style="color: #f6f7f9;"></i></a>
+        &nbsp;
+        <a href="https://www.facebook.com/ferreteriajotta.r" target="_blank" rel="noopener">
+        <i class="fa-brands fa-facebook " style="color: #fafafa;"></i></a>
+      &nbsp;
+      <a href="https://www.google.com/search?q=Ferreteria+JOTTA-R&stick=H4sIAAAAAAAA_-NgU1I1qLBITTQ1M0wztDQ0SjIxTjO3MqhINDYxsbAwNEu1SDGwNDcyW8Qq5JZaVJRaklqUmajg5R8S4qgbBAAQ6KcnPgAAAA&hl=es-419&mat=CS9Gc3mrRgX2ElYBeenfiIAh5igBiDrIRyrwST16V58WjeUQyJWsRdYAwl0L1aKSbOQrvobhDCa6aLXzNrRo0kaKEixRIi20u2cAa5uAb6NCnLQEUTLQZ32wA0zTybq_9g&authuser=0" target="_blank" rel="noopener">
+      <i class="fa-solid fa-shop" style="color: #eceff3;"></i></a>
+      </a>
+      
+          <div class="container" style="color:#fff" >
+          <br>
+         *Los precios mostrados en esta página pueden variar sin previo aviso.
+        <hr>
+            &copy; 2023 - <b>Ferreteria Jotta-R</b> - Todos los derechos reservado</a>
+           
+        </center>
+        </div>
+    </footer>
+    </div>
+    <!--Pie de pagina-->
 
 </div>
 

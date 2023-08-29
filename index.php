@@ -354,7 +354,7 @@ body::-webkit-scrollbar-thumb:hover{
 require 'conexion.php';
 $conexion=conexion();
 
-$por_pagina=6;
+$por_pagina=2;
     if(isset($_GET['pagina']))
     $pagina=$_GET['pagina'];
 
@@ -449,7 +449,7 @@ $data=mysqli_query($conexion,$sql);
 
 
 
-$por_pagina=10;
+$por_pagina=1;
 $total_registros=mysqli_num_rows($data);
 $total_paginas=ceil($total_registros/$por_pagina);
 
