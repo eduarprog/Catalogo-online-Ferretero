@@ -120,7 +120,7 @@ body::-webkit-scrollbar-thumb:hover{
                 </button>
               </a>
               <ul  class="dropdown-menu dropdown-menu-danger" >
-                <li> <a class="dropdown-item" href="index.php">  <i class="fa-solid fa-list" style="color: #e40c0c;"></i> 
+                <li> <a class="dropdown-item" href="productos.php">  <i class="fa-solid fa-list" style="color: #e40c0c;"></i> 
                 &nbsp;   TODOS
                 </a></li>
                   <li><a class="dropdown-item" href="hogar.php"><i class="fa-solid fa-house" style="color: #e40c0c;"></i> &nbsp;   HOGAR</a></li>
