@@ -320,7 +320,7 @@ body::-webkit-scrollbar-thumb:hover{
                     <a href="productos.php" title="Actualizar" class="fa-solid fa-arrows-rotate " style=" background-color: transparent; color: #e20321;"></a>
                     <div class="d-flex justify-content-center px-5">
                         <div class="search">
-                            <input type="text"  class="search-input" name="buscar" placeholder="¿Qué estás buscando?">
+                            <input   type="text"  class="search-input" name="buscar" placeholder="¿Qué estás buscando?">
                             <input type="submit" value="Buscar" class="search-icon" style="background-color: #e20321 ; ">
                             <br>
                         </div>
@@ -332,6 +332,8 @@ body::-webkit-scrollbar-thumb:hover{
 </form>
 
 <br>
+
+
 
 
 <?php
@@ -392,17 +394,17 @@ $resultados_encontrados = false;
                     <?php
                 }
             } else {
-                echo '<div class="alert alert-warning">No se encontraron resultados.</div>';
+               
             }
         } else {
-            echo '<div class="alert alert-danger">Error en la consulta: ' . mysqli_error($conexion) . '</div>';
+            
         }
         ?>
     </div>
 
     <?php
     if (!$resultados_encontrados) {
-        echo '<div class="alert alert-warning">Los datos no existen.</div>';
+        echo '<center><img src="img/datosno.png" width="360" height="360" ></center>';
     }
     ?>
 

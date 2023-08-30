@@ -1,123 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- ... Resto de las etiquetas HEAD ... -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+    <script src="https://kit.fontawesome.com/f97fcd2c02.js" crossorigin="anonymous"></script>
     <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/f97fcd2c02.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plomeria | Ferreteria Jotta-R</title>
     <style>
-    body {
+
+      body {
         font-family: 'Crimson Pro', serif;
         font-size: 19px;
         background-image: linear-gradient(135deg,
-         #CA0403, #CA0403, #CA0403, #EAECEC, #fff);
+       #CA0403, #CA0403, #CA0403, #CA0403, #fff);
         background-size: 500%;
         
+        
       }
-      
-      a:hover{
-  color: #fd0839;
-  text-decoration: none;
-  opacity: 0.8;
-  align-content: center;
-}
 
-      form{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: all 1s;
-    width: 50px;
-    height: 50px;
-    background: white;
-    box-sizing: border-box;
-    border-radius: 25px;
-    border: 4px solid white;
-    padding: 5px;
-}
+     @keyframes fanimado{
+        0%{
+          background-position: 0% 50%;
+        }
+        50%{
+          background-position: 100% 50%;
+        }
+        100%{
+          background-position: 0% 50%;
+        }
+      }
 
-input{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;;
-    height: 42.5px;
-    line-height: 30px;
-    outline: 0;
-    border: 0;
-    display: none;
-    font-size: 1em;
-    border-radius: 20px;
-    padding: 0 20px;
-}
-
-.fa{
-    box-sizing: border-box;
-    padding: 10px;
-    width: 42.5px;
-    height: 42.5px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 50%;
-    color: #07051a;
-    text-align: center;
-    font-size: 1.2em;
-    transition: all 1s;
-}
-
-form:hover,
-form:valid{
-    width: 200px;
-    cursor: pointer;
-}
-
-a:link {
-    text-decoration: none
-}
-
-form:hover input,
-form:valid input{
-    display: block;
-}
-
-form:hover .fa,
-form:valid .fa{
-    background: #07051a;
-    color: white;
-}
-
-.fijo {
-  position: fixed;
-z-index: 9999;
-pointer-events: none;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 32rem;
-}
-
-.d-flex{
-  pointer-events: auto;
-}
-.navbar-brand{
-  pointer-events: auto;
-}
-.nav-link{
-  pointer-events: auto;
-}
-
-
-.fijo {
-  pointer-events: none;
+      .fijo {
+        pointer-events: none;
   position: fixed;
 z-index: 9999;
   top: 0;
@@ -138,26 +59,80 @@ z-index: 9999;
 }
 
 
-
-.aa{
-  padding: 15px;
-  color: #fff;
+a:hover{
+  color: #fd0839;
   text-decoration: none;
-  border: 1px solid darkred;
-  background:  #CA0403;
-  display: inline-block;
-  box-sizing: border-box;
   opacity: 0.8;
   align-content: center;
- 
-
 }
 
-form:valid a {
-  display: block;
+
+
+.card{
+  
+  border: none;
+  background: #eee;
+  
 
 }
-::placeholder { color: #000; }
+.search {
+  width: 100%;
+      margin-bottom: auto;
+    margin-top: 20px;
+    height: 50px;
+        background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search-input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    margin-top: 5px;
+    caret-color: transparent;
+    line-height: 20px;
+    transition: width 0.4s linear
+}
+
+.search .search-input {
+    padding: 0 10px;
+    width: 100%;
+    caret-color: #536bf6;
+    font-size: 19px;
+    font-weight: 300;
+    color: black;
+    transition: width 0.4s linear;
+}
+
+
+.search-icon {
+        height: 34px;
+    width: 70px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #536bf6;
+    font-size: 17px;
+        bottom: 30px;
+        position: relative;
+        border-radius: 5px;
+        
+        
+}
+
+.search-icon:hover{
+
+  color: #fff !important;
+}
+
+a:link {
+    text-decoration: none;
+}
 
 
 
@@ -204,6 +179,36 @@ form:valid a {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0,0,0,0.2);
 }
+.aa{
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid darkred;
+  background:  #CA0403;
+  display: inline-block;
+  box-sizing: border-box;
+  opacity: 0.8;
+  align-content: center;
+ 
+
+}
+.aa:hover{
+  opacity: 2;
+}
+.modal fade{
+  pointer-events: none;
+}
+.d-flex{
+  pointer-events: auto;
+}
+.navbar-brand{
+  pointer-events: auto;
+}
+.nav-link{
+  pointer-events: auto;
+}
+
+
 body::-webkit-scrollbar{
   width: 11px;
 }
@@ -215,13 +220,9 @@ body::-webkit-scrollbar-thumb:hover{
   background: #fd0839;
   
 }
-
     </style>
 </head>
-
 <body>
-
-<!--Menu-->
 <div class="fijo">
 <nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
         <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
@@ -242,7 +243,7 @@ body::-webkit-scrollbar-thumb:hover{
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="nosotros.php">NOSOTROS</a>
               </li>
-              <li class="nav-item">
+<li class="nav-item">
               <div class="dropdown">
                 <a class="nav-link"
                 <button class="btn dropdown-toggle "  type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -264,7 +265,7 @@ body::-webkit-scrollbar-thumb:hover{
               </a>
               
                 <ul  class="dropdown-menu dropdown-menu-danger" >
-                <li> <a class="dropdown-item" href="index.php">  <i class="fa-solid fa-list" style="color: #e40c0c;"></i> 
+                <li> <a class="dropdown-item" href="productos.php">  <i class="fa-solid fa-list" style="color: #e40c0c;"></i> 
                 &nbsp;   TODOS
                 </a></li>
                   <li><a class="dropdown-item" href="hogar.php"><i class="fa-solid fa-house" style="color: #e40c0c;"></i> &nbsp;   HOGAR</a></li>
@@ -279,7 +280,7 @@ body::-webkit-scrollbar-thumb:hover{
             </ul>
           </ul>
             
-  
+          
           <li class="navbar-nav">
           <i class="fa-solid fa-sink" style="color: #fbfcfe;"></i> 
           &nbsp; &nbsp;
@@ -295,198 +296,127 @@ body::-webkit-scrollbar-thumb:hover{
        
     </nav>
 </div>
-<br>
-    <br>
-    
-  
-    <!--Carrusel de imagenes-->
-    
-<!--<div class="container">
-<div class="row featurette">
-  <center>
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/1.png" width="900" class="rounded" alt="...">
-    </div>
-    <br>
-    <div class="carousel-item">
-      <img src="img/2.png" width="900" class="rounded" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/3.png" width="900" class="rounded" alt="...">
-    </div>
-  </div>
-</div>
-</div>
-
-    
-
-<div class="container">
-<hr >
-</div>
--->
+              
 
 <br>
 <br>
 <br>
-
-
-<?php
-
-
-require 'conexion.php';
-$conexion=conexion();
-
-$por_pagina=6;
-    if(isset($_GET['pagina']))
-    $pagina=$_GET['pagina'];
-
-    else{
-        $pagina=1;
-    }
-
-    $empieza=($pagina-1) * $por_pagina;
-    $sql="SELECT * FROM plomeria LIMIT $empieza,$por_pagina";
-    $data=mysqli_query($conexion,$sql);
- 
-
-
-
-
-?>
-
-<?php
-
-if (!empty($_POST['buscar'])){
-    $buscar=$_POST['buscar'];
-    $sql="SELECT * FROM plomeria  WHERE Nombre LIKE '%$buscar%'";
-    
-
-}else{
-  $empieza=($pagina-1) * $por_pagina;
-  $sql="SELECT * FROM plomeria LIMIT $empieza,$por_pagina";
-  $data=mysqli_query($conexion,$sql);
-
-}
-   
-
-?>
-
-<?php
-$query=mysqli_query($conexion,$sql);
-if($query){
-    while($data=mysqli_fetch_assoc($query)){
-      
-    ?>
-
-
-
-
-<!--Buscador-->
-
 
 <form class="d-flex" id="form2" name="form2"  method="POST">
-  
-  
-  <input style="background-color: #CA0403;" class="search-icon"  name="buscar" placeholder="¿Qué buscas?" type="text">
-
- <!-- <input class="fa fa-search" type="submit" >Buscar</input>-->
+    <div class="container mt-4">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-9">
+                <div class="card p-4 mt-3">
+                    <a href="plomeria.php" title="Actualizar" class="fa-solid fa-arrows-rotate " style=" background-color: transparent; color: #e20321;"></a>
+                    <div class="d-flex justify-content-center px-5">
+                        <div class="search">
+                            <input type="text"  class="search-input" name="buscar" placeholder="¿Qué estás buscando?">
+                            <input type="submit" value="Buscar" class="search-icon" style="background-color: #e20321 ; ">
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </form>
 
 <br>
-<main>
+
+
+<?php
+require 'conexion.php';
+$conexion = conexion();
+$por_pagina = 3;
+
+if (isset($_GET['pagina']))
+    $pagina = $_GET['pagina'];
+else
+    $pagina = 1;
+
+$empieza = ($pagina - 1) * $por_pagina;
+
+if (!empty($_POST['buscar'])) {
+    $buscar = $_POST['buscar'];
+    $sql = "SELECT * FROM plomeria  WHERE Nombre LIKE '%$buscar%'";
+} else {
   
+  $sql="SELECT * FROM plomeria LIMIT $empieza,$por_pagina";
   
-    <div class="container">
-    <a href="hogar.php" title="Refrescar" class="fa-solid fa-arrows-rotate fa-lg fa-spin" style="color: #EAECEC;"></a>
-    <br>
-    <br>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-    <?php foreach($query as $data) { 
-      ?>
-      
-    <div class="col">
-    <div class="card shadow-sm">
-      <center>
-    <img class="card-img-top" width="180" height="180"  src="<?php echo $data['ImgRuta']?>">
-    </center>
-    
-    
-    <div class="card-body">
-    <i class="fa-solid fa-toilet"  style="color: #e40c0c;"></i> &nbsp; 
-      <center>
-    <h5 class="card-tittle"><?php echo  $data['Nombre'] ?></h5>
-    </center>
-    <br>
-    
-    
-    <div class="d-flex justify-content-between align-items-center">
-    <div class="btn-group">
-    <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Detalles</button>
-    </div>
-    <p class="card-text" style="color:green"> <b> <?php echo $data ['precio'] ?></b></p>
-    </div>
-    </div>
-    </div>
-   
-    </div>
-
-    
-    
-
-
-
-    
-    <?php } ?>
-
-
-    <?php
-
-
-$sql="SELECT * FROM plomeria";
-$data=mysqli_query($conexion,$sql);
-
-
-
-$por_pagina=10;
-$total_registros=mysqli_num_rows($data);
-$total_paginas=ceil($total_registros/$por_pagina);
-
-echo "
-<center><a style='margin-left: 10px' class='aa' href='plomeria.php?pagina=1'>" .'Anterior'. "</a>";
-
-for($i=1; $i<=$total_paginas; $i++)
-
-{
-  echo"
-  <a  style='margin-left: 10px' class='aa' href='plomeria.php?pagina=".$i."'> ".$i."</a>  ";
 }
 
-echo"
-
- <a  class='aa'style='margin-left: 10px'  href='plomeria.php?pagina=$total_paginas'>" .'Siguiente'."</a></center>
- ";
-
-
-
-
-
-
+$query = mysqli_query($conexion, $sql);
+$resultados_encontrados = false;
 ?>
 
-
- 
-
-
-
-    
+<div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <?php
+        if ($query) {
+            if (mysqli_num_rows($query) > 0) {
+                while ($data = mysqli_fetch_assoc($query)) {
+                    $resultados_encontrados = true;
+                    // ... Tu código para mostrar los resultados ...
+                    ?>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <center>
+                                <img class="card-img-top" width="180" height="180" src="<?php echo $data['ImgRuta']?>">
+                            </center>
+                            <div class="card-body">
+                                <center>
+                                    <h5 class="card-title"><?php echo $data['Nombre'] ?></h5>
+                                </center>
+                                <br>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Detalles</button>
+                                    </div>
+                                    <h2 style="visibility:hidden" ><?php echo $data['categoria']?></h2>
+                                    <p class="card-text" style="color:green"> <b> <?php echo $data ['precio'] ?>$RD</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <?php
+                }
+            } else {
+               
+            }
+        } else {
+            
+        }
+        ?>
     </div>
+
+    <?php
+    if (!$resultados_encontrados) {
+        echo '<center><img src="img/datosno.png" width="360" height="360" ></center>';
+    }
+    ?>
+
+    <?php
+   $por_pagina=  1;
+    $total_registros = mysqli_num_rows($query);
+    $total_paginas = ceil($total_registros / $por_pagina);
+
+    echo "<br>
+    <center><a style='margin-left: 10px' class='aa' href='plomeria.php?pagina=1'>" . 'Anterior' . "</a>";
+
+    for ($i = 1; $i <= $total_paginas; $i++) {
+        echo "<a  style='margin-left: 10px' class='aa' href='plomeria.php?pagina=" . $i . "'> " . $i . "</a>  ";
+    }
+
+    echo "<a  class='aa' style='margin-left: 10px'  href='plomeria.php?pagina=$total_paginas'>" . 'Siguiente' . "</a></center>";
     
-    <hr>
+    
+    ?>
+
+<hr>
     <br>
     <center>
-    <h3 style="color:#EAECEC"><i class="fa-solid fa-wand-magic-sparkles fa-2xs" style="color: #EAECEC;"></i> &nbsp;Novedades</h3>
+      <h3 style="color:#EAECEC"><i class="fa-solid fa-wand-magic-sparkles fa-2xs" style="color: #EAECEC;"></i> &nbsp;Novedades</h3>
     </center>
     <br>
 
@@ -501,25 +431,23 @@ echo"
     <div class="carousel-item">
       <img src="img/1.png" class="d-block w-100" width="300px"  height="300px" alt="...">
     </div>
+    <div class="carousel-item">
+      <img src="img/1.png" class="d-block w-100" width="300px"  height="300px" alt="...">
+    </div>
   </div>
 </div>
 
 <br>
 
 
-
-
-
-
-
-
-
-    <!--Pie de pagina-->
+    <br>
 
 <center>
       <footer class="border-top footer text-muted" style="background-color: #CA0403;">
       
       <br>
+     
+        
       <div class="container" style="color:#fff" >
         <h4 style="color:#fff" >SIGUENOS!</h4>
         <li class="nav-link">
@@ -536,107 +464,21 @@ echo"
       <i class="fa-solid fa-shop" style="color: #eceff3;"></i></a>
       </a>
       
-        <div class="container" style="color: #fff;">
-        <br>
+          <div class="container" style="color:#fff" >
+          <br>
          *Los precios mostrados en esta página pueden variar sin previo aviso.
         <hr>
             &copy; 2023 - <b>Ferreteria Jotta-R</b> - Todos los derechos reservado</a>
+           
         </center>
         </div>
     </footer>
     </div>
     <!--Pie de pagina-->
 
-
-
-    
-
-<?php
-
-
-
-
-
-
-    }
-}else
-
-
-
-
-{
-
-  
-  echo '
-
-
-
-  <center>
-      <footer class="border-top footer text-muted" style="background-color: #CA0403;">
-        <div class="container" style="color: #fff;">
-          
-            &copy; 2023 -  Ferreteria Jotta-R - Todos los derechos reservado</a>
-        </center>
-        </div>
-    </footer>
-    </div>
-    <!--Pie de pagina-->
-  
-  
-
-    ';
-}
-?>
-
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-<?php foreach($query as $data ) { ?>
-  <div class="modal-dialog">
-    <div class="modal-content">
-      
-      <div class="modal-header" style="background-color: #CA0403;">
-    
-        <h5 class="modal-title" id="staticBackdropLabel"><?php echo $data ['Nombre']; ?></h5>
-       
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-      <center>
-    <img width="300px" height="300px" src="<?php echo $data['ImgRuta']?>">
-    </center>
-<br>
-        <h4 class="modal-titile">Descripcion:</h4>
-      <?php echo $data ['Descripcion']; ?>
-      </div>
-      <br>
-      <center>
-      <h6><b>(Los precios pueden estar sujeto a cambios)</b></h6>
-    </center>
-      
-      </div>
-    </div>
-
-    
-    
-    <?php } ?>
-  </div>
-  
 </div>
 
-
-
-
-
-
-
-
-
-
-    <!--Barra izquierda-->
-
-
-
-
-
+<!-- ... El pie de página y otros elementos HTML ... -->
 
 </body>
 </html>

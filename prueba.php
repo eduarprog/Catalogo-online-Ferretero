@@ -524,5 +524,101 @@ document.addEventListener('DOMContentLoaded', function() {
     </form>
 
 
+    <?php
+// Inicializar los contadores
+$likes = 0;
+$dislikes = 0;
+
+// Comprobar si ya existen cookies para likes y dislikes
+if (isset($_COOKIE['likes'])) {
+    $likes = $_COOKIE['likes'];
+}
+
+if (isset($_COOKIE['dislikes'])) {
+    $dislikes = $_COOKIE['dislikes'];
+}
+
+// Procesar votos
+if (isset($_POST['like'])) {
+    $likes++;
+    setcookie('likes', $likes, time() + 3600 * 24 * 30); // Cookie válida por 30 días
+} elseif (isset($_POST['dislike'])) {
+    $dislikes++;
+    setcookie('dislikes', $dislikes, time() + 3600 * 24 * 30);
+}
+
+// Mostrar los contadores y botones de votación
+echo "Likes: $likes Dislikes: $dislikes<br>";
+?>
+<form method="post">
+    <button type="submit" name="like">Like</button>
+    <button type="submit" name="dislike">Dislike</button>
+</form>
+
+<?php
+// Función para obtener el contador actual
+function obtenerContador($archivo) {
+    if (file_exists($archivo)) {
+        return intval(file_get_contents($archivo));
+    } else {
+        return 0;
+    }
+}
+
+// Función para incrementar el contador
+function incrementarContador($archivo) {
+    $contador = obtenerContador($archivo);
+    $contador++;
+    file_put_contents($archivo, $contador);
+}
+
+// Archivos para los contadores de likes y dislikes
+$archivoLikes = 'likes.txt';
+$archivoDislikes = 'dislikes.txt';
+
+// Procesar votos
+if (isset($_POST['like'])) {
+    incrementarContador($archivoLikes);
+} elseif (isset($_POST['dislike'])) {
+    incrementarContador($archivoDislikes);
+}
+
+// Mostrar los contadores y botones de votación
+echo "Likes: " . obtenerContador($archivoLikes) . " Dislikes: " . obtenerContador($archivoDislikes) . "<br>";
+?>
+<form method="post">
+    <button type="submit" name="like">Like</button>
+    <button type="submit" name="dislike">Dislike</button>
+</form>
+
+
+
+
+
+
+
+
+<script>
+    // Deshabilitar el envío automático del formulario al cargar la página
+    document.addEventListener("DOMContentLoaded", function() {
+        var likeButton = document.querySelector('button[name="like"]');
+        var dislikeButton = document.querySelector('button[name="dislike"]');
+        
+        likeButton.addEventListener("click", function(event) {
+            event.preventDefault();
+            document.querySelector('form').submit();
+        });
+
+        dislikeButton.addEventListener("click", function(event) {
+            event.preventDefault();
+            document.querySelector('form').submit();
+        });
+    });
+</script>
+
+
+
+
+
 </body>
 </html>
