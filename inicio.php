@@ -13,26 +13,14 @@
     <title>Ferreteria Jotta-R</title>
     <style>
 
-      .popup {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 300px;
-  padding: 20px;
-  background-color: #f1f1f1;
-  border-radius: 5px;
-  text-align: center;
-}
+   
 
       body {
         font-family: 'Crimson Pro', serif;
-        
+        font-size: 20px;
+        zoom: 75%;
         background-color: #EAECEC;
       }
-
-   
 
 a:hover{
   color: #fd0839;
@@ -50,9 +38,6 @@ pointer-events: none;
   left: 0;
   min-width: 100%;
   height: 32rem;
-  
-  ;
-  
 }
 .nav-link{
   text-decoration: none;
@@ -129,7 +114,7 @@ body::-webkit-scrollbar-thumb:hover{
 <div class="fijo">
 <nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
         <li class="nav-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Ferreteria Jotta-R" >
-          <a href="inicio.php"  ><img src="img/logob2.png" width="65" height="65"></img></a>
+          <a href="inicio.php"  ><img src="img/logob2.png" width="90" height="90"></img></a>
           </li>
          
         <div class="container">
@@ -210,25 +195,25 @@ body::-webkit-scrollbar-thumb:hover{
  
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/3.png" width="700px"  height="700px" class="d-block w-100" alt="...">
+      <img src="img/3.png" width="750px"  height="750px" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h1>Ferreteria Jotta-R</h1>
+        <h1 translate="no">Ferreteria Jotta-R</h1>
         <h4>Materiales de construcción, plomeria, pinturas y mas.</h4>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="img/3.png" class="d-block w-100" width="700px"  height="700px" alt="...">
+      <img src="img/3.png" class="d-block w-100" width="750px"  height="750px" alt="...">
       <div class="carousel-caption d-none d-md-block">
      <!-- <button type="button" class="btn btn-sm btn-outline-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Suscribirse!</button>-->
         <br>
-        <h1>Ferreteria Jotta-R</h1>
+        <h1 translate="no">Ferreteria Jotta-R</h1>
         <h4>No esperes mas y se uno de los primeros en recibir las ofertas.</h4>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="img/2.png" class="d-block w-100" width="700px"  height="700px" alt="...">
+      <img src="img/2.png" class="d-block w-100" width="750px"  height="750px" alt="...">
       <div class="carousel-caption d-none d-md-block">
-      <h1>Ferreteria Jotta-R</h1>
+      <h1 translate="no">Ferreteria Jotta-R</h1>
         <h4>Some representative placeholder content for the third slide.</h4>
       </div>
     </div>
@@ -259,7 +244,7 @@ body::-webkit-scrollbar-thumb:hover{
 <br>
 <br>
 <center>
-<h3><i class="fa-solid fa-layer-group fa-2xs" style="color: #f71d1d;"></i> &nbsp;Catalogo:</h3>
+<h3><i class="fa-solid fa-layer-group fa-2xs" style="color: #f71d1d;"></i> &nbsp;Catalogo</h3>
 </center>
 <br>
 
@@ -270,7 +255,7 @@ body::-webkit-scrollbar-thumb:hover{
     <div class="col-lg-4">
       <a href="hogar.php">
       <div class="card bg-dark text-white">
-  <img src="img/3.png" width="400" height="400" class="card-img" alt="...">
+  <img src="img/23.png" width="400" height="400" class="card-img" alt="...">
   <div class="card-img-overlay">
     <br>
     <br>
@@ -283,7 +268,7 @@ body::-webkit-scrollbar-thumb:hover{
     <br>
     <br>
 
-    <h3 class="card-title">Hogar</h3>
+    <h2 class="card-title">Hogar</h2>
   </div>
 </div>
       </a>
@@ -292,7 +277,7 @@ body::-webkit-scrollbar-thumb:hover{
     <div class="col-lg-4">
       <a href="plomeria.php">
       <div class="card bg-dark text-white">
-  <img src="img/plomeria.jpg" width="400" height="400" class="card-img" alt="...">
+  <img src="img/24.png" width="400" height="400" class="card-img" alt="...">
   <div class="card-img-overlay">
   <br>
     <br>
@@ -304,7 +289,7 @@ body::-webkit-scrollbar-thumb:hover{
     <br>
     <br>
     <br>
-    <h3 class="card-title">Plomeria</h3>
+    <h2 class="card-title">Plomeria</h2>
   </div>
 </div>
 </a>
@@ -312,7 +297,7 @@ body::-webkit-scrollbar-thumb:hover{
     <div class="col-lg-4"> 
       <a href="pinturas.php">
       <div class="card bg-dark text-white">
-  <img src="img/2.png" width="400" height="400" class="card-img" alt="...">
+  <img src="img/p.png" width="400" height="400" class="card-img" alt="...">
   <div class="card-img-overlay">
   <br>
     <br>
@@ -324,7 +309,7 @@ body::-webkit-scrollbar-thumb:hover{
     <br>
     <br>
     <br>
-    <h3 class="card-title">Pinturas</h3>
+    <h2 class="card-title">Pinturas</h2>
   </div>
 </div>
     </div>
@@ -338,7 +323,7 @@ body::-webkit-scrollbar-thumb:hover{
     <div class="col-lg-4">
       <a href="electricos.php" >
       <div class="card bg-dark text-white">
-  <img src="img/elec.avif" width="400" height="400" class="card-img" alt="...">
+  <img src="img/7.png" width="400" height="400" class="card-img" alt="...">
   <div class="card-img-overlay">
   <br>
     <br>
@@ -350,7 +335,7 @@ body::-webkit-scrollbar-thumb:hover{
     <br>
     <br>
     <br>
-    <h3 class="card-title">Electricos</h3>
+    <h2 class="card-title">Electricos</h2>
   </div>
 </div>
       </a>
@@ -358,7 +343,7 @@ body::-webkit-scrollbar-thumb:hover{
     <div class="col-lg-4">
       <a href="construccion.php" >
       <div class="card bg-dark text-white">
-  <img src="img/contruccion.jpg" width="400" height="400" class="card-img" alt="...">
+  <img src="img/c.png" width="400" height="400" class="card-img" alt="...">
   <div class="card-img-overlay">
   <br>
     <br>
@@ -370,7 +355,7 @@ body::-webkit-scrollbar-thumb:hover{
     <br>
     <br>
     <br>
-    <h3 class="card-title">Construcción</h3>
+    <h2 class="card-title" >Construcción</h2>
   </div>
 </div>
       </a>
@@ -378,7 +363,7 @@ body::-webkit-scrollbar-thumb:hover{
     <div class="col-lg-4"> 
       <a href="bombillos.php">
       <div class="card bg-dark text-white">
-  <img src="img/bombillos.jpg" width="400" height="400"  class="card-img" alt="...">
+  <img src="img/22.png" width="400" height="400"  class="card-img" alt="...">
   <div class="card-img-overlay">
   <br>
     <br>
@@ -390,7 +375,7 @@ body::-webkit-scrollbar-thumb:hover{
     <br>
     <br>
     <br>
-    <h3 class="card-title">Bombillos</h3>
+    <h2 class="card-title" style=" font-style:initial;">Bombillos</h2>
   </div>
 </div>
     </div>
@@ -405,7 +390,7 @@ body::-webkit-scrollbar-thumb:hover{
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h3 class="featurette-heading"> <i class="fa-solid fa-handshake fa-2xs" style="color: red;"></i> &nbsp;Ventas al por mayor y al detalle. <span class="text-muted"></span></h3>
+        <h3 class="featurette-heading"> <i class="fa-solid fa-handshake fa-2xs" style="color: red;"></i> &nbsp;Ventas al por mayor y al detalle <span class="text-muted"></span></h3>
         <p class="lead"></p>
         <h4 class="lead">
           En articulos como: Luces led, regletas, bombillos, llaves de chorro y entre otros articulos.
@@ -467,7 +452,7 @@ body::-webkit-scrollbar-thumb:hover{
       </div>
       <div class="col-md-5">
         
-          <h2 class="featurette-heading"><i class="fa-solid fa-users fa-2xs" style="color: red;"></i> Horario de atención:<span class="text-muted"></span></h2>
+          <h2 class="featurette-heading"><i class="fa-solid fa-users fa-2xs" style="color: red;"></i> Horario de atención<span class="text-muted"></span></h2>
         
         <h4 class="lead">
           Lunes:	AM8:00–18:00PM
@@ -497,11 +482,11 @@ body::-webkit-scrollbar-thumb:hover{
 
   <hr  class="featurette-divider">
 <center>
-<h3><i class="fa-solid fa-location-dot fa-xs" style="color: #f50f0f;"></i> Ubicación:</h3>
+<h3><i class="fa-solid fa-location-dot fa-xs" style="color: #f50f0f;"></i> Ubicación</h3>
         </center>
-<iframe class="rounded mx-auto d-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.712139073683!2d-69.96746532590201!3d18.45137467128643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea561f1912b43f7%3A0xa3448816e8d09726!2sFerreteria%20JOTTA-R!5e0!3m2!1ses-419!2sdo!4v1681958612367!5m2!1ses-419!2sdo" width="1250" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe class="rounded mx-auto d-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.712139073683!2d-69.96746532590201!3d18.45137467128643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea561f1912b43f7%3A0xa3448816e8d09726!2sFerreteria%20JOTTA-R!5e0!3m2!1ses-419!2sdo!4v1681958612367!5m2!1ses-419!2sdo" width="1070" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-<br>
+
 <hr>
 <div class="container mt-5">
     <div class="row justify-content-center">

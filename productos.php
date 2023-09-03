@@ -17,24 +17,13 @@
 
       body {
         font-family: 'Crimson Pro', serif;
-        font-size: 19px;
+        font-size: 20px;
+        zoom: 75%;
         background-image: linear-gradient(135deg,
        #CA0403, #CA0403, #CA0403, #CA0403, #fff);
         background-size: 500%;
         
         
-      }
-
-     @keyframes fanimado{
-        0%{
-          background-position: 0% 50%;
-        }
-        50%{
-          background-position: 100% 50%;
-        }
-        100%{
-          background-position: 0% 50%;
-        }
       }
 
       .fijo {
@@ -220,15 +209,15 @@ body::-webkit-scrollbar-thumb:hover{
   background: #fd0839;
   
 }
+
+
     </style>
 </head>
 <body>
 <div class="fijo">
 <nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
-        <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
-        
         <li class="nav-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Ferreteria Jotta-R" >
-          <a  href="inicio.php" ><img src="img/logob2.png" width="65" height="65"></img></a>
+          <a  href="inicio.php" ><img src="img/logob2.png" width="90" height="90"></img></a>
           </li>
          
         <div class="container">
@@ -316,7 +305,7 @@ body::-webkit-scrollbar-thumb:hover{
     <div class="container mt-4">
         <div class="row d-flex justify-content-center">
             <div class="col-md-9">
-                <div class="card p-4 mt-3">
+                <div class="card p-2 mt-2 special-card">
                     <a href="productos.php" title="Actualizar" class="fa-solid fa-arrows-rotate " style=" background-color: transparent; color: #e20321;"></a>
                     <div class="d-flex justify-content-center px-5">
                         <div class="search">
@@ -424,6 +413,36 @@ $resultados_encontrados = false;
     
     
     ?>
+
+<br>
+
+<hr>
+
+
+    <br>
+    <center>
+      <h3 style="color:#EAECEC"><i class="fa-solid fa-wand-magic-sparkles fa-2xs" style="color: #EAECEC;"></i> &nbsp;Novedades</h3>
+    </center>
+    <br>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/3.png" class="d-block w-100" class="rounded" width="300px"  height="300px" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/2.png" class="d-block w-100" width="300px"  height="300px" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/1.png" class="d-block w-100" width="300px"  height="300px" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/1.png" class="d-block w-100" width="300px"  height="300px" alt="...">
+    </div>
+  </div>
+</div>
+
+<br>
 
     <br>
 

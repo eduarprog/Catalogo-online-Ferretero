@@ -14,7 +14,8 @@
     <style>
       body {
         font-family: 'Crimson Pro', serif;
-        font-size: 19px;
+        font-size: 20px;
+        zoom: 75%;
         background-color: #EAECEC;
       }
       .fijo {
@@ -43,7 +44,7 @@ a:hover{
 }
 
 .img{
-  width: 110%;
+  width: 130%;
   height: auto;
   
 }
@@ -81,10 +82,8 @@ body::-webkit-scrollbar-thumb:hover{
 <body>
 <div class="fijo">
 <nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
-        <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
-        
         <li class="nav-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Ferreteria Jotta-R" >
-          <a  href="inicio.php" ><img src="img/logob2.png" width="65" height="65"></img></a>
+          <a href="inicio.php" ><img src="img/logob2.png" width="90" height="90"></img></a>
           </li>
          
         <div class="container">
@@ -155,7 +154,8 @@ body::-webkit-scrollbar-thumb:hover{
     <br>
     <br>
     <br>
-    
+    <br>
+   
       
 
       <div class="container">
@@ -164,10 +164,8 @@ body::-webkit-scrollbar-thumb:hover{
           <div class="col-md-7">
 
             <h1 class="featurette-heading">COTIZACIÓNES<span class="text-muted"></span></h1>
-            
-            <hr class="featurette-divider">
-            
-              <img src="img/1.png"  class="img rounded"  alt="Cotizacion" width="600" height="600" >
+            <hr>
+              <img src="img/1.png"  class="img rounded"  alt="Cotizacion" >
 
 
           
@@ -176,7 +174,7 @@ body::-webkit-scrollbar-thumb:hover{
         </div>
 
         <div id="whatsapp-button">
-  <a href="https://api.whatsapp.com/send?phone=8293426347" title="Whatsapp Directo" style="background-color: transparent;" target="_blank">
+  <a href="https://api.whatsapp.com/send?phone=8293426347" title="Cotización via Whatsapp" style="background-color: transparent;" target="_blank">
   <i class="fa-brands fa-whatsapp fa-2xl" style="color: #2def1f;"></i>
   </a>
   
@@ -249,7 +247,7 @@ body::-webkit-scrollbar-thumb:hover{
             
 
           <hr>
-              &copy; 2023 - <b> Ferreteria Jotta-R </b> - Todos los Derechos Reservados &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="img/logob2.png" height="50" width="50">
+              &copy; 2023 - <b> Ferreteria Jotta-R </b> - Todos los Derechos Reservados 
             </a>
 
             

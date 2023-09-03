@@ -17,7 +17,8 @@
 
       body {
         font-family: 'Crimson Pro', serif;
-        font-size: 19px;
+        font-size: 20px;
+        zoom: 75%;
         background-image: linear-gradient(135deg,
        #CA0403, #CA0403, #CA0403, #CA0403, #fff);
         background-size: 500%;
@@ -25,18 +26,7 @@
         
       }
 
-     @keyframes fanimado{
-        0%{
-          background-position: 0% 50%;
-        }
-        50%{
-          background-position: 100% 50%;
-        }
-        100%{
-          background-position: 0% 50%;
-        }
-      }
-
+  
       .fijo {
         pointer-events: none;
   position: fixed;
@@ -225,10 +215,8 @@ body::-webkit-scrollbar-thumb:hover{
 <body>
 <div class="fijo">
 <nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
-        <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
-        
         <li class="nav-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Ferreteria Jotta-R" >
-          <a  href="inicio.php" ><img src="img/logob2.png" width="65" height="65"></img></a>
+          <a  href="inicio.php" ><img src="img/logob2.png" width="90" height="90"></img></a>
           </li>
          
         <div class="container">

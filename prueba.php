@@ -259,7 +259,7 @@ if($query){
                      <div class="col">
     <div class="card shadow-sm">
         <center>
-                         <img src="<?php echo $data ['ImgRuta'] ?>" width="100" class="rounded-circle">
+                         <img src="<?php echo $data ['ImgRuta'] ?>" width="80" class="rounded-circle">
                          </center>
                          <h3 class="mt-2"><?php echo $data['Nombre']?></h3>
                          <span class="mt-1 clearfix"><?php echo $data ['Descripcion'] ?></span>

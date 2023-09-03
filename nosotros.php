@@ -16,6 +16,7 @@
       body {
         font-family: 'Crimson Pro', serif;
         font-size: 20px;
+        zoom: 75%;
         background-color: #EAECEC;
       }
       .fijo {
@@ -81,7 +82,7 @@ body::-webkit-scrollbar-thumb:hover{
     <nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
         <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
         <li class="nav-link">
-          <a href="inicio.php"  ><img src="img/logob2.png" width="65" height="65"></img></a>
+          <a href="inicio.php"  ><img src="img/logob2.png" width="90" height="90"></img></a>
           </li>
         <div class="container">
           <a class="navbar-brand" href="inicio.php">INICIO</a>
@@ -157,7 +158,7 @@ body::-webkit-scrollbar-thumb:hover{
         <br>
         <br>
         <br>
-        
+        <br>
         
         <div class="container">
     

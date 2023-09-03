@@ -28,7 +28,8 @@
 
       body {
         font-family: 'Crimson Pro', serif;
-        font-size: 19px;
+        font-size: 20px;
+        zoom: 75%;
         background-color: #EAECEC;
       }
 
@@ -154,7 +155,7 @@ body::-webkit-scrollbar-thumb:hover{
 <div class="fijo">
 <nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
         <li class="nav-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Ferreteria Jotta-R" >
-          <a href="inicio.php"  ><img src="img/logob2.png" width="65" height="65"></img></a>
+          <a href="inicio.php"  ><img src="img/logob2.png" width="90" height="90"></img></a>
           </li>
          
         <div class="container">

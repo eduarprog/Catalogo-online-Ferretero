@@ -17,7 +17,8 @@
 
       body {
         font-family: 'Crimson Pro', serif;
-        font-size: 19px;
+        font-size: 20px;
+        zoom: 75%;
         background-image: linear-gradient(135deg,
        #CA0403, #CA0403, #CA0403, #CA0403, #fff);
         background-size: 500%;

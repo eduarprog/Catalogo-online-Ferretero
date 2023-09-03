@@ -17,24 +17,13 @@
 
       body {
         font-family: 'Crimson Pro', serif;
-        font-size: 19px;
+        font-size: 20px;
+        zoom: 75%;
         background-image: linear-gradient(135deg,
        #CA0403, #CA0403, #CA0403, #CA0403, #fff);
         background-size: 500%;
         
         
-      }
-
-     @keyframes fanimado{
-        0%{
-          background-position: 0% 50%;
-        }
-        50%{
-          background-position: 100% 50%;
-        }
-        100%{
-          background-position: 0% 50%;
-        }
       }
 
       .fijo {
@@ -220,15 +209,16 @@ body::-webkit-scrollbar-thumb:hover{
   background: #fd0839;
   
 }
+
     </style>
 </head>
 <body>
 <div class="fijo">
 <nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
-        <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
+        
         
         <li class="nav-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Ferreteria Jotta-R" >
-          <a  href="inicio.php" ><img src="img/logob2.png" width="65" height="65"></img></a>
+          <a  href="inicio.php" ><img src="img/logob2.png" width="90" height="90"></img></a>
           </li>
          
         <div class="container">
@@ -365,7 +355,7 @@ $resultados_encontrados = false;
                         <div class="card shadow-sm">
                           
                             <center>
-                                <img class="card-img-top" width="180" height="180" src="<?php echo $data['ImgRuta']?>">
+                                <img class="card-img-top" width="80" height="80" src="<?php echo $data['ImgRuta']?>  ">
                             </center>
                             <div class="card-body">
                                 <center>
@@ -376,10 +366,7 @@ $resultados_encontrados = false;
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Detalles</button>
                                     </div>
-                                    <span class="likes-counter">0</span>
-                    <button class="btn-like btn btn-sm btn-success">Like</button>
-                    <span class="dislikes-counter">0</span>
-                    <button class="btn-dislike btn btn-sm btn-danger">Dislike</button>
+                              
                                     <h2 style="visibility:hidden" ><?php echo $data['categoria']?></h2>
                                     <p class="card-text" style="color:green"> <b> <?php echo $data ['precio'] ?>$RD</b></p>
                                     
@@ -387,6 +374,7 @@ $resultados_encontrados = false;
                             </div>
                         </div>
                     </div>
+                    
                     
                     <?php
                 }
@@ -447,29 +435,6 @@ $resultados_encontrados = false;
 </div>
 
 <br>
-
-<script>
-    // Obtener todos los botones de Like y Dislike
-    var likeButtons = document.querySelectorAll('.btn-like');
-    var dislikeButtons = document.querySelectorAll('.btn-dislike');
-
-    // Agregar eventos de clic a los botones de Like y Dislike
-    likeButtons.forEach(function(button) {
-        button.addEventListener('click', function() {
-            var likesCounter = this.parentNode.querySelector('.likes-counter');
-            likesCounter.textContent = parseInt(likesCounter.textContent) + 1;
-        });
-    });
-
-    dislikeButtons.forEach(function(button) {
-        button.addEventListener('click', function() {
-            var dislikesCounter = this.parentNode.querySelector('.dislikes-counter');
-            dislikesCounter.textContent = parseInt(dislikesCounter.textContent) + 1;
-        });
-    });
-</script>
-
-
 
     <br>
 

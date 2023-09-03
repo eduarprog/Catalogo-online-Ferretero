@@ -17,7 +17,8 @@
 
       body {
         font-family: 'Crimson Pro', serif;
-        font-size: 19px;
+        font-size: 20px;
+        zoom: 75%;
         background-image: linear-gradient(135deg,
        #CA0403, #CA0403, #CA0403, #CA0403, #fff);
         background-size: 500%;
@@ -291,12 +292,12 @@ body::-webkit-scrollbar-thumb:hover{
     <div class="container mt-4">
         <div class="row d-flex justify-content-center">
             <div class="col-md-9">
-                <div class="card p-4 mt-3">
+                <div class="card p-2 mt-2">
                     <a href="bombillos.php" title="Actualizar" class="fa-solid fa-arrows-rotate " style=" background-color: transparent; color: #e20321;"></a>
                     <div class="d-flex justify-content-center px-5">
                         <div class="search">
-                            <input type="text"  class="search-input" name="buscar" placeholder="¿Qué estás buscando?">
-                            <input type="submit" value="Buscar" class="search-icon" style="background-color: #e20321 ; ">
+                            <input type="text"  class="search-input" name="buscar"  placeholder="¿Qué estás buscando?">
+                            <input type="submit"   value="Buscar" class="search-icon" style="background-color: #e20321; font-style: italic; ">
                             <br>
                         </div>
                     </div>

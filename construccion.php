@@ -12,12 +12,13 @@
     href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
-    <title>Construccion | Ferreteria Jotta-R</title>
+    <title>Construcción| Ferreteria Jotta-R</title>
     <style>
 
       body {
         font-family: 'Crimson Pro', serif;
-        font-size: 19px;
+        font-size: 20px;
+        zoom: 75%;
         background-image: linear-gradient(135deg,
        #CA0403, #CA0403, #CA0403, #CA0403, #fff);
         background-size: 500%;
@@ -25,17 +26,7 @@
         
       }
 
-     @keyframes fanimado{
-        0%{
-          background-position: 0% 50%;
-        }
-        50%{
-          background-position: 100% 50%;
-        }
-        100%{
-          background-position: 0% 50%;
-        }
-      }
+     
 
       .fijo {
         pointer-events: none;
