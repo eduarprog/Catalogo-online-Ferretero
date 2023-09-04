@@ -345,20 +345,22 @@ $resultados_encontrados = false;
                     // ... Tu código para mostrar los resultados ...
                     ?>
                     <div class="col">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm " style="max-width: 265px; border-radius: 15px;   ">
                             <center>
-                                <img class="card-img-top" width="180" height="180" src="<?php echo $data['ImgRuta']?>">
+                                <img class="card-img-top" width="170" height="170" src="<?php echo $data['ImgRuta']?>">
                             </center>
                             <div class="card-body">
                                 <center>
-                                    <h5 class="card-title"><?php echo $data['Nombre'] ?></h5>
+                                    <h5 class="card-title"><?php echo $data['Nombre'] ?></h5><br>
+                                    <h5 class="card-title"><?php echo $data['Descripcion'] ?></h5>
                                 </center>
                                 <br>
+                                
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Detalles</button>
+                                        
                                     </div>
-                                    <h2 style="visibility:hidden" ><?php echo $data['categoria']?></h2>
+                                    
                                     <p class="card-text" style="color:green"> <b> <?php echo $data ['precio'] ?>$RD</b></p>
                                 </div>
                             </div>

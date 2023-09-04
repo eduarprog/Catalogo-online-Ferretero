@@ -195,10 +195,10 @@ body::-webkit-scrollbar-thumb:hover{
  
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/3.png" width="750px"  height="750px" class="d-block w-100" alt="...">
+      <img src="img/prueba1.png" width="750px"  height="750px" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h1 translate="no">Ferreteria Jotta-R</h1>
-        <h4>Materiales de construcción, plomeria, pinturas y mas.</h4>
+        <h1 translate="no" style="color:#CA0403">Ferreteria Jotta-R</h1>
+        <h4 style="color:#CA0403">Materiales de construcción, plomeria, pinturas y mas.</h4>
       </div>
     </div>
     <div class="carousel-item">

@@ -165,7 +165,7 @@ body::-webkit-scrollbar-thumb:hover{
 
             <h1 class="featurette-heading">COTIZACIÓNES<span class="text-muted"></span></h1>
             <hr>
-              <img src="img/1.png"  class="img rounded"  alt="Cotizacion" >
+              <img src="img/cot.png"  class="img rounded"  alt="Cotizacion" >
 
 
           

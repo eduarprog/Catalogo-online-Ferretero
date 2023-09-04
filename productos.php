@@ -62,6 +62,7 @@ a:hover{
   border: none;
   background: #eee;
   
+  
 
 }
 .search {
@@ -164,10 +165,7 @@ a:link {
   transition: all 0.25s;
 
 }
-.container .card:hover{
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
-}
+
 .aa{
   padding: 15px;
   color: #fff;
@@ -208,6 +206,10 @@ body::-webkit-scrollbar-thumb{
 body::-webkit-scrollbar-thumb:hover{
   background: #fd0839;
   
+}
+.no-flotar-card {
+    /* Anula la propiedad de flotación (float) */
+    float: none !important;
 }
 
 
@@ -305,7 +307,7 @@ body::-webkit-scrollbar-thumb:hover{
     <div class="container mt-4">
         <div class="row d-flex justify-content-center">
             <div class="col-md-9">
-                <div class="card p-2 mt-2 special-card">
+                <div class="card p-2 mt-2  no-flotar-card">
                     <a href="productos.php" title="Actualizar" class="fa-solid fa-arrows-rotate " style=" background-color: transparent; color: #e20321;"></a>
                     <div class="d-flex justify-content-center px-5">
                         <div class="search">
@@ -360,18 +362,20 @@ $resultados_encontrados = false;
                     // ... Tu código para mostrar los resultados ...
                     ?>
                     <div class="col">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm " style="max-width: 265px; border-radius: 15px;   ">
                             <center>
-                                <img class="card-img-top" width="180" height="180" src="<?php echo $data['ImgRuta']?>">
+                                <img class="card-img-top" width="170" height="170" src="<?php echo $data['ImgRuta']?>">
                             </center>
                             <div class="card-body">
                                 <center>
-                                    <h5 class="card-title"><?php echo $data['Nombre'] ?></h5>
+                                    <h5 class="card-title"><?php echo $data['Nombre'] ?></h5><br>
+                                    <h5 class="card-title"><?php echo $data['Descripcion'] ?></h5>
                                 </center>
                                 <br>
+                                
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Detalles</button>
+                                        
                                     </div>
                                     <h2 style="visibility:hidden" ><?php echo $data['categoria']?></h2>
                                     <p class="card-text" style="color:green"> <b> <?php echo $data ['precio'] ?>$RD</b></p>
@@ -379,6 +383,8 @@ $resultados_encontrados = false;
                             </div>
                         </div>
                     </div>
+
+                    
                     
                     <?php
                 }

@@ -286,9 +286,9 @@ body::-webkit-scrollbar-thumb:hover{
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/Frente.logosg.JPG" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
+              <img src="img/f2.jpg" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Local | Productos</h5>
+                <h5>Electricos</h5>
                 
               </div>
             </div>
@@ -300,30 +300,30 @@ body::-webkit-scrollbar-thumb:hover{
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/Frente.logosg.JPG" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
+              <img src="img/PActualizado.jpg" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Local | Productos</h5>
+                <h5> Pinturas</h5>
                 
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/Frente.logosg.JPG" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
+              <img src="img/tinaco.jpg" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Local | Productos</h5>
+                <h5>Tinacos</h5>
                 
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/Frente.logosg.JPG" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
+              <img src="img/Lateral1.jpeg" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Local | Productos</h5>
+                <h5>Lateral | Productos</h5>
                 
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/Frente.logosg.JPG" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
+              <img src="img/LateralFJ.jpg" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Local | Productos</h5>
+                <h5>Lateral 2 | Productos</h5>
                 
               </div>
             </div>
