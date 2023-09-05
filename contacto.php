@@ -13,19 +13,6 @@
     <title>Contacto | Ferreteria Jotta-R</title>
     <style>
 
-      .popup {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 300px;
-  padding: 20px;
-  background-color: #f1f1f1;
-  border-radius: 5px;
-  text-align: center;
-}
-
       body {
         font-family: 'Crimson Pro', serif;
         font-size: 20px;
@@ -34,7 +21,6 @@
       }
 
    
-
 a:hover{
   color: #fd0839;
   text-decoration: none;
@@ -151,11 +137,8 @@ body::-webkit-scrollbar-thumb:hover{
 
 </head>
 
-  <!--Menu Principal-->
-
-  
 <body>
-
+                                             <!--Menu Principal-->
 <div class="fijo">
 <nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
         <li class="nav-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Ferreteria Jotta-R" >

@@ -152,7 +152,7 @@ a:link {
   padding: 10px;
   color: #CA0403;
   text-decoration: none;
-  border: 1px solid darkred;
+  border: 3px solid darkred;
   background:  #fff;
   display: inline-block;
   box-sizing: border-box;
@@ -297,7 +297,7 @@ hr {
                     <a href="productos.php" title="Actualizar" class="fa-solid fa-spin fa-arrows-rotate " style=" background-color: transparent; color: #fff;"></a>
                     <div class="d-flex justify-content-center px-5">
                     
-                        <div class="search">
+                        <div class="search" style=" border: 3px solid darkred;">
                          <input   type="search"  class="search-input" name="buscar" placeholder="¿Qué estás buscando?">                           
                             <br>
                         </div>
@@ -348,9 +348,9 @@ $resultados_encontrados = false;
                     // ... Tu código para mostrar los resultados ...
                     ?>
                     <div class="col">
-                        <div class="card shadow-sm " style="max-width: 265px; border-radius: 15px;   ">
+                        <div class="card shadow-sm " style="max-width: 265px; border-radius: 15px;  border: 3px solid darkred;  ">
                             <center>
-                                <img  class="card-img-top" style="background:transparent" width="170" height="170" src="<?php echo $data['ImgRuta']?>">
+                                <img  class="card-img-top"  width="170" height="170" src="<?php echo $data['ImgRuta']?>">
                             </center>
                             <div class="card-body">
                                 <center>
