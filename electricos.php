@@ -15,7 +15,7 @@
     <title>Electricos | Ferreteria Jotta-R</title>
     <style>
 
-      body {
+body {
         font-family: 'Crimson Pro', serif;
         font-size: 20px;
         zoom: 75%;
@@ -25,7 +25,6 @@
         
         
       }
-
 
       .fijo {
         pointer-events: none;
@@ -63,6 +62,7 @@ a:hover{
   border: none;
   background: #eee;
   
+  
 
 }
 .search {
@@ -72,7 +72,7 @@ a:hover{
     height: 50px;
         background-color: #fff;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .search-input {
@@ -90,39 +90,21 @@ a:hover{
 .search .search-input {
     padding: 0 10px;
     width: 100%;
-    caret-color: #536bf6;
-    font-size: 19px;
+    caret-color: #000;
+    font-size: 21px;
     font-weight: 300;
     color: black;
     transition: width 0.4s linear;
 }
 
 
-.search-icon {
-        height: 34px;
-    width: 70px;
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: #536bf6;
-    font-size: 17px;
-        bottom: 30px;
-        position: relative;
-        border-radius: 5px;
-        
-        
-}
 
-.search-icon:hover{
 
-  color: #fff !important;
-}
 
 a:link {
     text-decoration: none;
 }
+
 
 
 
@@ -165,22 +147,23 @@ a:link {
   transition: all 0.25s;
 
 }
-.container .card:hover{
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
-}
+
 .aa{
   padding: 15px;
-  color: #fff;
+  color: #CA0403;
   text-decoration: none;
   border: 1px solid darkred;
-  background:  #CA0403;
+  background:  #fff;
   display: inline-block;
   box-sizing: border-box;
   opacity: 0.8;
   align-content: center;
- 
+}
 
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
 }
 .aa:hover{
   opacity: 2;
@@ -210,6 +193,10 @@ body::-webkit-scrollbar-thumb:hover{
   background: #fd0839;
   
 }
+hr {
+    border: 1px solid white; /* Cambia el color de la barra horizontal a rojo */
+    margin: 10px 0; /* Añade un margen superior e inferior para separación visual */
+  }
     </style>
 </head>
 <body>
@@ -218,7 +205,7 @@ body::-webkit-scrollbar-thumb:hover{
         <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
         
         <li class="nav-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Ferreteria Jotta-R" >
-          <a  href="inicio.php" ><img src="img/logob2.png" width="65" height="65"></img></a>
+          <a  href="inicio.php" ><img src="img/logob2.png" width="90" height="90"></img></a>
           </li>
          
         <div class="container">
@@ -297,12 +284,11 @@ body::-webkit-scrollbar-thumb:hover{
     <div class="container mt-4">
         <div class="row d-flex justify-content-center">
             <div class="col-md-9">
-                <div class="card p-4 mt-3">
-                    <a href="electricos.php" title="Actualizar" class="fa-solid fa-arrows-rotate " style=" background-color: transparent; color: #e20321;"></a>
+                <div class="1card p-2 mt-2">
+                    <a href="electricos.php" title="Actualizar" class="fa-solid fa-spin fa-arrows-rotate " style=" background-color: transparent; color: #fff;"></a>
                     <div class="d-flex justify-content-center px-5">
                         <div class="search">
-                            <input type="text"  class="search-input" name="buscar" placeholder="¿Qué estás buscando?">
-                            <input type="submit" value="Buscar" class="search-icon" style="background-color: #e20321 ; ">
+                         <input   type="search"  class="search-input" name="buscar" placeholder="¿Qué estás buscando?">                           
                             <br>
                         </div>
                     </div>
@@ -311,7 +297,7 @@ body::-webkit-scrollbar-thumb:hover{
         </div>
     </div>
 </form>
-
+<br>
 <br>
 
 
@@ -404,7 +390,7 @@ $resultados_encontrados = false;
     
     
     ?>
-
+<br>
 <hr>
     <br>
     <center>

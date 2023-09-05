@@ -30,7 +30,7 @@
         font-family: 'Crimson Pro', serif;
         font-size: 20px;
         zoom: 75%;
-        background-color: #EAECEC;
+        background-color: #fff;
       }
 
    
@@ -113,7 +113,7 @@ body::-webkit-scrollbar-thumb:hover{
 }
 
 .info-box {
-            background-color: #ffffff;
+            background-color: #fff;
             width: 1010px;
             margin: 20px auto;
             padding: 20px;
@@ -142,6 +142,10 @@ body::-webkit-scrollbar-thumb:hover{
             text-decoration: underline;
         }
 
+        hr {
+    border: 1px solid red; /* Cambia el color de la barra horizontal a rojo */
+    margin: 10px 0; /* Añade un margen superior e inferior para separación visual */
+  }
 
     </style>
 
@@ -242,7 +246,7 @@ body::-webkit-scrollbar-thumb:hover{
 <hr>
         </center>
         <div class="info-box">
-        <h1>Información</h1>
+        <h1><b>Información:</b></h1>
         <p class="card-text"> <i class="fa-solid fa-shop" style="color: #0a0a0a;"></i> &nbsp; Calle Higüey 2, Santo Domingo, Republica Dominicana.</p>
     <p class="card-text"><i class="fa-solid fa-phone" style="color: #0c0d0d;"></i> &nbsp; 809-530-1437</p>
     <a href="https://api.whatsapp.com/send?phone=8293426347" style="text-decoration: none;" target="_blank" rel="noopener" >
@@ -300,7 +304,9 @@ body::-webkit-scrollbar-thumb:hover{
                             <label for="mensaje" class="form-label">Mensaje <i class="fa-solid fa-asterisk fa-2xs" style="color: #e3020a;"></i></label>
                             <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-light">Enviar</button>
+                        <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-danger">Enviar</button>
+                       </div>
                     </form>
                 </div>
             </div>

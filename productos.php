@@ -72,7 +72,7 @@ a:hover{
     height: 50px;
         background-color: #fff;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .search-input {
@@ -90,39 +90,21 @@ a:hover{
 .search .search-input {
     padding: 0 10px;
     width: 100%;
-    caret-color: #536bf6;
-    font-size: 19px;
+    caret-color: #000;
+    font-size: 21px;
     font-weight: 300;
     color: black;
     transition: width 0.4s linear;
 }
 
 
-.search-icon {
-        height: 34px;
-    width: 70px;
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: #536bf6;
-    font-size: 17px;
-        bottom: 30px;
-        position: relative;
-        border-radius: 5px;
-        
-        
-}
 
-.search-icon:hover{
 
-  color: #fff !important;
-}
 
 a:link {
     text-decoration: none;
 }
+
 
 
 
@@ -168,16 +150,20 @@ a:link {
 
 .aa{
   padding: 15px;
-  color: #fff;
+  color: #CA0403;
   text-decoration: none;
   border: 1px solid darkred;
-  background:  #CA0403;
+  background:  #fff;
   display: inline-block;
   box-sizing: border-box;
   opacity: 0.8;
   align-content: center;
- 
+}
 
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
 }
 .aa:hover{
   opacity: 2;
@@ -207,11 +193,10 @@ body::-webkit-scrollbar-thumb:hover{
   background: #fd0839;
   
 }
-.no-flotar-card {
-    /* Anula la propiedad de flotación (float) */
-    float: none !important;
-}
-
+hr {
+    border: 1px solid white; /* Cambia el color de la barra horizontal a rojo */
+    margin: 10px 0; /* Añade un margen superior e inferior para separación visual */
+  }
 
     </style>
 </head>
@@ -307,12 +292,12 @@ body::-webkit-scrollbar-thumb:hover{
     <div class="container mt-4">
         <div class="row d-flex justify-content-center">
             <div class="col-md-9">
-                <div class="card p-2 mt-2  no-flotar-card">
-                    <a href="productos.php" title="Actualizar" class="fa-solid fa-arrows-rotate " style=" background-color: transparent; color: #e20321;"></a>
+                <div class="1card p-2 mt-2">
+                    <a href="productos.php" title="Actualizar" class="fa-solid fa-spin fa-arrows-rotate " style=" background-color: transparent; color: #fff;"></a>
                     <div class="d-flex justify-content-center px-5">
+                    
                         <div class="search">
-                            <input   type="text"  class="search-input" name="buscar" placeholder="¿Qué estás buscando?">
-                            <input type="submit" value="Buscar" class="search-icon" style="background-color: #e20321 ; ">
+                         <input   type="search"  class="search-input" name="buscar" placeholder="¿Qué estás buscando?">                           
                             <br>
                         </div>
                     </div>
@@ -323,7 +308,7 @@ body::-webkit-scrollbar-thumb:hover{
 </form>
 
 <br>
-
+<br>
 
 
 
@@ -364,7 +349,7 @@ $resultados_encontrados = false;
                     <div class="col">
                         <div class="card shadow-sm " style="max-width: 265px; border-radius: 15px;   ">
                             <center>
-                                <img class="card-img-top" width="170" height="170" src="<?php echo $data['ImgRuta']?>">
+                                <img  class="card-img-top" style="background:transparent" width="170" height="170" src="<?php echo $data['ImgRuta']?>">
                             </center>
                             <div class="card-body">
                                 <center>
@@ -419,12 +404,8 @@ $resultados_encontrados = false;
     
     
     ?>
-
 <br>
-
 <hr>
-
-
     <br>
     <center>
       <h3 style="color:#EAECEC"><i class="fa-solid fa-wand-magic-sparkles fa-2xs" style="color: #EAECEC;"></i> &nbsp;Novedades</h3>
@@ -434,7 +415,7 @@ $resultados_encontrados = false;
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/3.png" class="d-block w-100" class="rounded" width="300px"  height="300px" alt="...">
+      <img src="img/escribenos2.png" class="d-block w-100" class="rounded" width="300px"  height="300px" alt="...">
     </div>
     <div class="carousel-item">
       <img src="img/2.png" class="d-block w-100" width="300px"  height="300px" alt="...">
@@ -488,7 +469,6 @@ $resultados_encontrados = false;
 
 </div>
 
-<!-- ... El pie de página y otros elementos HTML ... -->
 
 </body>
 </html>

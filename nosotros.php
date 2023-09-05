@@ -17,7 +17,7 @@
         font-family: 'Crimson Pro', serif;
         font-size: 20px;
         zoom: 75%;
-        background-color: #EAECEC;
+        background-color: #fff;
       }
       .fijo {
   position: fixed;
@@ -69,7 +69,10 @@ body::-webkit-scrollbar-thumb:hover{
   background: #fd0839;
   
 }
-
+hr {
+    border: 1px solid red; /* Cambia el color de la barra horizontal a rojo */
+    margin: 10px 0; /* Añade un margen superior e inferior para separación visual */
+  }
 
     </style>
   

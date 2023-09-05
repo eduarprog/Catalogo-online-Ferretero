@@ -16,7 +16,7 @@
         font-family: 'Crimson Pro', serif;
         font-size: 20px;
         zoom: 75%;
-        background-color: #EAECEC;
+        background-color: #fff;
       }
       .fijo {
   position: fixed;
@@ -71,7 +71,10 @@ body::-webkit-scrollbar-thumb:hover{
   background: #fd0839;
   
 }
-
+hr {
+    border: 1px solid red; /* Cambia el color de la barra horizontal a rojo */
+    margin: 10px 0; /* Añade un margen superior e inferior para separación visual */
+  }
 
 
     </style>
@@ -198,6 +201,7 @@ body::-webkit-scrollbar-thumb:hover{
                         <div class="mb-3">
                             <label for="rnc" class="form-label">RNC</label>
                             <input type="text" class="form-control" id="rnc" placeholder="Escribre el RNC">
+                        </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Correo Electrónico <i class="fa-solid fa-asterisk fa-2xs" style="color: #e3020a;"></i></label>
                             <input type="email" class="form-control" id="email" placeholder="nombre@example.com">
@@ -206,7 +210,9 @@ body::-webkit-scrollbar-thumb:hover{
                             <label for="mensaje" class="form-label">Productos <i class="fa-solid fa-asterisk fa-2xs" style="color: #e3020a;"></i></label>
                             <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-light">Enviar</button>
+                        <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-danger">Enviar</button>
+</div>
                     </form>
                 </div>
             </div>

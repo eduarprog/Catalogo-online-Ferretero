@@ -19,7 +19,7 @@
         font-family: 'Crimson Pro', serif;
         font-size: 20px;
         zoom: 75%;
-        background-color: #EAECEC;
+        background-color: #fff;
       }
 
 a:hover{
@@ -98,6 +98,10 @@ body::-webkit-scrollbar-thumb:hover{
   width: 60px;
   height: 60px;
 }
+hr {
+    border: 1px solid red; /* Cambia el color de la barra horizontal a rojo */
+    margin: 10px 0; /* Añade un margen superior e inferior para separación visual */
+  }
 
 
 
@@ -195,25 +199,25 @@ body::-webkit-scrollbar-thumb:hover{
  
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/prueba1.png" width="750px"  height="750px" class="d-block w-100" alt="...">
+      <img src="img/escribenos2.png" width="735px"  height="735px" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1 translate="no" style="color:#CA0403">Ferreteria Jotta-R</h1>
         <h4 style="color:#CA0403">Materiales de construcción, plomeria, pinturas y mas.</h4>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="img/3.png" class="d-block w-100" width="750px"  height="750px" alt="...">
+      <img src="img/escribenos2.png"class="d-block w-100" width="750px"  height="750px" alt="...">
       <div class="carousel-caption d-none d-md-block">
      <!-- <button type="button" class="btn btn-sm btn-outline-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Suscribirse!</button>-->
         <br>
-        <h1 translate="no">Ferreteria Jotta-R</h1>
+        <h1 translate="no" style="color:#CA0403">Ferreteria Jotta-R</h1>
         <h4>No esperes mas y se uno de los primeros en recibir las ofertas.</h4>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="img/2.png" class="d-block w-100" width="750px"  height="750px" alt="...">
+      <img src="img/escribenos2.png" class="d-block w-100" width="750px"  height="750px" alt="...">
       <div class="carousel-caption d-none d-md-block">
-      <h1 translate="no">Ferreteria Jotta-R</h1>
+      <h1 translate="no" style="color:#CA0403">Ferreteria Jotta-R</h1>
         <h4>Some representative placeholder content for the third slide.</h4>
       </div>
     </div>
@@ -509,7 +513,9 @@ body::-webkit-scrollbar-thumb:hover{
                             <label for="mensaje" class="form-label">Mensaje <i class="fa-solid fa-asterisk fa-2xs" style="color: #e3020a;"></i></label>
                             <textarea class="form-control" id="mensaje" rows="4" name="mensaje" required="" placeholder="Escribe tu mensaje aquí"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-light" id="btnSend" >Enviar</button>
+                        <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-danger" id="btnSend" >Enviar</button>
+                        </div>
                     </form>
                 </div>
             </div>
