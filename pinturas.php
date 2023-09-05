@@ -149,7 +149,7 @@ a:link {
 }
 
 .aa{
-  padding: 15px;
+  padding: 10px;
   color: #CA0403;
   text-decoration: none;
   border: 1px solid darkred;
@@ -158,6 +158,8 @@ a:link {
   box-sizing: border-box;
   opacity: 0.8;
   align-content: center;
+  border-radius: 20px;
+
  
 
 }

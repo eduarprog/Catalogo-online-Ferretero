@@ -367,7 +367,7 @@ hr {
       
         <div class="container" style="color: #fff;">
           
-        <hr>
+        <hr style="border: 1px solid white;">
             &copy; 2023 - <b> Ferreteria Jotta-R </b>- Todos los derechos reservado</a>
         </center>
         </div>
