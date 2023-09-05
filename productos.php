@@ -416,16 +416,13 @@ $resultados_encontrados = false;
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/escribenos2.png" class="d-block w-100" class="rounded" width="300px"  height="300px" alt="...">
+      <img src="img/novedades1.png" class="d-block w-100" class="rounded" width="500px"  height="500px" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/2.png" class="d-block w-100" width="300px"  height="300px" alt="...">
+      <img src="img/novedades2.png" class="d-block w-100" width="500px"  height="500px" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/1.png" class="d-block w-100" width="300px"  height="300px" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/1.png" class="d-block w-100" width="300px"  height="300px" alt="...">
+      <img src="img/novedades3.png" class="d-block w-100" width="500px"  height="500px" alt="...">
     </div>
   </div>
 </div>
