@@ -272,7 +272,7 @@ hr {
     <br>
     <br>
 
-    <h2 class="card-title">Hogar</h2>
+    <h2 class="card-title"><u>Hogar</u></h2>
   </div>
 </div>
       </a>
@@ -293,7 +293,7 @@ hr {
     <br>
     <br>
     <br>
-    <h2 class="card-title">Plomeria</h2>
+    <h2 class="card-title"><u>Plomeria</u></h2>
   </div>
 </div>
 </a>
@@ -313,7 +313,7 @@ hr {
     <br>
     <br>
     <br>
-    <h2 class="card-title">Pinturas</h2>
+    <h2 class="card-title"><u>Pinturas</u></h2>
   </div>
 </div>
     </div>
@@ -339,7 +339,7 @@ hr {
     <br>
     <br>
     <br>
-    <h2 class="card-title">Electricos</h2>
+    <h2 class="card-title"><u>Electricos</u></h2>
   </div>
 </div>
       </a>
@@ -359,7 +359,7 @@ hr {
     <br>
     <br>
     <br>
-    <h2 class="card-title" >Construcción</h2>
+    <h2 class="card-title" ><u>Construcción</u></h2>
   </div>
 </div>
       </a>
@@ -379,7 +379,7 @@ hr {
     <br>
     <br>
     <br>
-    <h2 class="card-title" style=" font-style:initial;">Bombillos</h2>
+    <h2 class="card-title"><u>Bombillos</u></h2>
   </div>
 </div>
     </div>
@@ -404,33 +404,18 @@ hr {
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="img/2.png" width="400px"  height="400px" class="d-block w-100 rounded" alt="...">
+              <img src="img/Aprovecha las ofertas.png" width="400px"  height="400px" class="d-block w-100 rounded" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h3>First slide label</h3>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/Frente.logosg.JPG" class="d-block w-100 rounded" width="400px" height="400px" alt="...">
+              <img src="img/ofertas2.png" class="d-block w-100 rounded" width="400px" height="400px" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h3>Second slide label</h3>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/Aprovecha las ofertas.png" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
+              <img src="img/ofertas3.png" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h3>Third slide label</h3>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="img/Aprovecha las ofertas.png" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h3>Third slide label</h3>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="img/Aprovecha las ofertas.png" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h3>Third slide label</h3>
               </div>
             </div>
           </div>
@@ -452,7 +437,7 @@ hr {
        
     
         <h3 class="featurette-heading"><i class="fa-solid fa-play fa-2xs" style="color: #f50f0f;"  ></i> &nbsp;Videos<span class="text-muted"></span></h3>
-        <iframe class="rounded" width="550" height="300" src="https://www.youtube.com/embed/v0qygdFroTc?autoplay=1&mute=1" title="Modificar Barra de Scroll con CSS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe class="rounded" width="550" height="300" src="https://www.youtube.com/embed/NXBkLV9Pkss?autoplay=1&mute=1" title="Exterior y productos - Ferreteria Jotta-R" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       <div class="col-md-5">
         

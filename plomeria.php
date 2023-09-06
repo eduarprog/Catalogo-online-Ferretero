@@ -394,23 +394,17 @@ $resultados_encontrados = false;
 <hr>
     <br>
     <center>
-      <h3 style="color:#EAECEC"><i class="fa-solid fa-wand-magic-sparkles fa-2xs" style="color: #EAECEC;"></i> &nbsp;Novedades</h3>
+      <h3 style="color:#EAECEC"><i class="fa-solid fa-wand-magic-sparkles fa-2xs" style="color: #EAECEC;"></i> &nbsp;<b>Novedades</b></h3>
     </center>
     <br>
 
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/3.png" class="d-block w-100" class="rounded" width="300px"  height="300px" alt="...">
+      <img src="img/novedades4.png" class="d-block w-100" class="rounded" width="500px"  height="500px" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/2.png" class="d-block w-100" width="300px"  height="300px" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/1.png" class="d-block w-100" width="300px"  height="300px" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/1.png" class="d-block w-100" width="300px"  height="300px" alt="...">
+      <img src="img/novedades1.png" class="d-block w-100" width="500px"  height="500px" alt="...">
     </div>
   </div>
 </div>

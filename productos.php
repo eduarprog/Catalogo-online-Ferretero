@@ -263,8 +263,8 @@ hr {
 
           
       <form class="d-flex" id="form3" name="form3"  method="POST">
-              <select  class="btn btn-light dropdown-toggle"  data-bs-toggle="dropdown" class="form-select" aria-label="Default select example"  name="buscar" >
-              <option   selected >Categorias</option>
+              <select style="border: 1px solid darkred"  class="btn btn-light dropdown-toggle"  data-bs-toggle="dropdown" class="form-select" aria-label="Default select example"  name="buscar" >
+              <option   selected  >Categorias</option>
   <option  value="Hogar">Hogar</option>
   <option value="Plomeria">Plomeria</option>
   <option value="Pinturas">Pinturas</option>
@@ -409,7 +409,7 @@ $resultados_encontrados = false;
 <hr>
     <br>
     <center>
-      <h3 style="color:#EAECEC"><i class="fa-solid fa-wand-magic-sparkles fa-2xs" style="color: #EAECEC;"></i> &nbsp;Novedades</h3>
+      <h3 style="color:#EAECEC"><i class="fa-solid fa-wand-magic-sparkles fa-2xs" style="color: #EAECEC;"></i> &nbsp;<b>Novedades</b></h3>
     </center>
     <br>
 
@@ -423,6 +423,12 @@ $resultados_encontrados = false;
     </div>
     <div class="carousel-item">
       <img src="img/novedades3.png" class="d-block w-100" width="500px"  height="500px" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/novedades4.png" class="d-block w-100" width="500px"  height="500px" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/novedades5.png" class="d-block w-100" width="500px"  height="500px" alt="...">
     </div>
   </div>
 </div>
