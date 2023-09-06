@@ -263,7 +263,7 @@ hr {
 
           
       <form class="d-flex" id="form3" name="form3"  method="POST">
-              <select style="border: 1px solid darkred"  class="btn btn-light dropdown-toggle"  data-bs-toggle="dropdown" class="form-select" aria-label="Default select example"  name="buscar" >
+              <select class="btn btn-light dropdown-toggle"  data-bs-toggle="dropdown" class="form-select" aria-label="Default select example"  name="buscar" >
               <option   selected  >Categorias</option>
   <option  value="Hogar">Hogar</option>
   <option value="Plomeria">Plomeria</option>
