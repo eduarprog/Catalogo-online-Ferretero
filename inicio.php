@@ -37,7 +37,7 @@ pointer-events: none;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
+  
 }
 .nav-link{
   text-decoration: none;
@@ -195,8 +195,14 @@ hr {
 <br>
 <br>
 <br>
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
- 
+<div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+<div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="img/inicio1.png" width="750px"  height="750px" class="d-block w-100 rounded" alt="...">
@@ -229,9 +235,10 @@ hr {
       <div class="carousel-caption d-none d-md-block">
       <h1 translate="no"><b>Ferreteria Jotta-R</b></h1>
       </div>
+      
     </div>
-  </div>
- 
+  
+</div>
 </div>
 
 <div id="whatsapp-button">
@@ -410,7 +417,7 @@ hr {
       </div>
       
       <div class="col-md-5">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="img/Aprovecha las ofertas.png" width="400px"  height="400px" class="d-block w-100 rounded" alt="...">
