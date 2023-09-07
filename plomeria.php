@@ -60,7 +60,7 @@ a:hover{
 .card{
   
   border: none;
-  background: #eee;
+  background: #fff;
   
   
 
@@ -303,7 +303,7 @@ hr {
 <?php
 require 'conexion.php';
 $conexion = conexion();
-$por_pagina = 3;
+$por_pagina = 4;
 
 if (isset($_GET['pagina']))
     $pagina = $_GET['pagina'];
@@ -338,6 +338,7 @@ $resultados_encontrados = false;
                         <div class="card shadow-sm " style="max-width: 265px; border-radius: 15px; border: 3px solid darkred;">
                             <center>
                                 <img class="card-img-top" width="170" height="170" src="<?php echo $data['ImgRuta']?>">
+                                
                             </center>
                             <div class="card-body">
                                 <center>
