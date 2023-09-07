@@ -199,26 +199,35 @@ hr {
  
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/escribenos2.png" width="735px"  height="735px" class="d-block w-100" alt="...">
+      <img src="img/inicio1.png" width="750px"  height="750px" class="d-block w-100 rounded" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h1 translate="no" style="color:#CA0403">Ferreteria Jotta-R</h1>
-        <h4 style="color:#CA0403">Materiales de construcción, plomeria, pinturas y mas.</h4>
+        <h1 translate="no"><b>Ferreteria Jotta-R</b></h1>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="img/escribenos2.png"class="d-block w-100" width="750px"  height="750px" alt="...">
+      <img src="img/inicio2.png" class="d-block w-100" width="750px"  height="750px" alt="...">
       <div class="carousel-caption d-none d-md-block">
      <!-- <button type="button" class="btn btn-sm btn-outline-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Suscribirse!</button>-->
         <br>
-        <h1 translate="no" style="color:#CA0403">Ferreteria Jotta-R</h1>
-        <h4>No esperes mas y se uno de los primeros en recibir las ofertas.</h4>
+        <h1 translate="no"><b>Ferreteria Jotta-R</b></h1>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="img/escribenos2.png" class="d-block w-100" width="750px"  height="750px" alt="...">
+      <img src="img/inicio8.png" class="d-block w-100" width="750px"  height="750px" alt="...">
       <div class="carousel-caption d-none d-md-block">
-      <h1 translate="no" style="color:#CA0403">Ferreteria Jotta-R</h1>
-        <h4>Some representative placeholder content for the third slide.</h4>
+      <h1 translate="no"><b>Ferreteria Jotta-R</b></h1>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/inicio7.png" class="d-block w-100" width="750px"  height="750px" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      <h1 translate="no"><b>Ferreteria Jotta-R</b></h1>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/inicio6.png" class="d-block w-100" width="750px"  height="750px" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      <h1 translate="no"><b>Ferreteria Jotta-R</b></h1>
       </div>
     </div>
   </div>
