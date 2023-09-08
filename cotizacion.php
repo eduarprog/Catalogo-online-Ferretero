@@ -43,11 +43,7 @@ a:hover{
   color: #333;
 }
 
-.img{
-  width: 130%;
-  height: auto;
-  
-}
+
 #whatsapp-button {
   position: fixed;
   bottom: 20px;
@@ -168,7 +164,7 @@ hr {
 
             <h1 class="featurette-heading">COTIZACIÓNES<span class="text-muted"></span></h1>
             <hr>
-              <img src="img/cot.png"  class="img rounded"  alt="Cotizacion" >
+              <img src="img/cot.png" class="mw-100 rounded"  alt="Cotizacion" >
 
 
           

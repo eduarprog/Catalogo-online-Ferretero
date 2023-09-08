@@ -60,7 +60,7 @@ a:hover{
 .card{
   
   border: none;
-  background: #eee;
+  background: #fff;
   
   
 
@@ -154,7 +154,6 @@ a:link {
   text-decoration: none;
   border: 3px solid darkred;
   background:  #fff;
-  display: inline-block;
   box-sizing: border-box;
   opacity: 0.8;
   align-content: center;
@@ -195,7 +194,7 @@ body::-webkit-scrollbar-thumb:hover{
   
 }
 hr {
-    border: 1px solid white; /* Cambia el color de la barra horizontal a rojo */
+    border: 1px solid red; /* Cambia el color de la barra horizontal a rojo */
     margin: 10px 0; /* Añade un margen superior e inferior para separación visual */
   }
 
@@ -341,15 +340,16 @@ $resultados_encontrados = false;
                      <div class="col">
                         <div class="card shadow-sm " style="max-width: 265px; border-radius: 15px; border: 3px solid darkred;   ">
                             <center>
+                              <br>
+                            <h5 class="card-title"><b><?php echo $data['Nombre'] ?></b></h5><br>
                                 <img class="card-img-top" width="170" height="170" src="<?php echo $data['ImgRuta']?>">
                             </center>
+                            <hr>
                             <div class="card-body">
                                 <center>
-                                    <h5 class="card-title"><?php echo $data['Nombre'] ?></h5><br>
                                     <h5 class="card-title"><?php echo $data['Descripcion'] ?></h5>
                                 </center>
                                 <br>
-                                
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         
@@ -444,7 +444,7 @@ $resultados_encontrados = false;
           <div class="container" style="color:#fff" >
           <br>
          *Los precios mostrados en esta página pueden variar sin previo aviso.
-        <hr>
+         <hr style="border: 1px solid white;">
             &copy; 2023 - <b>Ferreteria Jotta-R</b> - Todos los derechos reservado</a>
            
         </center>
