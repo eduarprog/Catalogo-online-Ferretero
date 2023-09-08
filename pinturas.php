@@ -380,16 +380,23 @@ $resultados_encontrados = false;
     $total_registros = mysqli_num_rows($query);
     $total_paginas = ceil($total_registros / $por_pagina);
 
-    echo "<br>
-    <center><a style='margin-left: 10px' class='aa' href='pinturas.php?pagina=1'>" . 'Anterior' . "</a>";
+    $pagina_actual = isset($_GET['pagina']) ? intval($_GET['pagina']) : 1;
 
-    for ($i = 1; $i <= $total_paginas; $i++) {
-        echo "<a  style='margin-left: 10px' class='aa' href='pinturas.php?pagina=" . $i . "'> " . $i . "</a>  ";
+    echo "<br><center>";
+    
+    if ($pagina_actual > 1) {
+        echo "<a style='margin-left: 10px' class='aa' href='pinturas.php?pagina=" . ($pagina_actual - 1) . "'>" . 'Atrás' . "</a>";
     }
-
-    echo "<a  class='aa' style='margin-left: 10px'  href='pinturas.php?pagina=$total_paginas'>" . 'Siguiente' . "</a></center>";
     
+    for ($i = 1; $i <= $total_paginas; $i++) {
+        echo "<a style='margin-left: 10px' class='aa' href='pinturas.php?pagina=" . $i . "'>" . $i . "</a> ";
+    }
     
+    if ($pagina_actual < $total_paginas) {
+        echo "<a class='aa' style='margin-left: 10px' href='pinturas.php?pagina=" . ($pagina_actual + 1) . "'>" . 'Siguiente' . "</a>";
+    }
+    
+    echo "</center>";
     ?>
 <br>
 <hr>

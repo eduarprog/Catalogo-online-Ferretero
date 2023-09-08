@@ -382,17 +382,24 @@ $resultados_encontrados = false;
     $total_registros = mysqli_num_rows($query);
     $total_paginas = ceil($total_registros / $por_pagina);
 
-    echo "<br>
-    <center><a style='margin-left: 10px' class='aa' href='hogar.php?pagina=1'>" . 'Anterior' . "</a>";
+    $pagina_actual = isset($_GET['pagina']) ? intval($_GET['pagina']) : 1;
 
-    for ($i = 1; $i <= $total_paginas; $i++) {
-        echo "<a  style='margin-left: 10px' class='aa' href='hogar.php?pagina=" . $i . "'> " . $i . "</a>  ";
-    }
+echo "<br><center>";
 
-    echo "<a  class='aa' style='margin-left: 10px'  href='hogar.php?pagina=$total_paginas'>" . 'Siguiente' . "</a></center>";
-    
-    
-    ?>
+if ($pagina_actual > 1) {
+    echo "<a style='margin-left: 10px' class='aa' href='hogar.php?pagina=" . ($pagina_actual - 1) . "'>" . 'Atrás' . "</a>";
+}
+
+for ($i = 1; $i <= $total_paginas; $i++) {
+    echo "<a style='margin-left: 10px' class='aa' href='hogar.php?pagina=" . $i . "'>" . $i . "</a> ";
+}
+
+if ($pagina_actual < $total_paginas) {
+    echo "<a class='aa' style='margin-left: 10px' href='hogar.php?pagina=" . ($pagina_actual + 1) . "'>" . 'Siguiente' . "</a>";
+}
+
+echo "</center>";
+?>
 <br>
 <hr>
     <br>
