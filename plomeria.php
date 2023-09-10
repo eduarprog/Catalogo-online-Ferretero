@@ -303,7 +303,7 @@ hr {
 <?php
 require 'conexion.php';
 $conexion = conexion();
-$por_pagina = 4;
+$por_pagina = 9;
 
 if (isset($_GET['pagina']))
     $pagina = $_GET['pagina'];

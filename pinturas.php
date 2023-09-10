@@ -282,7 +282,7 @@ hr {
         <div class="row d-flex justify-content-center">
             <div class="col-md-9">
                 <div class="1card p-2 mt-2">
-                    <a href="productos.php" title="Actualizar" class="fa-solid fa-spin fa-arrows-rotate " style=" background-color: transparent; color: #fff;"></a>
+                    <a href="pinturas.php" title="Actualizar" class="fa-solid fa-spin fa-arrows-rotate " style=" background-color: transparent; color: #fff;"></a>
                     <div class="d-flex justify-content-center px-5">
                     
                         <div class="search"  style="border: 3px solid darkred;">
@@ -302,7 +302,7 @@ hr {
 <?php
 require 'conexion.php';
 $conexion = conexion();
-$por_pagina = 3;
+$por_pagina = 9;
 
 if (isset($_GET['pagina']))
     $pagina = $_GET['pagina'];
