@@ -304,7 +304,7 @@ hr {
 <?php
 require 'conexion.php';
 $conexion = conexion();
-$por_pagina = 3;
+$por_pagina = 9;
 
 if (isset($_GET['pagina']))
     $pagina = $_GET['pagina'];
@@ -339,7 +339,7 @@ $resultados_encontrados = false;
                         <div class="card shadow-sm " style="max-width: 265px; border-radius: 15px; border: 3px solid darkred">
                             <center>
                               <br>
-                            <h5 class="card-title"><?php echo $data['Nombre'] ?></h5><br>
+                            <h5 class="card-title"> <b> <?php echo $data['Nombre'] ?> </b></h5><br>
                                 <img class="card-img-top" width="170" height="170" src="<?php echo $data['ImgRuta']?>">
                             </center>
                             <hr>
