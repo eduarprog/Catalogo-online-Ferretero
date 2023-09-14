@@ -33,7 +33,7 @@ a:hover{
 .fijo {
   position: fixed;
 z-index: 9999;
-pointer-events: none;
+
   top: 0;
   left: 0;
   min-width: 100%;
@@ -490,7 +490,7 @@ hr {
 <center>
 <h3><i class="fa-solid fa-location-dot fa-xs" style="color: #f50f0f;"></i> Ubicación</h3>
         </center>
-<iframe class="rounded mx-auto d-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.712139073683!2d-69.96746532590201!3d18.45137467128643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea561f1912b43f7%3A0xa3448816e8d09726!2sFerreteria%20JOTTA-R!5e0!3m2!1ses-419!2sdo!4v1681958612367!5m2!1ses-419!2sdo" width="1070" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe class="rounded mx-auto d-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.712139073683!2d-69.96746532590201!3d18.45137467128643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea561f1912b43f7%3A0xa3448816e8d09726!2sFerreteria%20JOTTA-R!5e0!3m2!1ses-419!2sdo!4v1681958612367!5m2!1ses-419!2sdo" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
 <hr>

@@ -27,7 +27,7 @@ body {
       }
 
       .fijo {
-        pointer-events: none;
+        
   position: fixed;
 z-index: 9999;
   top: 0;
