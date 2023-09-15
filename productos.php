@@ -27,7 +27,7 @@
       }
 
       .fijo {
-        pointer-events: none;
+      
   position: fixed;
 z-index: 9999;
   top: 0;
@@ -261,9 +261,10 @@ hr {
 
           
       <form class="d-flex" id="form3" name="form3"  method="POST">
-              <select class="btn btn-light dropdown-toggle"  data-bs-toggle="dropdown" class="form-select" aria-label="Default select example"  name="buscar" >
+              <select style="color: #CA0403;" class="btn btn-light dropdown-toggle"  data-bs-toggle="dropdown" class="form-select" aria-label="Default select example"  name="buscar" >
+                
               <option   selected  >Categorias</option>
-  <option  value="Hogar">Hogar</option>
+  <option value="Hogar">Hogar</option>
   <option value="Plomeria">Plomeria</option>
   <option value="Pinturas">Pinturas</option>
   <option value="Electricos">Electricos</option>

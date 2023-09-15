@@ -27,14 +27,13 @@ body {
       }
 
       .fijo {
-        pointer-events: none;
+        
   position: fixed;
 z-index: 9999;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
-  ;
+ 
   
 }
 
@@ -297,6 +296,8 @@ hr {
 </form>
 <br>
 <br>
+
+
 
 
 <?php
