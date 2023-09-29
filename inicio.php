@@ -178,7 +178,7 @@ hr {
              &nbsp; &nbsp;
              <i class="fa-solid fa-screwdriver-wrench" style="color: #f8f9fc;"></i>
              &nbsp; &nbsp;
-             <i class="fa-brands fa-product-hunt" style="color: #f5f5f5;"></i>
+             <i class="fa-solid fa-business-time"style="color: #f5f5f5;"></i>
              </li>
 
 

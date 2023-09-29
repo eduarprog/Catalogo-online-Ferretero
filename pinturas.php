@@ -389,15 +389,17 @@ $resultados_encontrados = false;
         echo "<a style='margin-left: 10px' class='aa' href='pinturas.php?pagina=" . ($pagina_actual - 1) . "'>" . 'Atrás' . "</a>";
     }
     
-    for ($i = 1; $i <= $total_paginas; $i++) {
-        echo "<a style='margin-left: 10px' class='aa' href='pinturas.php?pagina=" . $i . "'>" . $i . "</a> ";
-    }
+    
     
     if ($pagina_actual < $total_paginas) {
         echo "<a class='aa' style='margin-left: 10px' href='pinturas.php?pagina=" . ($pagina_actual + 1) . "'>" . 'Siguiente' . "</a>";
     }
     
     echo "</center>";
+    echo "<br><center>";
+    echo"<hr>";
+    echo "<h5 style='color:#fff'><br>Total de registros encontrados: " . $total_registros . "<br></h5>";
+    echo "<h5 style='color:#fff'>Página actual: " . $pagina_actual . "<br></h5>";
     ?>
 <br>
 <hr>

@@ -381,19 +381,21 @@ $resultados_encontrados = false;
     echo "<br><center>";
     
     if ($pagina_actual > 1) {
-        echo "<a style='margin-left: 10px' class='aa' href='bombillos.php?pagina=" . ($pagina_actual - 1) . "'>" . 'Atrás' . "</a>";
+        echo "<a style='margin-left: 10px' class='aa' href='bombillos.php?pagina=" . ($pagina_actual - 1) . "'>" . '«' . "</a>";
     }
     
-    for ($i = 1; $i <= $total_paginas; $i++) {
-        echo "<a style='margin-left: 10px' class='aa' href='bombillos.php?pagina=" . $i . "'>" . $i . "</a> ";
-    }
+    
     
     if ($pagina_actual < $total_paginas) {
-        echo "<a class='aa' style='margin-left: 10px' href='bombillos.php?pagina=" . ($pagina_actual + 1) . "'>" . 'Siguiente' . "</a>";
+        echo "<a class='aa' style='margin-left: 10px' href='bombillos.php?pagina=" . ($pagina_actual + 1) . "'>" . '»' . "</a>";
     }
     
     echo "</center>";
-    ?>>
+    echo "<br><center>";
+    echo"<hr>";
+    echo "<h5 style='color:#fff'><br>Total de registros encontrados: " . $total_registros . "<br></h5>";
+    echo "<h5 style='color:#fff'>Página actual: " . $pagina_actual . "<br></h5>";
+    ?>
 <br>
 <hr>
     <br>

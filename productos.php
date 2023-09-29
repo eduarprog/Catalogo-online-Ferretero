@@ -300,6 +300,7 @@ hr {
                          <input   type="search"  class="search-input" name="buscar" placeholder="¿Qué estás buscando?">                           
                             <br>
                         </div>
+                        
                     </div>
                 </div>
             </div>
@@ -313,6 +314,7 @@ hr {
 
 
 <?php
+
 require 'conexion.php';
 $conexion = conexion();
 $por_pagina = 9;
@@ -340,13 +342,16 @@ $resultados_encontrados = false;
 <div class="container">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <?php
+        
         if ($query) {
             if (mysqli_num_rows($query) > 0) {
                 while ($data = mysqli_fetch_assoc($query)) {
                     $resultados_encontrados = true;
                     // ... Tu código para mostrar los resultados ...
+                    
                     ?>
                     <div class="col">
+                      
                         <div class="card shadow-sm " style="max-width: 265px; border-radius: 15px;  border: 3px solid darkred;  ">
                             <center>
                               <br>
@@ -403,15 +408,17 @@ if ($pagina_actual > 1) {
     echo "<a style='margin-left: 10px' class='aa' href='productos.php?pagina=" . ($pagina_actual - 1) . "'>" . 'Atrás' . "</a>";
 }
 
-for ($i = 1; $i <= $total_paginas; $i++) {
-    echo "<a style='margin-left: 10px' class='aa' href='productos.php?pagina=" . $i . "'>" . $i . "</a> ";
-}
+
 
 if ($pagina_actual < $total_paginas) {
     echo "<a class='aa' style='margin-left: 10px' href='productos.php?pagina=" . ($pagina_actual + 1) . "'>" . 'Siguiente' . "</a>";
 }
 
 echo "</center>";
+echo "<br><center>";
+echo"<hr>";
+echo "<h5 style='color:#fff'><br>Total de registros encontrados: " . $total_registros . "<br></h5>";
+echo "<h5 style='color:#fff'>Página actual: " . $pagina_actual . "<br></h5>";
 ?>
 <br>
 <hr>
