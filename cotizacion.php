@@ -189,7 +189,7 @@ hr {
                     <h4><i class="fa-solid fa-tags fa-xs" style="color: #f1f4f9;"></i> &nbsp; Formulario de Cotización </h4>
                 </div>
                 <div class="card-body">
-                    <form>
+                <form action="cot.php" method="post">
                         <div class="mb-3">
                             <label for="nombre" class="form-label">Nombre  <i class="fa-solid fa-asterisk fa-2xs" style="color: #e3020a;"></i></label>
                             <input type="text" class="form-control" id="nombre" placeholder="Tu nombre o Empresa">

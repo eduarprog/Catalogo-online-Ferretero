@@ -272,7 +272,7 @@ body::-webkit-scrollbar-thumb:hover{
                     <h4> <i class="fa-solid fa-address-book fa-xs" style="color: #effbfb;"></i> &nbsp;Formulario de contacto</h4>
                 </div>
                 <div class="card-body">
-                    <form>
+                <form action="contact.php" method="post">
                         <div class="mb-3">
                             <label for="nombre" class="form-label">Nombre o Empresa <i class="fa-solid fa-asterisk fa-2xs" style="color: #e3020a;"></i></label>
                             <input type="text" class="form-control" id="nombre" placeholder="Tu nombre o Empresa">
