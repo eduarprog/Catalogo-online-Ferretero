@@ -12,9 +12,6 @@
     <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
     <title>Ferretería Jotta-R</title>
     <style>
-
-   
-
       body {
         font-family: 'Crimson Pro', serif;
         font-size: 20px;
@@ -102,19 +99,12 @@ hr {
     border: 1px solid red; /* Cambia el color de la barra horizontal a rojo */
     margin: 10px 0; /* Añade un margen superior e inferior para separación visual */
   }
-
-
-
-
     </style>
 
 </head>
 
   <!--Menu Principal-->
-
-  
 <body>
-
 <div class="fijo">
 <nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
         <li class="nav-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Ferreteria Jotta-R" >
@@ -166,11 +156,8 @@ hr {
                   <li><a class="dropdown-item" href="bombillos.php"><i class="fa-solid fa-lightbulb"  style="color: #e40c0c;"></i> &nbsp; BOMBILLOS</a></li>
                 </ul>
               </div>
-              
             </ul>
           </ul>
-            
-            
              <li class="navbar-nav">
              <i class="fa-solid fa-shop" style="color: #fcfdfd;"></i>
              &nbsp; &nbsp;
@@ -180,16 +167,10 @@ hr {
              &nbsp; &nbsp;
              <i class="fa-solid fa-business-time"style="color: #f5f5f5;"></i>
              </li>
-
-
-       
-
           </div>
         </div>
       </nav>
 </div>
-
-
 
 <!--Imagen carrusel-->
 <br>
@@ -235,12 +216,11 @@ hr {
       <div class="carousel-caption d-none d-md-block">
       <h1 translate="no"><b>Ferreteria Jotta-R</b></h1>
       </div>
-      
     </div>
-  
 </div>
 </div>
 
+<!--Botones con enlaces directos-->
 <div id="whatsapp-button">
 <a href="tel:+8095371825" title="Telefono Directo" style="background-color: transparent;" target="_blank">
 <i class="fa-solid fa-phone fa-2xl" style="color: #020f6e;"></i>
@@ -255,7 +235,6 @@ hr {
   </a>
   <br>
   <br>
-  <!-- Botón de compartir en Facebook -->
 <div class="fb-share-button" data-href="https://www.tusitio.com/tupagina" data-layout="button" data-size="small">
   <a target="_blank" title="Compartir en facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.tusitio.com%2Ftupagina&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><i class="fa-solid fa-share fa-2xl" style="color: #0c5fed;"></i></a>
 </div>
@@ -264,12 +243,11 @@ hr {
 <br>
 <br>
 
+<!--Cards con enlaces a la categoria de productos-->
 <center>
 <h3><i class="fa-solid fa-layer-group fa-2xs" style="color: #f71d1d;"></i> &nbsp;Catalogo</h3>
 </center>
 <br>
-
-
 <center>
   <div class="container">
   <div class="row" >
@@ -404,11 +382,11 @@ hr {
 </a>
 
 <br>
-    <!-- START THE FEATURETTES -->
+
+    <!-- Info - carrusel con ofertas de al por mayor y detalle -->
 
     <hr class="featurette-divider">
     <div class="container">
-
     <div class="row featurette">
       <div class="col-md-7">
         <h3 class="featurette-heading"> <i class="fa-solid fa-handshake fa-2xs" style="color: red;"></i> &nbsp;Ventas al por mayor y al detalle <span class="text-muted"></span></h3>
@@ -416,7 +394,6 @@ hr {
         <h4 class="lead">
           En articulos como: Luces led, regletas, bombillos, llaves de chorro y entre otros articulos.
       </div>
-      
       <div class="col-md-5">
         <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-inner">
@@ -441,18 +418,11 @@ hr {
       </div>
     </div>
 
-   
-
     <hr class="featurette-divider">
 
-    
-    
-
+<!-- Info de horario y apartado de videos en youtube-->
     <div class="row featurette">
-      
       <div class="col-md-7">
-       
-    
         <h3 class="featurette-heading"><i class="fa-solid fa-play fa-2xs" style="color: #f50f0f;"  ></i> &nbsp;Videos<span class="text-muted"></span></h3>
           <iframe class="rounded" width="550" height="300" src="https://www.youtube.com/embed/NXBkLV9Pkss?autoplay=1&mute=1" title="Exterior y productos - Ferreteria Jotta-R" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
@@ -485,15 +455,17 @@ hr {
       </div>
     </div>
     
-
   <hr  class="featurette-divider">
+
+  <!-- Mapa -->
 <center>
 <h3><i class="fa-solid fa-location-dot fa-xs" style="color: #f50f0f;"></i> Ubicación</h3>
         </center>
 <iframe class="rounded mx-auto d-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.712139073683!2d-69.96746532590201!3d18.45137467128643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea561f1912b43f7%3A0xa3448816e8d09726!2sFerreteria%20JOTTA-R!5e0!3m2!1ses-419!2sdo!4v1681958612367!5m2!1ses-419!2sdo" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-
 <hr>
+
+<!--Formulario de opiniones-->
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-6">
@@ -524,22 +496,10 @@ hr {
         </div>
     </div>
 </div>
-
   <br>
 
-     <!--Contacto via correo directo-->
-     <div class="container">
-
-    
-
-
-
-
-
-       
-
 <!--Pie de pagina-->
-        
+        <div class="container">
         <footer class="pie_pagina rounded" style="background-color: #CA0403; " >
         <br>
         <div class="container" style="color:#fff" >
@@ -558,28 +518,12 @@ hr {
       <i class="fa-solid fa-shop" style="color: #eceff3;"></i></a>
       </a>
           <div class="container" style="color:#fff" >
-            
-
           <hr style="border: 1px solid white;">
               &copy; 2023 - <b> Ferreteria Jotta-R </b> - Todos los Derechos Reservados
             </a>
-
-            
-
-              
-             
             </div>
           </nav>
-              
           </div>
-          
       </footer>
-      
-      
-     
-
-  
-      
-
 </body>
 </html>

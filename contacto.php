@@ -136,7 +136,8 @@ body::-webkit-scrollbar-thumb:hover{
 </head>
 
 <body>
-                                             <!--Menu Principal-->
+
+<!--Menu Principal-->
 <div class="fijo">
 <nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
         <li class="nav-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Ferreteria Jotta-R" >
@@ -201,10 +202,6 @@ body::-webkit-scrollbar-thumb:hover{
              &nbsp; &nbsp;
              <i class="fa-solid fa-truck-fast" style="color: #f5f5f5;"></i>
              </li>
-              
-
-       
-
           </div>
         </div>
       </nav>
@@ -220,8 +217,7 @@ body::-webkit-scrollbar-thumb:hover{
 <br>
 <br>
     
-
-
+<!--Imagen carrusel-->
 <center>
 <h3><i class="fa-solid fa-phone fa-xs" style="color: #f50f0f;"></i> &nbsp;Comunícate con nosotros!</h3>
 <hr>

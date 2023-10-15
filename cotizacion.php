@@ -77,18 +77,14 @@ hr {
 </head>
 
   <!--Menu Principal-->
-
 <body>
 <div class="fijo">
 <nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
         <li class="nav-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Ferreteria Jotta-R" >
           <a href="inicio.php" ><img src="img/logob2.png" width="90" height="90"></img></a>
           </li>
-         
         <div class="container">
-        
-          <a   class="navbar-brand" href="inicio.php" >INICIO</a>
-          
+          <a   class="navbar-brand" href="inicio.php" >INICIO</a> 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -131,7 +127,6 @@ hr {
               </div>
             </ul>
           </ul>
-            
           <li class="navbar-nav">
             <i class="fa-solid fa-handshake" style="color: #fcfcfd;"></i>
             &nbsp; &nbsp;
@@ -141,14 +136,12 @@ hr {
             &nbsp; &nbsp;
             <i class="fa-solid fa-circle-info" style="color: #f3f4f7;"></i>
              </li>
-
-       
-
           </div>
         </div>
       </nav>
 </div>
 
+<!--Espacio menu - contenido-->
     <br>
     <br>
     <br>
@@ -156,30 +149,26 @@ hr {
     <br>
    <br>
       
-
+<!--Texto e imagen para cotizacion-->
       <div class="container">
-    
         <div class="row featurette">
           <div class="col-md-7">
-
             <h1 class="featurette-heading">COTIZACIÓNES<span class="text-muted"></span></h1>
             <hr>
               <img src="img/cot.png" class="mw-100 rounded"  alt="Cotizacion" >
-
-
-          
-      
           </div>
         </div>
 
+        <!--Link directo a whatsapp-->
         <div id="whatsapp-button">
   <a href="https://api.whatsapp.com/send?phone=8293426347" title="Cotización via Whatsapp" style="background-color: transparent;" target="_blank">
   <i class="fa-brands fa-whatsapp fa-2xl" style="color: #2def1f;"></i>
   </a>
-  
 </div>
 
 <hr>
+
+<!--Formulario de cotizacion en linea-->
 <center>
 <div class="container mt-5">
     <div class="row justify-content-center">
@@ -217,14 +206,12 @@ hr {
 </div>
 
           <hr class="featurette-divider">
+
+
         <div class="container">
        
           <h5>*Los precios pueden estar sujetos a cambios.</h5>
 
-          
-        
-                
-    
           
           <!--Pie de pagina-->
         
@@ -246,27 +233,12 @@ hr {
       <i class="fa-solid fa-shop" style="color: #eceff3;"></i></a>
       </a>
           <div class="container" style="color:#fff" >
-            
-
           <hr style="border: 1px solid white;">
               &copy; 2023 - <b> Ferreteria Jotta-R </b> - Todos los Derechos Reservados 
             </a>
-
-            
-
-              
-             
             </div>
           </nav>
-              
           </div>
-          
       </footer>
-
-
-     
-
-
-
       </body>
       </html>
