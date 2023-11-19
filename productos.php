@@ -193,7 +193,7 @@ body::-webkit-scrollbar-thumb:hover{
   
 }
 hr {
-    border: 1px solid red; /* Cambia el color de la barra horizontal a rojo */
+    border: 1px solid white; /* Cambia el color de la barra horizontal a rojo */
     margin: 10px 0; /* Añade un margen superior e inferior para separación visual */
   }
 
@@ -399,26 +399,30 @@ $resultados_encontrados = false;
    $por_pagina=  1;
     $total_registros = mysqli_num_rows($query);
     $total_paginas = ceil($total_registros / $por_pagina);
+    
 
     $pagina_actual = isset($_GET['pagina']) ? intval($_GET['pagina']) : 1;
+$empieza = ($pagina + 1);
 
 echo "<br><center>";
 
 if ($pagina_actual > 1) {
-    echo "<a style='margin-left: 10px' class='aa' href='productos.php?pagina=" . ($pagina_actual - 1) . "'>" . 'Atrás' . "</a>";
+    echo "<a title='Atras' style='margin-left: 10px' class='aa' href='productos.php?pagina=" . ($pagina_actual - 1) . "'>" . '«' . "</a>";
 }
 
+echo "<a title='Pagina actual' class='aa' style='margin-left: 10px'> " . $pagina_actual  . " / $empieza </a>";
 
 
 if ($pagina_actual < $total_paginas) {
-    echo "<a class='aa' style='margin-left: 10px' href='productos.php?pagina=" . ($pagina_actual + 1) . "'>" . 'Siguiente' . "</a>";
+    echo "<a title='Siguiente' class='aa' style='margin-left: 10px' href='productos.php?pagina=" . ($pagina_actual + 1) . "'>" . '»' . "</a>";
 }
+
+
 
 echo "</center>";
 echo "<br><center>";
 echo"<hr>";
-echo "<h5 style='color:#fff'><br>Total de registros encontrados: " . $total_registros . "<br></h5>";
-echo "<h5 style='color:#fff'>Página actual: " . $pagina_actual . "<br></h5>";
+echo "<h5 style='color:#fff'><br>*Los precios mostrados en esta página pueden variar sin previo aviso.<br></h5>";
 ?>
 <br>
 <hr>
@@ -476,7 +480,7 @@ echo "<h5 style='color:#fff'>Página actual: " . $pagina_actual . "<br></h5>";
       
           <div class="container" style="color:#fff" >
           <br>
-         *Los precios mostrados en esta página pueden variar sin previo aviso.
+         
         <hr style="border: 1px solid white;">
             &copy; 2023 - <b>Ferreteria Jotta-R</b> - Todos los derechos reservado</a>
            

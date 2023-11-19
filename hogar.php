@@ -13,6 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
     <title>Hogar | Ferretería Jotta-R</title>
+    
     <style>
 
 body {
@@ -198,8 +199,11 @@ hr {
   }
 
     </style>
+    
 </head>
+
 <body>
+  
 <div class="fijo">
 <nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
         
