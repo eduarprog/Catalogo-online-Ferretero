@@ -127,7 +127,7 @@ hr {
               <div class="dropdown">
                 <a class="nav-link"
                 <button class="btn dropdown-toggle "  type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  SERVICIOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180" style="color: #f7f7f7;"></i>
+                  SERVICIOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
                 </button>
               </a>
                 <ul  class="dropdown-menu dropdown-menu-danger" >
@@ -140,7 +140,7 @@ hr {
               <div class="dropdown" >
                 <a class="nav-link"
                 <button class="btn dropdown-toggle" type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  PRODUCTOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180" style="color: #f7f7f7;"></i>
+                  PRODUCTOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
                 </button>
               </a>
               
@@ -505,20 +505,22 @@ hr {
         <div class="container" style="color:#fff" >
         <h4 style="color:#fff" >SIGUENOS!</h4>
         <li class="nav-link">
-        <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" target="_blank" rel="noopener">
+        <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" title="Instagram" target="_blank" rel="noopener">
         <i class="fa-brands fa-instagram " style="color: #f7f7f8;"></i></a>
         &nbsp;
-        <a href="https://www.youtube.com/@FerreteriaJotta-R" target="_blank" rel="noopener" >
+        <a href="https://www.youtube.com/@FerreteriaJotta-R" title="YouTube" target="_blank" rel="noopener" >
         <i class="fa-brands fa-youtube" style="color: #f6f7f9;"></i></a>
         &nbsp;
-        <a href="https://www.facebook.com/ferreteriajotta.r" target="_blank" rel="noopener">
+        <a href="https://www.facebook.com/ferreteriajotta.r" title="Facebook" target="_blank" rel="noopener">
         <i class="fa-brands fa-facebook " style="color: #fafafa;"></i></a>
       &nbsp;
-      <a href="https://www.google.com/search?q=Ferreteria+JOTTA-R&stick=H4sIAAAAAAAA_-NgU1I1qLBITTQ1M0wztDQ0SjIxTjO3MqhINDYxsbAwNEu1SDGwNDcyW8Qq5JZaVJRaklqUmajg5R8S4qgbBAAQ6KcnPgAAAA&hl=es-419&mat=CS9Gc3mrRgX2ElYBeenfiIAh5igBiDrIRyrwST16V58WjeUQyJWsRdYAwl0L1aKSbOQrvobhDCa6aLXzNrRo0kaKEixRIi20u2cAa5uAb6NCnLQEUTLQZ32wA0zTybq_9g&authuser=0" target="_blank" rel="noopener">
+      <a href="https://www.google.com/search?q=Ferreteria+JOTTA-R&stick=H4sIAAAAAAAA_-NgU1I1qLBITTQ1M0wztDQ0SjIxTjO3MqhINDYxsbAwNEu1SDGwNDcyW8Qq5JZaVJRaklqUmajg5R8S4qgbBAAQ6KcnPgAAAA&hl=es-419&mat=CS9Gc3mrRgX2ElYBeenfiIAh5igBiDrIRyrwST16V58WjeUQyJWsRdYAwl0L1aKSbOQrvobhDCa6aLXzNrRo0kaKEixRIi20u2cAa5uAb6NCnLQEUTLQZ32wA0zTybq_9g&authuser=0" title="Perfil de negocio" target="_blank" rel="noopener">
       <i class="fa-solid fa-shop" style="color: #eceff3;"></i></a>
       </a>
           <div class="container" style="color:#fff" >
+          <br>
           <hr style="border: 1px solid white;">
+          
               &copy; 2023 - <b> Ferreteria Jotta-R </b> - Todos los Derechos Reservados
             </a>
             </div>

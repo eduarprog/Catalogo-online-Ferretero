@@ -193,7 +193,7 @@ body::-webkit-scrollbar-thumb:hover{
   
 }
 hr {
-    border: 1px solid red; /* Cambia el color de la barra horizontal a rojo */
+    border: 1px solid white; /* Cambia el color de la barra horizontal a rojo */
     margin: 10px 0; /* Añade un margen superior e inferior para separación visual */
   }
     </style>
@@ -223,7 +223,7 @@ hr {
               <div class="dropdown">
                 <a class="nav-link"
                 <button class="btn dropdown-toggle "  type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  SERVICIOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180" style="color: #f7f7f7;"></i>
+                  SERVICIOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
                 </button>
               </a>
                 <ul  class="dropdown-menu dropdown-menu-danger" >
@@ -236,7 +236,7 @@ hr {
               <div class="dropdown" >
                 <a class="nav-link"
                 <button class="btn dropdown-toggle" type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  PRODUCTOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180" style="color: #f7f7f7;"></i>
+                  PRODUCTOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
                 </button>
               </a>
               
@@ -381,24 +381,24 @@ $resultados_encontrados = false;
     $total_paginas = ceil($total_registros / $por_pagina);
 
     $pagina_actual = isset($_GET['pagina']) ? intval($_GET['pagina']) : 1;
+    $empieza = ($pagina + 1 );
 
     echo "<br><center>";
     
     if ($pagina_actual > 1) {
-        echo "<a style='margin-left: 10px' class='aa' href='electricos.php?pagina=" . ($pagina_actual - 1) . "'>" . 'Atrás' . "</a>";
+        echo "<a style='margin-left: 10px' class='aa' href='electricos.php?pagina=" . ($pagina_actual - 1) . "'>" . '<i class="fa-solid fa-chevron-up fa-rotate-270 fa-2xs" style="color: #CA0403;"></i>' . "</a>";
     }
     
-   
+    echo "<a title='Pagina actual' class='aa' style='margin-left: 10px'> " . $pagina_actual  . " / $empieza </a>";
     
     if ($pagina_actual < $total_paginas) {
-        echo "<a class='aa' style='margin-left: 10px' href='electricos.php?pagina=" . ($pagina_actual + 1) . "'>" . 'Siguiente' . "</a>";
+        echo "<a class='aa' style='margin-left: 10px' href='electricos.php?pagina=" . ($pagina_actual + 1) . "'>" . '<i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #CA0403;"></i>' . "</a>";
     }
     
     echo "</center>";
     echo "<br><center>";
     echo"<hr>";
-    echo "<h5 style='color:#fff'><br>Total de registros encontrados: " . $total_registros . "<br></h5>";
-    echo "<h5 style='color:#fff'>Página actual: " . $pagina_actual . "<br></h5>";
+    echo "<h5 style='color:#fff'><br>*Los precios mostrados en esta página pueden variar sin previo aviso.<br></h5>";
     ?>
 <br>
 <hr>
@@ -451,7 +451,7 @@ $resultados_encontrados = false;
       
           <div class="container" style="color:#fff" >
           <br>
-         *Los precios mostrados en esta página pueden variar sin previo aviso.
+         
          <hr style="border: 1px solid white;">
             &copy; 2023 - <b>Ferreteria Jotta-R</b> - Todos los derechos reservado</a>
            

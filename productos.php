@@ -222,7 +222,7 @@ hr {
               <div class="dropdown">
                 <a class="nav-link"
                 <button class="btn dropdown-toggle "  type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  SERVICIOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180" style="color: #f7f7f7;"></i>
+                  SERVICIOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
                 </button>
               </a>
                 <ul  class="dropdown-menu dropdown-menu-danger" >
@@ -235,7 +235,7 @@ hr {
               <div class="dropdown" >
                 <a class="nav-link"
                 <button class="btn dropdown-toggle" type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  PRODUCTOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180" style="color: #f7f7f7;"></i>
+                  PRODUCTOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
                 </button>
               </a>
               
@@ -370,7 +370,7 @@ $resultados_encontrados = false;
                                         
                                     </div>
                                     <h2 style="visibility:hidden" ><?php echo $data['categoria']?></h2>
-                                    <p class="card-text" style="color:green"> <b> <?php echo $data ['precio'] ?>$RD</b></p>
+                                    <p class="card-text" style="color:green"> <b> <?php echo $data ['precio'] ?>$RD  </b></p>
                                 </div>
                             </div>
                         </div>
@@ -407,14 +407,14 @@ $empieza = ($pagina + 1);
 echo "<br><center>";
 
 if ($pagina_actual > 1) {
-    echo "<a title='Atras' style='margin-left: 10px' class='aa' href='productos.php?pagina=" . ($pagina_actual - 1) . "'>" . '«' . "</a>";
+    echo "<a title='Atrás' style='margin-left: 10px' class='aa' href='productos.php?pagina=" . ($pagina_actual - 1) . "'>" . '<i class="fa-solid fa-chevron-up fa-rotate-270 fa-2xs" style="color: #CA0403;"></i>' . "</a>";
 }
 
 echo "<a title='Pagina actual' class='aa' style='margin-left: 10px'> " . $pagina_actual  . " / $empieza </a>";
 
 
 if ($pagina_actual < $total_paginas) {
-    echo "<a title='Siguiente' class='aa' style='margin-left: 10px' href='productos.php?pagina=" . ($pagina_actual + 1) . "'>" . '»' . "</a>";
+    echo "<a title='Siguiente' class='aa' style='margin-left: 10px' href='productos.php?pagina=" . ($pagina_actual + 1) . "'>" . '<i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #CA0403;"></i>' . "</a>";
 }
 
 
@@ -465,16 +465,16 @@ echo "<h5 style='color:#fff'><br>*Los precios mostrados en esta página pueden v
       <div class="container" style="color:#fff" >
         <h4 style="color:#fff" >SIGUENOS!</h4>
         <li class="nav-link">
-        <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" target="_blank" rel="noopener">
+        <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" title="Instagram" target="_blank" rel="noopener">
         <i class="fa-brands fa-instagram " style="color: #f7f7f8;"></i></a>
         &nbsp;
-        <a href="https://www.youtube.com/@FerreteriaJotta-R" target="_blank" rel="noopener" >
+        <a href="https://www.youtube.com/@FerreteriaJotta-R" title="YouTube" target="_blank" rel="noopener" >
         <i class="fa-brands fa-youtube" style="color: #f6f7f9;"></i></a>
         &nbsp;
-        <a href="https://www.facebook.com/ferreteriajotta.r" target="_blank" rel="noopener">
+        <a href="https://www.facebook.com/ferreteriajotta.r" title="Facebook" target="_blank" rel="noopener">
         <i class="fa-brands fa-facebook " style="color: #fafafa;"></i></a>
       &nbsp;
-      <a href="https://www.google.com/search?q=Ferreteria+JOTTA-R&stick=H4sIAAAAAAAA_-NgU1I1qLBITTQ1M0wztDQ0SjIxTjO3MqhINDYxsbAwNEu1SDGwNDcyW8Qq5JZaVJRaklqUmajg5R8S4qgbBAAQ6KcnPgAAAA&hl=es-419&mat=CS9Gc3mrRgX2ElYBeenfiIAh5igBiDrIRyrwST16V58WjeUQyJWsRdYAwl0L1aKSbOQrvobhDCa6aLXzNrRo0kaKEixRIi20u2cAa5uAb6NCnLQEUTLQZ32wA0zTybq_9g&authuser=0" target="_blank" rel="noopener">
+      <a href="https://www.google.com/search?q=Ferreteria+JOTTA-R&stick=H4sIAAAAAAAA_-NgU1I1qLBITTQ1M0wztDQ0SjIxTjO3MqhINDYxsbAwNEu1SDGwNDcyW8Qq5JZaVJRaklqUmajg5R8S4qgbBAAQ6KcnPgAAAA&hl=es-419&mat=CS9Gc3mrRgX2ElYBeenfiIAh5igBiDrIRyrwST16V58WjeUQyJWsRdYAwl0L1aKSbOQrvobhDCa6aLXzNrRo0kaKEixRIi20u2cAa5uAb6NCnLQEUTLQZ32wA0zTybq_9g&authuser=0" title="Perfil de negocio" target="_blank" rel="noopener">
       <i class="fa-solid fa-shop" style="color: #eceff3;"></i></a>
       </a>
       
