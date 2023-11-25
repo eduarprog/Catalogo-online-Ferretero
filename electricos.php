@@ -339,14 +339,14 @@ $resultados_encontrados = false;
                             <center>
                               <br>
                             <h5 class="card-title"> <b> <?php echo $data['Nombre'] ?> </b></h5><br>
-                                <img class="card-img-top" width="170" height="170" src="<?php echo $data['ImgRuta']?>">
+                                <img class="card-img-top" width="135" height="135" src="<?php echo $data['ImgRuta']?>">
                             </center>
                             <hr>
                             <div class="card-body">
                                 <center>
                                     <h5 class="card-title"><?php echo $data['Descripcion'] ?></h5>
                                 </center>
-                                <br>
+                                
                                 
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">

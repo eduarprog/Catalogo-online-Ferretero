@@ -222,7 +222,7 @@ hr {
               <div class="dropdown">
                 <a class="nav-link"
                 <button class="btn dropdown-toggle "  type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  SERVICIOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180" style="color: #f7f7f7;"></i>
+                  SERVICIOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
                 </button>
               </a>
                 <ul  class="dropdown-menu dropdown-menu-danger" >
@@ -235,7 +235,7 @@ hr {
               <div class="dropdown" >
                 <a class="nav-link"
                 <button class="btn dropdown-toggle" type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  PRODUCTOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180" style="color: #f7f7f7;"></i>
+                  PRODUCTOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
                 </button>
               </a>
               
@@ -334,14 +334,14 @@ $resultados_encontrados = false;
                             <center>
                               <br>
                             <h5 class="card-title"><b><?php echo $data['Nombre'] ?></b></h5><br>
-                                <img class="card-img-top" width="170" height="170" src="<?php echo $data['ImgRuta']?>">
+                                <img class="card-img-top" width="135" height="135" src="<?php echo $data['ImgRuta']?>">
                             </center>
-                            <hr>
+                          
                             <div class="card-body">
                                 <center>
                                     <h5 class="card-title"><?php echo $data['Descripcion'] ?></h5>
                                 </center>
-                                <br>
+                                
                                 
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">

@@ -192,7 +192,7 @@ body::-webkit-scrollbar-thumb:hover{
   
 }
 hr {
-    border: 1px solid red; /* Cambia el color de la barra horizontal a rojo */
+    border: 1px solid white; /* Cambia el color de la barra horizontal a rojo */
     margin: 10px 0; /* Añade un margen superior e inferior para separación visual */
   }
     </style>
@@ -222,7 +222,7 @@ hr {
               <div class="dropdown">
                 <a class="nav-link"
                 <button class="btn dropdown-toggle "  type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  SERVICIOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180" style="color: #f7f7f7;"></i>
+                  SERVICIOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
                 </button>
               </a>
                 <ul  class="dropdown-menu dropdown-menu-danger" >
@@ -235,7 +235,7 @@ hr {
               <div class="dropdown" >
                 <a class="nav-link"
                 <button class="btn dropdown-toggle" type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  PRODUCTOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180" style="color: #f7f7f7;"></i>
+                  PRODUCTOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
                 </button>
               </a>
               
@@ -333,22 +333,23 @@ $resultados_encontrados = false;
                         <div class="card shadow-sm " style="max-width: 265px; border-radius: 15px; border: 3px solid darkred">
                             <center>
                               <br>
-                            <h5 class="card-title"><b> <?php echo $data['Nombre'] ?> </b></h5><br>
+                            <h5 ><b> <?php echo $data['Nombre'] ?> </b></h5><br>
                                 <img class="card-img-top" width="170" height="170" src="<?php echo $data['ImgRuta']?>">
                             </center>
-                            <hr>
+                            
                             <div class="card-body">
+                              
                                 <center>
-                                    <h5 class="card-title"><?php echo $data['Descripcion'] ?></h5>
+                                    <h5 class="fw-normal"><?php echo $data['Descripcion'] ?></h5>
                                 </center>
-                                <br>
                                 
+                                <hr style="border: 1px solid #000;">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        
+                                    
                                     </div>
                                     
-                                    <p class="card-text" style="color:green"> <b> <?php echo $data ['precio'] ?>$RD</b></p>
+                                    <p   style="color:green"> <b> <?php echo $data ['precio'] ?>$RD</b></p>
                                 </div>
                             </div>
                         </div>
@@ -377,24 +378,25 @@ $resultados_encontrados = false;
     $total_paginas = ceil($total_registros / $por_pagina);
 
     $pagina_actual = isset($_GET['pagina']) ? intval($_GET['pagina']) : 1;
+    $empieza = ($pagina + 1 );
 
     echo "<br><center>";
     
     if ($pagina_actual > 1) {
-        echo "<a style='margin-left: 10px' class='aa' href='bombillos.php?pagina=" . ($pagina_actual - 1) . "'>" . '«' . "</a>";
+        echo "<a style='margin-left: 10px' class='aa' href='bombillos.php?pagina=" . ($pagina_actual - 1) . "'>" . '<i class="fa-solid fa-chevron-up fa-rotate-270 fa-2xs" style="color: #CA0403;"></i>' . "</a>";
     }
     
+    echo "<a title='Pagina actual' class='aa' style='margin-left: 10px'> " . $pagina_actual  . " / $empieza </a>";
     
     
     if ($pagina_actual < $total_paginas) {
-        echo "<a class='aa' style='margin-left: 10px' href='bombillos.php?pagina=" . ($pagina_actual + 1) . "'>" . '»' . "</a>";
+        echo "<a class='aa' style='margin-left: 10px' href='bombillos.php?pagina=" . ($pagina_actual + 1) . "'>" . '<i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #CA0403;"></i>' . "</a>";
     }
     
     echo "</center>";
     echo "<br><center>";
     echo"<hr>";
-    echo "<h5 style='color:#fff'><br>Total de registros encontrados: " . $total_registros . "<br></h5>";
-    echo "<h5 style='color:#fff'>Página actual: " . $pagina_actual . "<br></h5>";
+    echo "<h5 style='color:#fff'><br>*Los precios mostrados en esta página pueden variar sin previo aviso.<br></h5>";
     ?>
 <br>
 <hr>
@@ -429,22 +431,22 @@ $resultados_encontrados = false;
       <div class="container" style="color:#fff" >
         <h4 style="color:#fff" >SIGUENOS!</h4>
         <li class="nav-link">
-        <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" target="_blank" rel="noopener">
+        <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" title="Instagram" target="_blank" rel="noopener">
         <i class="fa-brands fa-instagram " style="color: #f7f7f8;"></i></a>
         &nbsp;
-        <a href="https://www.youtube.com/@FerreteriaJotta-R" target="_blank" rel="noopener" >
+        <a href="https://www.youtube.com/@FerreteriaJotta-R" title="Canal de Youtube" target="_blank" rel="noopener" >
         <i class="fa-brands fa-youtube" style="color: #f6f7f9;"></i></a>
         &nbsp;
-        <a href="https://www.facebook.com/ferreteriajotta.r" target="_blank" rel="noopener">
+        <a href="https://www.facebook.com/ferreteriajotta.r" title="Facebook" target="_blank" rel="noopener">
         <i class="fa-brands fa-facebook " style="color: #fafafa;"></i></a>
       &nbsp;
-      <a href="https://www.google.com/search?q=Ferreteria+JOTTA-R&stick=H4sIAAAAAAAA_-NgU1I1qLBITTQ1M0wztDQ0SjIxTjO3MqhINDYxsbAwNEu1SDGwNDcyW8Qq5JZaVJRaklqUmajg5R8S4qgbBAAQ6KcnPgAAAA&hl=es-419&mat=CS9Gc3mrRgX2ElYBeenfiIAh5igBiDrIRyrwST16V58WjeUQyJWsRdYAwl0L1aKSbOQrvobhDCa6aLXzNrRo0kaKEixRIi20u2cAa5uAb6NCnLQEUTLQZ32wA0zTybq_9g&authuser=0" target="_blank" rel="noopener">
+      <a href="https://www.google.com/search?q=Ferreteria+JOTTA-R&stick=H4sIAAAAAAAA_-NgU1I1qLBITTQ1M0wztDQ0SjIxTjO3MqhINDYxsbAwNEu1SDGwNDcyW8Qq5JZaVJRaklqUmajg5R8S4qgbBAAQ6KcnPgAAAA&hl=es-419&mat=CS9Gc3mrRgX2ElYBeenfiIAh5igBiDrIRyrwST16V58WjeUQyJWsRdYAwl0L1aKSbOQrvobhDCa6aLXzNrRo0kaKEixRIi20u2cAa5uAb6NCnLQEUTLQZ32wA0zTybq_9g&authuser=0" title="Perfil de negocio" target="_blank" rel="noopener">
       <i class="fa-solid fa-shop" style="color: #eceff3;"></i></a>
       </a>
       
           <div class="container" style="color:#fff" >
           <br>
-         *Los precios mostrados en esta página pueden variar sin previo aviso.
+         
          <hr style="border: 1px solid white;">
             &copy; 2023 - <b>Ferreteria Jotta-R</b> - Todos los derechos reservado</a>
            
