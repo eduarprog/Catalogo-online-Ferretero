@@ -283,49 +283,49 @@ hr {
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/p2.jpeg" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
+              <img src="img/p2.jpeg" class="d-block w-100 rounded" width="400px"  height="400px" alt="Imagen de local">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Local</h5>
                 
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/f2.jpg" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
+              <img src="img/f2.jpg" class="d-block w-100 rounded" width="400px"  height="400px" alt="Imagen de local">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Electricos</h5>
                 
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/Frente.logosg.JPG" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
+              <img src="img/Frente.logosg.JPG" class="d-block w-100 rounded" width="400px"  height="400px" alt="Imagen de local">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Local | Productos</h5>
                 
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/PActualizado.jpg" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
+              <img src="img/PActualizado.jpg" class="d-block w-100 rounded" width="400px"  height="400px" alt="Imagen de local">
               <div class="carousel-caption d-none d-md-block">
                 <h5> Pinturas</h5>
                 
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/tinaco.jpg" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
+              <img src="img/tinaco.jpg" class="d-block w-100 rounded" width="400px"  height="400px" alt="Imagen de local">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Tinacos</h5>
                 
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/Lateral1.jpeg" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
+              <img src="img/Lateral1.jpeg" class="d-block w-100 rounded" width="400px"  height="400px" alt="Imagen de local">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Lateral | Productos</h5>
                 
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/LateralFJ.jpg" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
+              <img src="img/LateralFJ.jpg" class="d-block w-100 rounded" width="400px"  height="400px" alt="Imagen de local">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Lateral 2 | Productos</h5>
                 
@@ -334,11 +334,11 @@ hr {
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <span class="visually-hidden">Anterior</span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+            <span class="visually-hidden">Proximo</span>
           </button>
         </div>
       </div>

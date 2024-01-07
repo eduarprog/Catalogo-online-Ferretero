@@ -186,13 +186,13 @@ hr {
           </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/inicio2.png" width="750px"  height="750px" class="d-block w-100 rounded" alt="...">
+      <img src="img/inicio2.png" width="750px"  height="750px" class="d-block w-100 rounded" alt="Materiales de reparacion">
       <div class="carousel-caption d-none d-md-block">
         <h1 translate="no"><b>Ferreteria Jotta-R</b></h1>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="img/inicio7.png" class="d-block w-100" width="750px"  height="750px" alt="...">
+      <img src="img/inicio7.png" class="d-block w-100" width="750px"  height="750px" alt="Materiales electricos">
       <div class="carousel-caption d-none d-md-block">
      <!-- <button type="button" class="btn btn-sm btn-outline-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Suscribirse!</button>-->
         <br>
@@ -200,13 +200,13 @@ hr {
       </div>
     </div>
     <div class="carousel-item">
-      <img src="img/inicio8.png" class="d-block w-100" width="750px"  height="750px" alt="...">
+      <img src="img/inicio8.png" class="d-block w-100" width="750px"  height="750px" alt="Materiales de plomeria">
       <div class="carousel-caption d-none d-md-block">
       <h1 translate="no"><b>Ferreteria Jotta-R</b></h1>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="img/inicio6.png" class="d-block w-100" width="750px"  height="750px" alt="...">
+      <img src="img/inicio6.png" class="d-block w-100" width="750px"  height="750px" alt="Materiales en pinturas">
       <div class="carousel-caption d-none d-md-block">
       <h1 translate="no"><b>Ferreteria Jotta-R</b></h1>
       </div>
@@ -394,17 +394,17 @@ hr {
         <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="img/Aprovecha las ofertas.png" width="400px"  height="400px" class="d-block w-100 rounded" alt="...">
+              <img src="img/Aprovecha las ofertas.png" width="400px"  height="400px" class="d-block w-100 rounded" alt="Ofertas en productos">
               <div class="carousel-caption d-none d-md-block">
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/ofertas2.png" class="d-block w-100 rounded" width="400px" height="400px" alt="...">
+              <img src="img/ofertas2.png" class="d-block w-100 rounded" width="400px" height="400px" alt="Ofertas en productos especiales">
               <div class="carousel-caption d-none d-md-block">
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/ofertas3.png" class="d-block w-100 rounded" width="400px"  height="400px" alt="...">
+              <img src="img/ofertas3.png" class="d-block w-100 rounded" width="400px"  height="400px" alt="Ofertas en productos especiales">
               <div class="carousel-caption d-none d-md-block">
               </div>
             </div>
