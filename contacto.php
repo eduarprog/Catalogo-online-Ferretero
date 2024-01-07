@@ -73,7 +73,7 @@ body::-webkit-scrollbar-thumb{
   border-radius: 6px;
 }
 body::-webkit-scrollbar-thumb:hover{
-  background: #fd0839;
+  background: #B7B6B5;
   
 }
 .container .card{

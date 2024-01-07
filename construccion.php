@@ -188,7 +188,7 @@ body::-webkit-scrollbar-thumb{
   border-radius: 6px;
 }
 body::-webkit-scrollbar-thumb:hover{
-  background: #fd0839;
+  background: #B7B6B5;
   
 }
 hr {
@@ -334,7 +334,7 @@ $resultados_encontrados = false;
                             <center>
                               <br>
                             <h5 class="card-title"><b><?php echo $data['Nombre'] ?></b></h5><br>
-                                <img class="card-img-top" width="135" height="135" src="<?php echo $data['ImgRuta']?>">
+                                <img alt="Imagen de producto" class="card-img-top" width="135" height="135" src="<?php echo $data['ImgRuta']?>">
                             </center>
                           
                             <div class="card-body">
@@ -342,7 +342,7 @@ $resultados_encontrados = false;
                                     <h5 class="card-title"><?php echo $data['Descripcion'] ?></h5>
                                 </center>
                                 
-                                
+                                <hr style="border: 1px solid #000;">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         

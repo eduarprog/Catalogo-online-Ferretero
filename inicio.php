@@ -70,7 +70,7 @@ body::-webkit-scrollbar-thumb{
   border-radius: 6px;
 }
 body::-webkit-scrollbar-thumb:hover{
-  background: #fd0839;
+  background: #B7B6B5;
   
 }
 .container .card{
@@ -182,17 +182,17 @@ hr {
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            
           </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/inicio1.png" width="750px"  height="750px" class="d-block w-100 rounded" alt="...">
+      <img src="img/inicio2.png" width="750px"  height="750px" class="d-block w-100 rounded" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1 translate="no"><b>Ferreteria Jotta-R</b></h1>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="img/inicio2.png" class="d-block w-100" width="750px"  height="750px" alt="...">
+      <img src="img/inicio7.png" class="d-block w-100" width="750px"  height="750px" alt="...">
       <div class="carousel-caption d-none d-md-block">
      <!-- <button type="button" class="btn btn-sm btn-outline-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Suscribirse!</button>-->
         <br>
@@ -206,16 +206,12 @@ hr {
       </div>
     </div>
     <div class="carousel-item">
-      <img src="img/inicio7.png" class="d-block w-100" width="750px"  height="750px" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-      <h1 translate="no"><b>Ferreteria Jotta-R</b></h1>
-      </div>
-    </div>
-    <div class="carousel-item">
       <img src="img/inicio6.png" class="d-block w-100" width="750px"  height="750px" alt="...">
       <div class="carousel-caption d-none d-md-block">
       <h1 translate="no"><b>Ferreteria Jotta-R</b></h1>
       </div>
+    </div>
+  
     </div>
 </div>
 </div>
