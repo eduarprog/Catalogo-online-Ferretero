@@ -443,7 +443,7 @@ echo "<h5 style='color:#fff'>Página actual: " . $pagina_actual . "<br></h5>";
           <br>
          *Los precios mostrados en esta página pueden variar sin previo aviso.
          <hr style="border: 1px solid white;">
-            &copy; 2023 - <b>Ferreteria Jotta-R</b> - Todos los derechos reservado</a>
+            &copy; 2024 - <b>Ferreteria Jotta-R</b> - Todos los derechos reservado</a>
            
         </center>
         </div>

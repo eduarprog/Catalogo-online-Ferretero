@@ -297,7 +297,7 @@ hr {
                     <div class="d-flex justify-content-center px-5">
                     
                         <div class="search" style=" border: 3px solid darkred;">
-                         <input autocomplete="off"  type="search"  class="search-input" name="buscar" placeholder="¿Qué estás buscando?">                           
+                         <input  type="search"  class="search-input" name="buscar" placeholder="¿Qué estás buscando?">                           
                             <br>
                         </div>
                         
@@ -489,7 +489,7 @@ echo "<h5 style='color:#fff'><br>*Los precios mostrados en esta página pueden v
           <br>
          
         <hr style="border: 1px solid white;">
-            &copy; 2023 - <b>Ferreteria Jotta-R</b> - Todos los derechos reservado</a>
+            &copy; 2024 - <b>Ferreteria Jotta-R</b> - Todos los derechos reservado</a> 
            
         </center>
         </div>

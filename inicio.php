@@ -517,7 +517,7 @@ hr {
           <br>
           <hr style="border: 1px solid white;">
           
-              &copy; 2023 - <b> Ferreteria Jotta-R </b> - Todos los Derechos Reservados
+              &copy; 2024 - <b> Ferreteria Jotta-R </b> - Todos los Derechos Reservados
             </a>
             </div>
           </nav>

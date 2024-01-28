@@ -444,7 +444,7 @@ $resultados_encontrados = false;
           <br>
        
        <hr style="border: 1px solid white;">
-            &copy; 2023 - <b>Ferreteria Jotta-R</b> - Todos los derechos reservado</a>
+            &copy; 2024 - <b>Ferreteria Jotta-R</b> - Todos los derechos reservado</a>
            
         </center>
         </div>

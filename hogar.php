@@ -457,7 +457,7 @@ echo "<h5 style='color:#fff'><br>*Los precios mostrados en esta página pueden v
           <br>
         
          <hr style="border: 1px solid white;">
-            &copy; 2023 - <b>Ferreteria Jotta-R</b> - Todos los derechos reservado</a>
+            &copy; 2024 - <b>Ferreteria Jotta-R</b> - Todos los derechos reservado</a>
            
         </center>
         </div>
