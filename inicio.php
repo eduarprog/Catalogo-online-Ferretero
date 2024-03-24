@@ -389,6 +389,21 @@ hr {
         <p class="lead"></p>
         <h4 class="lead">
           En articulos como: Luces led, regletas, bombillos, llaves de chorro y entre otros articulos.
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          
+          Ir a la pagina de instagram para mas información: <li class="nav-link">
+        <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" title="Instagram" target="_blank" rel="noopener">
+        <i class="fa-brands fa-instagram " style="color: #CA0403;"></i></a>
       </div>
       <div class="col-md-5">
         <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -410,7 +425,7 @@ hr {
             </div>
           </div>
         </div>
-        <br>
+        
       </div>
     </div>
 
