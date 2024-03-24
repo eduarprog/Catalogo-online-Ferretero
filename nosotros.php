@@ -13,24 +13,18 @@
     <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
     <title>Nosotros | Ferretería Jotta-R</title>
     <style>
-      body {
-        font-family: 'Crimson Pro', serif;
-        font-size: 20px;
-        zoom: 75%;
-        background-color: #fff;
-      }
-      .fijo {
-  position: fixed;
-z-index: 9999;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-
-  ;
-  
+body {
+  font-family: 'Crimson Pro', serif;
+  font-size: 20px;
+  zoom: 75%;
+  background-color: #fff;
 }
 
-
+.fijo {
+  position: fixed;
+  z-index: 9999;
+  min-width: 100%;
+}
 
 .fijo ul li a {
   display: block;
@@ -44,38 +38,38 @@ a:hover{
   opacity: 0.8;
   align-content: center;
 }
+
 #whatsapp-button {
   position: fixed;
   bottom: 20px;
   right: 20px;
   z-index: 9999;
- 
 }
 
 #whatsapp-button img {
   width: 60px;
   height: 60px;
-  
 }
 
 body::-webkit-scrollbar{
   width: 11px;
 }
+
 body::-webkit-scrollbar-thumb{
   background: #CA0403;
   border-radius: 6px;
 }
+
 body::-webkit-scrollbar-thumb:hover{
   background: #B7B6B5;
-  
 }
+
 hr {
     border: 1px solid red; /* Cambia el color de la barra horizontal a rojo */
     margin: 10px 0; /* Añade un margen superior e inferior para separación visual */
   }
 
     </style>
-  
 </head>
 
   <!--Menu Principal-->
@@ -92,7 +86,6 @@ hr {
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -100,10 +93,8 @@ hr {
               </li>
               <li class="nav-item">
               <div class="dropdown">
-                <a class="nav-link"
-                <button class="btn dropdown-toggle "  type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link" class="btn dropdown-toggle "  type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                   SERVICIOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
-                </button>
               </a>
               <ul  class="dropdown-menu dropdown-menu-danger" >
                   <li><a class="dropdown-item" href="cotizacion.php"><i class="fa-solid fa-tag" style="color: #e40c0c;" ></i> &nbsp; COTIZACION</a></li>
@@ -113,12 +104,9 @@ hr {
                 <a class="nav-link active" aria-current="page" href="contacto.php">CONTACTO</a>
               </li>
               <div class="dropdown" >
-                <a class="nav-link"
-                <button class="btn dropdown-toggle" type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link" class="btn dropdown-toggle" type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                   PRODUCTOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
-                </button>
               </a>
-              
                 <ul  class="dropdown-menu dropdown-menu-danger" >
                 <li> <a class="dropdown-item" href="productos.php">  <i class="fa-solid fa-list" style="color: #e40c0c;"></i> 
                 &nbsp;   TODOS
@@ -144,109 +132,66 @@ hr {
             &nbsp; &nbsp;
             <i class="fa-solid fa-circle-info" style="color: #f3f4f7;"></i>
              </li>
-              
-            
-              
-
           </div>
         </div>
       </nav>
+      </div> 
+    </div>
 
       <!--Informacion de la empresa-->
 
-        </div> 
-    </div>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        
+        <br><br><br><br><br>
         <div class="container">
-    
         <div class="row featurette">
-          <div class="col-md-7">
-
-            <h2 class="featurette-heading"><i class="fa-solid fa-minus fa-2xs" style="color: #ee1111;"></i>&nbsp;¿Quiénes Somos? <span class="text-muted"></span></h2>
-            
-            <h4 class="lead" >
-              Somos una empresa encargada de servirles con todas sus necesidades y venderles productos de buena calidad a buenos precios y que cumplan con sus estandares.
-<br>
-              <br>
-              <br>
-              <h2 class="featurette-heading" ><i class="fa-solid fa-minus fa-2xs" style="color: #ee1111;"></i> &nbsp; Misión<span class="text-muted"></span></h2>
-            
-            <h4 class="lead">
-              Proporcionar soluciones para la construcción, preparación y mejoramiento del entorno, con su servicio a tiempo y un equipo comprometido.
-<br>
-<br>
-              <br>
-              <h2 class="featurette-heading" ><i class="fa-solid fa-minus fa-2xs" style="color: #ee1111;"></i>&nbsp; Visión<span class="text-muted"></span></h2>
-            
-            <h4 class="lead">
-              Ser líderes en el mercado de ferretería, construcción y decoración, ofreciendo un servicio rápido y eficiente basado en la innovación continúa y con la gente más especializada.
-          </div>
-
-          
-         
-          <div class="col-md-5 order-md-1">
-            <img src="img/Logoi.png" class="rounded mx-auto d-block"  width="400" height="400" >
-    
-          </div>
+        <div class="col-md-7">
+        <h2 class="featurette-heading"><i class="fa-solid fa-minus fa-2xs" style="color: #ee1111;"></i>&nbsp;¿Quiénes Somos? <span class="text-muted"></span></h2>
+        <h4 class="lead">Somos una empresa encargada de servirles con todas sus necesidades y venderles productos de buena calidad a buenos precios y que cumplan con sus estandares.
+        <br><br><br>
+        <h2 class="featurette-heading" ><i class="fa-solid fa-minus fa-2xs" style="color: #ee1111;"></i> &nbsp; Misión<span class="text-muted"></span></h2>
+        <h4 class="lead">Proporcionar soluciones para la construcción, preparación y mejoramiento del entorno, con su servicio a tiempo y un equipo comprometido.
+        <br><br><br>
+        <h2 class="featurette-heading" ><i class="fa-solid fa-minus fa-2xs" style="color: #ee1111;"></i>&nbsp; Visión<span class="text-muted"></span></h2>
+        <h4 class="lead"> Ser líderes en el mercado de ferretería, construcción y decoración, ofreciendo un servicio rápido y eficiente basado en la innovación continúa y con la gente más especializada.
         </div>
-          
-        
+        <div class="col-md-5 order-md-1">
+        <img src="img/Logoi.png" class="rounded mx-auto d-block"  width="400" height="400" >
+        </div>
+        </div>
         <div id="whatsapp-button">
-  <a href="https://www.google.com/maps/place/Ferreteria+JOTTA-R/@18.45137,-69.96489,16z/data=!4m6!3m5!1s0x8ea561f1912b43f7:0xa3448816e8d09726!8m2!3d18.4513696!4d-69.9648904!16s%2Fg%2F11c5xdcm8s?hl=es-419&entry=ttu" title="Ubicación" style="background-color: transparent;" target="_blank">
-  <i class="fa-solid fa-map-location-dot fa-2xl" style="color: #82aff8;"></i>
-  <br>
-  <br>
-  <a href="mailto:ferreteriajr.2@gmail.com?subject=subject text"  title="Correo Directo" style="background-color: transparent;" target="_blank">
-  <i class="fa-solid fa-envelope fa-2xl" style="color: #092fec;"></i>
-  
-  
-   
-  </a>
-</div>
+        <a href="https://www.google.com/maps/place/Ferreteria+JOTTA-R/@18.45137,-69.96489,16z/data=!4m6!3m5!1s0x8ea561f1912b43f7:0xa3448816e8d09726!8m2!3d18.4513696!4d-69.9648904!16s%2Fg%2F11c5xdcm8s?hl=es-419&entry=ttu" title="Ubicación" style="background-color: transparent;" target="_blank">
+        <i class="fa-solid fa-map-location-dot fa-2xl" style="color: #82aff8;"></i>
+        <br><br>
+        <a href="mailto:ferreteriajr.2@gmail.com?subject=subject text"  title="Correo Directo" style="background-color: transparent;" target="_blank">
+        <i class="fa-solid fa-envelope fa-2xl" style="color: #092fec;"></i></a>
+        </div>
     
         <hr class="featurette-divider">
     
+        
         <div class="row featurette">
-          <div class="col-md-7 order-md-2" >
-            <center>
-            <h2 class="featurette-heading"><i class="fa-solid fa-business-time fa-2xs" style="color: #f20707;"></i>&nbsp;Servicios<span class="text-muted"></span></h2>
-            <center>
-            <p class="lead"></p>
-            <h4 class="lead" >
-              - Brindamos al cliente la ayuda y guia a la hora de comprar algun producto.
-                <h4 class="lead" >
-                  - Ventas al por mayor y al detalle.
-                  <h4 class="lead" >
-                    - Realizamos cotizaciones de productos via whatsapp.
-                    <h4 class="lead" >
-                      - Encargamos productos pero con la mitad paga por antelación
-          </div>
-          
-          <div class="col-md-5 order-md-1">
-            <img src="img/servicio1.png" class="rounded mx-auto d-block"  width="200" height="200" >
-            
+        <div class="col-md-7 order-md-2" >
+        <h2  class="featurette-heading" ><i class="fa-solid fa-business-time fa-2xs"  style="color: #f20707;"></i>&nbsp;Servicios<span class="text-muted"></span></h2>
+        <p class="lead"></p>
+        <h4 class="lead" > - Brindamos al cliente la ayuda y guia a la hora de comprar algun producto.
+        <h4 class="lead" > - Ventas al por mayor y al detalle. 
+        <h4 class="lead" > - Realizamos cotizaciones de productos via whatsapp.
+        <h4 class="lead" > - Encargamos productos pero con la mitad paga por antelación
+        </div>
+        <div class="col-md-5 order-md-1">
+        <img src="img/servicio1.png" class="rounded mx-auto d-block"  width="200" height="200" >
           </div>
         </div>
    
-        
-    
         <hr class="featurette-divider">
-    <div class="container">
 
+    <div class="container">
     <div class="row featurette">
       <div class="col-md-7">
-        <center>
+      
         <h2 class="featurette-heading"><i class="fa-solid fa-wand-magic-sparkles fa-2xs" style="color: #e01515;"></i> &nbsp;Novedades <span class="text-muted"></span></h2>
-      </center>
+      
         <p class="lead"></p>
-        <center>
+        
         <h4 class="lead">
           - Aceptamos efectivo y tarjeta de credito.
           <h4 class="lead">
@@ -255,7 +200,7 @@ hr {
               - Estamos tambien respondiendo sus inquietudes por instagram y facebook.
               <h4 class="lead">
                 - Proximamente estaremos realizando envios en materiales de construcción.
-          </center>
+        
       </div>
       
       <div class="col-md-5">
@@ -365,7 +310,6 @@ hr {
       <a href="https://www.google.com/search?q=Ferreteria+JOTTA-R&stick=H4sIAAAAAAAA_-NgU1I1qLBITTQ1M0wztDQ0SjIxTjO3MqhINDYxsbAwNEu1SDGwNDcyW8Qq5JZaVJRaklqUmajg5R8S4qgbBAAQ6KcnPgAAAA&hl=es-419&mat=CS9Gc3mrRgX2ElYBeenfiIAh5igBiDrIRyrwST16V58WjeUQyJWsRdYAwl0L1aKSbOQrvobhDCa6aLXzNrRo0kaKEixRIi20u2cAa5uAb6NCnLQEUTLQZ32wA0zTybq_9g&authuser=0" title="Perfil de negocio" target="_blank" rel="noopener">
       <i class="fa-solid fa-shop" style="color: #eceff3;"></i></a>
       </a>
-      
         <div class="container" style="color: #fff;">
           <br>
         <hr style="border: 1px solid white;">
@@ -375,9 +319,5 @@ hr {
     </footer>
     </div>
     
-    
-    <!--Pie de pagina-->
-
-
 </body>
 </html>
