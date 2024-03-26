@@ -5,27 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/f97fcd2c02.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logob2.png">
     <title>Cotización | Ferretería Jotta-R</title>
     <style>
-      body {
-        font-family: 'Crimson Pro', serif;
-        font-size: 20px;
-        zoom: 75%;
-        background-color: #fff;
-      }
-      .fijo {
+body {
+  font-family: 'Crimson Pro', serif;
+  font-size: 20px;
+  zoom: 75%;
+  background-color: #fff;
+}
+
+.fijo {
   position: fixed;
-z-index: 9999;
-  top: 0;
-  left: 0;
+  z-index: 9999;
   min-width: 100%;
- 
-  
 }
 
 a:hover{
@@ -35,20 +31,16 @@ a:hover{
   align-content: center;
 }
 
-
-
 .fijo ul li a {
   display: block;
   text-decoration: none;
   color: #333;
 }
 
-
 #whatsapp-button {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  ;
 }
 
 #whatsapp-button img {
@@ -59,24 +51,30 @@ a:hover{
 body::-webkit-scrollbar{
   width: 11px;
 }
+
 body::-webkit-scrollbar-thumb{
   background: #CA0403;
   border-radius: 6px;
 }
+
 body::-webkit-scrollbar-thumb:hover{
   background: #B7B6B5;
-  
 }
+
 hr {
-    border: 1px solid red; /* Cambia el color de la barra horizontal a rojo */
-    margin: 10px 0; /* Añade un margen superior e inferior para separación visual */
+  border: 1px solid red; /* Cambia el color de la barra horizontal a rojo */
+  margin: 10px 0; /* Añade un margen superior e inferior para separación visual */
   }
 
+.container1{
+  text-align: center;
+}
 
     </style>
 </head>
 
   <!--Menu Principal-->
+
 <body>
 <div class="fijo">
 <nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
@@ -93,12 +91,10 @@ hr {
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="nosotros.php">NOSOTROS</a>
               </li>
-<li class="nav-item">
+              <li class="nav-item">
               <div class="dropdown">
-                <a class="nav-link"
-                <button class="btn dropdown-toggle "  type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link" class="btn dropdown-toggle "  type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                   SERVICIOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
-                </button>
               </a>
                 <ul  class="dropdown-menu dropdown-menu-danger" >
                   <li><a class="dropdown-item" href="cotizacion.php"><i class="fa-solid fa-tag" style="color: #e40c0c;" ></i> &nbsp;COTIZACIÓN</a></li>
@@ -108,10 +104,8 @@ hr {
                 <a class="nav-link active"  aria-current="page" href="contacto.php">CONTACTO</a>
               </li>
               <div class="dropdown" >
-                <a class="nav-link"
-                <button class="btn dropdown-toggle" type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link" class="btn dropdown-toggle" type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                   PRODUCTOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
-                </button>
               </a>
               <ul  class="dropdown-menu dropdown-menu-danger" >
                 <li> <a class="dropdown-item" href="productos.php">  <i class="fa-solid fa-list" style="color: #e40c0c;"></i> 
@@ -142,12 +136,7 @@ hr {
 </div>
 
 <!--Espacio menu - contenido-->
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-   <br>
+    <br><br><br><br><br><br>
       
 <!--Texto e imagen para cotizacion-->
       <div class="container">
@@ -155,21 +144,21 @@ hr {
           <div class="col-md-7">
             <h1 class="featurette-heading">COTIZACIÓNES<span class="text-muted"></span></h1>
             <hr>
-              <img src="img/cot.png" class="mw-100 rounded"  alt="Cotizacion" >
+            <img src="img/cot.png" class="mw-100 rounded"  alt="Cotizacion" >
           </div>
         </div>
 
         <!--Link directo a whatsapp-->
-        <div id="whatsapp-button">
+  <div id="whatsapp-button">
   <a href="https://api.whatsapp.com/send?phone=8293426347" title="Cotización via Whatsapp" style="background-color: transparent;" target="_blank">
-  <i class="fa-brands fa-whatsapp fa-2xl" style="color: #2def1f;"></i>
-  </a>
+  <i class="fa-brands fa-whatsapp fa-2xl" style="color: #2def1f;"></i></a>
 </div>
 
 <hr>
 
 <!--Formulario de cotizacion en linea-->
-<center>
+
+<div class="container1">
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-6">
@@ -197,7 +186,7 @@ hr {
                         </div>
                         <div class="d-grid gap-2">
                         <button type="submit" class="btn btn-danger">Enviar</button>
-</div>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -205,41 +194,39 @@ hr {
     </div>
 </div>
 
-          <hr class="featurette-divider">
+<hr class="featurette-divider">
 
-
-        <div class="container">
-       
-          <h5>*Los precios pueden estar sujetos a cambios.</h5>
-
+<div class="container">
+<h5>*Los precios pueden estar sujetos a cambios.</h5>
+</div>
           
           <!--Pie de pagina-->
         
-        <footer class="pie_pagina rounded" style="background-color: #CA0403;" >
-        <br>
-        <div class="container" style="color:#fff" >
-        <h4 style="color:#fff" >SIGUENOS!</h4>
-        <li class="nav-link">
-        <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" title="Instagram" target="_blank" rel="noopener">
-        <i class="fa-brands fa-instagram " style="color: #f7f7f8;"></i></a>
-        &nbsp;
-        <a href="https://www.youtube.com/@FerreteriaJotta-R" title="YouTube" target="_blank" rel="noopener" >
-        <i class="fa-brands fa-youtube" style="color: #f6f7f9;"></i></a>
-        &nbsp;
-        <a href="https://www.facebook.com/ferreteriajotta.r" title="Facebook" target="_blank" rel="noopener">
-        <i class="fa-brands fa-facebook " style="color: #fafafa;"></i></a>
+    <footer class="pie_pagina rounded" style="background-color: #CA0403;" >
+      <br>
+      <div class="container" style="color:#fff" >
+      <h4 style="color:#fff" >SIGUENOS!</h4>
+      <li class="nav-link">
+      <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" title="Instagram" target="_blank" rel="noopener">
+      <i class="fa-brands fa-instagram " style="color: #f7f7f8;"></i></a>
+      &nbsp;
+      <a href="https://www.youtube.com/@FerreteriaJotta-R" title="YouTube" target="_blank" rel="noopener" >
+      <i class="fa-brands fa-youtube" style="color: #f6f7f9;"></i></a>
+      &nbsp;
+      <a href="https://www.facebook.com/ferreteriajotta.r" title="Facebook" target="_blank" rel="noopener">
+      <i class="fa-brands fa-facebook " style="color: #fafafa;"></i></a>
       &nbsp;
       <a href="https://www.google.com/search?q=Ferreteria+JOTTA-R&stick=H4sIAAAAAAAA_-NgU1I1qLBITTQ1M0wztDQ0SjIxTjO3MqhINDYxsbAwNEu1SDGwNDcyW8Qq5JZaVJRaklqUmajg5R8S4qgbBAAQ6KcnPgAAAA&hl=es-419&mat=CS9Gc3mrRgX2ElYBeenfiIAh5igBiDrIRyrwST16V58WjeUQyJWsRdYAwl0L1aKSbOQrvobhDCa6aLXzNrRo0kaKEixRIi20u2cAa5uAb6NCnLQEUTLQZ32wA0zTybq_9g&authuser=0" title="Perfil de negocio" target="_blank" rel="noopener">
       <i class="fa-solid fa-shop" style="color: #eceff3;"></i></a>
       </a>
-          <div class="container" style="color:#fff" >
-          <br>
-          <hr style="border: 1px solid white;">
-              &copy; 2024 - <b> Ferreteria Jotta-R </b> - Todos los Derechos Reservados 
-            </a>
-            </div>
-          </nav>
-          </div>
+      <div class="container" style="color:#fff" >
+      <br>
+      <hr style="border: 1px solid white;"> &copy; 2024 - <b> Ferreteria Jotta-R </b> - Todos los Derechos Reservados 
+      </a>
+      </div>
+      </nav>
+      </div>
       </footer>
-      </body>
-      </html>
+
+</body>
+</html>

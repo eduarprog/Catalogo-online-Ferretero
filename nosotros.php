@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
     <script src="https://kit.fontawesome.com/f97fcd2c02.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logob2.png">
     <title>Nosotros | Ferretería Jotta-R</title>
     <style>
 body {
@@ -69,74 +67,66 @@ hr {
     margin: 10px 0; /* Añade un margen superior e inferior para separación visual */
   }
 
+.container1{
+  text-align: center;
+}
+
     </style>
 </head>
 
-  <!--Menu Principal-->
+      <!--Menu Principal-->
 
 <body>
   <div class="fijo">
     <nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
-        <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
-        <li class="nav-link">
-          <a href="inicio.php"  ><img src="img/logob2.png" width="90" height="90"></img></a>
-          </li>
-        <div class="container">
-          <a class="navbar-brand" href="inicio.php">INICIO</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="nosotros.php">NOSOTROS</a>
-              </li>
-              <li class="nav-item">
-              <div class="dropdown">
-                <a class="nav-link" class="btn dropdown-toggle "  type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  SERVICIOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
-              </a>
-              <ul  class="dropdown-menu dropdown-menu-danger" >
-                  <li><a class="dropdown-item" href="cotizacion.php"><i class="fa-solid fa-tag" style="color: #e40c0c;" ></i> &nbsp; COTIZACION</a></li>
-                </ul>
-              </div>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="contacto.php">CONTACTO</a>
-              </li>
-              <div class="dropdown" >
-                <a class="nav-link" class="btn dropdown-toggle" type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  PRODUCTOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
-              </a>
-                <ul  class="dropdown-menu dropdown-menu-danger" >
-                <li> <a class="dropdown-item" href="productos.php">  <i class="fa-solid fa-list" style="color: #e40c0c;"></i> 
-                &nbsp;   TODOS
-                </a></li>
-                  <li><a class="dropdown-item" href="hogar.php"><i class="fa-solid fa-house" style="color: #e40c0c;"></i> &nbsp;   HOGAR</a></li>
-                  <li><a class="dropdown-item" href="plomeria.php"> <i class="fa-solid fa-toilet" style="color: #e40c0c;"></i> &nbsp; PLOMERIA</a></li>
-                  <li><a class="dropdown-item" href="pinturas.php"> <i class="fa-solid fa-palette" style="color: #e40c0c;"></i> &nbsp; PINTURAS</a></li>
-                  <li><a class="dropdown-item" href="electricos.php"> <i class="fa-solid fa-bolt" style="color: #e40c0c;"></i> &nbsp; ELÉCTRICOS</a></li>
-                  <li><a class="dropdown-item" href="construccion.php"> <i class="fa-solid fa-person-digging"  style="color: #e40c0c;"></i> &nbsp;CONSTRUCCIÓN</a></li>
-                  <li><a class="dropdown-item" href="bombillos.php"><i class="fa-solid fa-lightbulb"  style="color: #e40c0c;"></i> &nbsp; BOMBILLOS</a></li>
-                </ul>
-              </div>
-              
-            </ul>
-          </ul>
-            
-            <li class="navbar-nav">
-            <i class="fa-solid fa-handshake" style="color: #fcfcfd;"></i>
-            &nbsp; &nbsp;
-            <i class="fa-solid fa-layer-group" style="color: #f1f4f8;"></i>
-            &nbsp; &nbsp;
-            <i class="fa-solid fa-shop" style="color: #ffffff;"></i>
-            &nbsp; &nbsp;
-            <i class="fa-solid fa-circle-info" style="color: #f3f4f7;"></i>
-             </li>
-          </div>
-        </div>
-      </nav>
-      </div> 
-    </div>
+       <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
+       <li class="nav-link">
+       <a href="inicio.php"  ><img src="img/logob2.png" width="90" height="90"></img></a>
+       </li>
+       <div class="container">
+       <a class="navbar-brand" href="inicio.php">INICIO</a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       <li class="nav-item">
+       <a class="nav-link active" aria-current="page" href="nosotros.php">NOSOTROS</a>
+       </li>
+       <li class="nav-item">
+       <div class="dropdown">
+       <a class="nav-link" class="btn dropdown-toggle "  type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        SERVICIOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
+       </a>
+       <ul  class="dropdown-menu dropdown-menu-danger" >
+       <li><a class="dropdown-item" href="cotizacion.php"><i class="fa-solid fa-tag" style="color: #e40c0c;" ></i> &nbsp; COTIZACION</a></li>
+       </ul>
+       </div>
+       <li class="nav-item">
+       <a class="nav-link active" aria-current="page" href="contacto.php">CONTACTO</a>
+       </li>
+       <div class="dropdown" >
+       <a class="nav-link" class="btn dropdown-toggle" type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+       PRODUCTOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i></a>
+       <ul  class="dropdown-menu dropdown-menu-danger" >
+       <li> <a class="dropdown-item" href="productos.php">  <i class="fa-solid fa-list" style="color: #e40c0c;"></i> &nbsp; TODOS
+       </a></li>
+       <li><a class="dropdown-item" href="hogar.php"><i class="fa-solid fa-house" style="color: #e40c0c;"></i> &nbsp;   HOGAR</a></li>
+       <li><a class="dropdown-item" href="plomeria.php"> <i class="fa-solid fa-toilet" style="color: #e40c0c;"></i> &nbsp; PLOMERIA</a></li>
+       <li><a class="dropdown-item" href="pinturas.php"> <i class="fa-solid fa-palette" style="color: #e40c0c;"></i> &nbsp; PINTURAS</a></li>
+       <li><a class="dropdown-item" href="electricos.php"> <i class="fa-solid fa-bolt" style="color: #e40c0c;"></i> &nbsp; ELÉCTRICOS</a></li>
+       <li><a class="dropdown-item" href="construccion.php"> <i class="fa-solid fa-person-digging"  style="color: #e40c0c;"></i> &nbsp;CONSTRUCCIÓN</a></li>
+       <li><a class="dropdown-item" href="bombillos.php"><i class="fa-solid fa-lightbulb"  style="color: #e40c0c;"></i> &nbsp; BOMBILLOS</a></li>
+       </ul>
+       </div>
+       </ul>
+       </ul>
+       <li class="navbar-nav">
+       <i class="fa-solid fa-handshake" style="color: #fcfcfd;"></i> &nbsp; &nbsp;
+       <i class="fa-solid fa-layer-group" style="color: #f1f4f8;"></i> &nbsp; &nbsp;
+       <i class="fa-solid fa-shop" style="color: #ffffff;"></i> &nbsp; &nbsp;
+       <i class="fa-solid fa-circle-info" style="color: #f3f4f7;"></i>
+       </li></div></div></nav></div></div>
 
       <!--Informacion de la empresa-->
 
@@ -167,49 +157,39 @@ hr {
     
         <hr class="featurette-divider">
     
-        
+         <!-- Informacion de servicios -->
+       
         <div class="row featurette">
         <div class="col-md-7 order-md-2" >
         <h2  class="featurette-heading" ><i class="fa-solid fa-business-time fa-2xs"  style="color: #f20707;"></i>&nbsp;Servicios<span class="text-muted"></span></h2>
-        <p class="lead"></p>
         <h4 class="lead" > - Brindamos al cliente la ayuda y guia a la hora de comprar algun producto.
         <h4 class="lead" > - Ventas al por mayor y al detalle. 
         <h4 class="lead" > - Realizamos cotizaciones de productos via whatsapp.
-        <h4 class="lead" > - Encargamos productos pero con la mitad paga por antelación
-        </div>
+        <h4 class="lead" > - Encargamos productos pero con la mitad paga por antelación </div>
         <div class="col-md-5 order-md-1">
         <img src="img/servicio1.png" class="rounded mx-auto d-block"  width="200" height="200" >
-          </div>
         </div>
-   
+        </div>
+       
         <hr class="featurette-divider">
 
-    <div class="container">
-    <div class="row featurette">
-      <div class="col-md-7">
-      
+        <!-- Informacion de novedades -->
+
+        <div class="container1">
+        <div class="row featurette">
+        <div class="col-md-7">
         <h2 class="featurette-heading"><i class="fa-solid fa-wand-magic-sparkles fa-2xs" style="color: #e01515;"></i> &nbsp;Novedades <span class="text-muted"></span></h2>
-      
-        <p class="lead"></p>
-        
-        <h4 class="lead">
-          - Aceptamos efectivo y tarjeta de credito.
-          <h4 class="lead">
-            - Abrimos los dias feriados hasta las 12PM.
-            <h4 class="lead">
-              - Estamos tambien respondiendo sus inquietudes por instagram y facebook.
-              <h4 class="lead">
-                - Proximamente estaremos realizando envios en materiales de construcción.
-        
-      </div>
-      
+        <h4 class="lead"> - Aceptamos efectivo y tarjeta de credito.
+        <h4 class="lead"> - Abrimos los dias feriados hasta las 12PM.
+        <h4 class="lead"> - Estamos tambien respondiendo sus inquietudes por instagram y facebook.
+        <h4 class="lead"> - Proximamente estaremos realizando envios en materiales de construcción. </div>
+
+        <!-- Carrusel de imagenes-->
+
       <div class="col-md-5">
-        <center>
-          <h2 class="featurette-heading"><i class="fa-solid fa-image fa-2xs" style="color: #da0707;"></i> &nbsp;Galeria<span class="text-muted"></span></h2>
-        </center>
-        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
-          
-          <div class="carousel-indicators">
+       <h2 class="featurette-heading"><i class="fa-solid fa-image fa-2xs" style="color: #da0707;"></i> &nbsp;Galeria<span class="text-muted"></span></h2>
+       <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">   
+       <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -224,56 +204,48 @@ hr {
               <img  src="img/frente.jpg" width="400px"  height="400px" class="d-block w-100 rounded" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Almacen</h5>
-                
               </div>
             </div>
             <div class="carousel-item">
               <img src="img/p2.jpeg" class="d-block w-100 rounded" width="400px"  height="400px" alt="Imagen de local">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Local</h5>
-                
               </div>
             </div>
             <div class="carousel-item">
               <img src="img/f2.jpg" class="d-block w-100 rounded" width="400px"  height="400px" alt="Imagen de local">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Electricos</h5>
-                
               </div>
             </div>
             <div class="carousel-item">
               <img src="img/Frente.logosg.JPG" class="d-block w-100 rounded" width="400px"  height="400px" alt="Imagen de local">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Local | Productos</h5>
-                
               </div>
             </div>
             <div class="carousel-item">
               <img src="img/PActualizado.jpg" class="d-block w-100 rounded" width="400px"  height="400px" alt="Imagen de local">
               <div class="carousel-caption d-none d-md-block">
                 <h5> Pinturas</h5>
-                
               </div>
             </div>
             <div class="carousel-item">
               <img src="img/tinaco.jpg" class="d-block w-100 rounded" width="400px"  height="400px" alt="Imagen de local">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Tinacos</h5>
-                
               </div>
             </div>
             <div class="carousel-item">
               <img src="img/Lateral1.jpeg" class="d-block w-100 rounded" width="400px"  height="400px" alt="Imagen de local">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Lateral | Productos</h5>
-                
               </div>
             </div>
             <div class="carousel-item">
               <img src="img/LateralFJ.jpg" class="d-block w-100 rounded" width="400px"  height="400px" alt="Imagen de local">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Lateral 2 | Productos</h5>
-                
               </div>
             </div>
           </div>
@@ -289,35 +261,29 @@ hr {
       </div>
     </div>
     <br>
-   <!--Pie de pagina-->
 
-   <center>
+      <!--Pie de pagina-->
+
       <footer class="border-top footer text-muted rounded" style="background-color: #CA0403;">
-      
       <br>
-      <div class="container" style="color:#fff" >
-        <h4 style="color:#fff" >SIGUENOS!</h4>
+      <div class="container1" style="color:#fff;">
+        <h4 style=" color:#fff;" >SIGUENOS!</h4>
         <li class="nav-link">
         <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" title="Instagram" target="_blank" rel="noopener">
-        <i class="fa-brands fa-instagram " style="color: #f7f7f8;"></i></a>
-        &nbsp;
+        <i class="fa-brands fa-instagram " style="color: #f7f7f8;"></i></a> &nbsp;
         <a href="https://www.youtube.com/@FerreteriaJotta-R" title="YouTube" target="_blank" rel="noopener" >
-        <i class="fa-brands fa-youtube" style="color: #f6f7f9;"></i></a>
-        &nbsp;
+        <i class="fa-brands fa-youtube" style="color: #f6f7f9;"></i></a> &nbsp;
         <a href="https://www.facebook.com/ferreteriajotta.r" title="Facebook" target="_blank" rel="noopener">
-        <i class="fa-brands fa-facebook " style="color: #fafafa;"></i></a>
-      &nbsp;
-      <a href="https://www.google.com/search?q=Ferreteria+JOTTA-R&stick=H4sIAAAAAAAA_-NgU1I1qLBITTQ1M0wztDQ0SjIxTjO3MqhINDYxsbAwNEu1SDGwNDcyW8Qq5JZaVJRaklqUmajg5R8S4qgbBAAQ6KcnPgAAAA&hl=es-419&mat=CS9Gc3mrRgX2ElYBeenfiIAh5igBiDrIRyrwST16V58WjeUQyJWsRdYAwl0L1aKSbOQrvobhDCa6aLXzNrRo0kaKEixRIi20u2cAa5uAb6NCnLQEUTLQZ32wA0zTybq_9g&authuser=0" title="Perfil de negocio" target="_blank" rel="noopener">
-      <i class="fa-solid fa-shop" style="color: #eceff3;"></i></a>
-      </a>
-        <div class="container" style="color: #fff;">
-          <br>
+        <i class="fa-brands fa-facebook " style="color: #fafafa;"></i></a> &nbsp;
+        <a href="https://www.google.com/search?q=Ferreteria+JOTTA-R&stick=H4sIAAAAAAAA_-NgU1I1qLBITTQ1M0wztDQ0SjIxTjO3MqhINDYxsbAwNEu1SDGwNDcyW8Qq5JZaVJRaklqUmajg5R8S4qgbBAAQ6KcnPgAAAA&hl=es-419&mat=CS9Gc3mrRgX2ElYBeenfiIAh5igBiDrIRyrwST16V58WjeUQyJWsRdYAwl0L1aKSbOQrvobhDCa6aLXzNrRo0kaKEixRIi20u2cAa5uAb6NCnLQEUTLQZ32wA0zTybq_9g&authuser=0" title="Perfil de negocio" target="_blank" rel="noopener">
+        <i class="fa-solid fa-shop" style="color: #eceff3;"></i></a>
+        </a>
+        <div class="container1" style="color: #fff;">
+        <br>
         <hr style="border: 1px solid white;">
-            &copy; 2024 - <b> Ferreteria Jotta-R </b>- Todos los derechos reservado</a>
-        </center>
-        </div>
+        &copy; 2024 - <b> Ferreteria Jotta-R </b>- Todos los derechos reservado</a>
+     </div>
     </footer>
-    </div>
     
 </body>
 </html>

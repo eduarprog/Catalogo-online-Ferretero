@@ -94,7 +94,7 @@ body::-webkit-scrollbar-thumb:hover{
 hr {
     border: 1px solid red; /* Cambia el color de la barra horizontal a rojo */
     margin: 10px 0; /* Añade un margen superior e inferior para separación visual */
-  }
+}
 
     </style>
 </head>
