@@ -95,11 +95,10 @@ hr {
     border: 1px solid red; /* Cambia el color de la barra horizontal a rojo */
     margin: 10px 0; /* Añade un margen superior e inferior para separación visual */
 }
-
     </style>
 </head>
 
-  <!--Menu Principal-->
+     <!--Menu Principal-->
 
 <body>
 <div class="fijo">

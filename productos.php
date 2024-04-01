@@ -1,43 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- ... Resto de las etiquetas HEAD ... -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  
     <script src="https://kit.fontawesome.com/f97fcd2c02.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
     <title>Productos | Ferreteria Jotta-R</title>
     <style>
-
-      body {
-        font-family: 'Crimson Pro', serif;
-        font-size: 20px;
-        zoom: 75%;
-        background-image: linear-gradient(135deg,
-       #CA0403, #CA0403, #CA0403, #CA0403, #fff);
-        background-size: 500%;
-        
-        
-      }
-
-      .fijo {
-      
-  position: fixed;
-z-index: 9999;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  
-  
+body {
+   font-family: 'Crimson Pro', serif;
+   font-size: 20px;
+   zoom: 75%;
+   background-color: #CA0403;
 }
 
-
+.fijo {
+  position: fixed;
+  z-index: 9999;
+  min-width: 100%;
+}
 
 .fijo ul li a {
   display: block;
@@ -46,7 +31,6 @@ z-index: 9999;
   color: #333;
 }
 
-
 a:hover{
   color: #fd0839;
   text-decoration: none;
@@ -54,24 +38,19 @@ a:hover{
   align-content: center;
 }
 
-
-
 .card{
-  
   border: none;
   background: #fff;
-  
-  
-
 }
+
 .search {
   width: 100%;
-      margin-bottom: auto;
-    margin-top: 20px;
-    height: 50px;
-        background-color: #fff;
-    padding: 10px;
-    border-radius: 15px;
+  margin-bottom: auto;
+  margin-top: 20px;
+  height: 50px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 15px;
 }
 
 .search-input {
@@ -96,16 +75,9 @@ a:hover{
     transition: width 0.4s linear;
 }
 
-
-
-
-
 a:link {
     text-decoration: none;
 }
-
-
-
 
 .card-inner {
     position: relative;
@@ -122,29 +94,15 @@ a:link {
     transition: all 2s;
 }
 
-
 .card-inner:hover{
-
    transform: scale(1.1);
-
 }
 
-.mg-text span{
-
-  font-size: 12px;
-
-}
-
-.mg-text{
-
-  line-height: 14px;
-}
 .container .card{
   border-radius: 8px;
   box-shadow: 0 2px 2px rgba(0,0,0,0.2);
   overflow: hidden;
   transition: all 0.25s;
-
 }
 
 .aa{
@@ -159,148 +117,132 @@ a:link {
   border-radius: 20px;
 }
 
-
 .card:hover{
   transform: scale(1.05);
   box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
 }
+
 .aa:hover{
   opacity: 2;
 }
+
 .modal fade{
   pointer-events: none;
 }
+
 .d-flex{
   pointer-events: auto;
 }
+
 .navbar-brand{
   pointer-events: auto;
 }
+
 .nav-link{
   pointer-events: auto;
 }
 
-
 body::-webkit-scrollbar{
   width: 11px;
 }
+
 body::-webkit-scrollbar-thumb{
   background: #CA0403;
   border-radius: 6px;
 }
+
 body::-webkit-scrollbar-thumb:hover{
   background: #B7B6B5;
-  
 }
+
 hr {
     border: 1px solid white; /* Cambia el color de la barra horizontal a rojo */
     margin: 10px 0; /* Añade un margen superior e inferior para separación visual */
   }
 
+.container1{
+  text-align:  center;
+} 
     </style>
 </head>
+
+     <!--Menu Principal-->
+
 <body>
 <div class="fijo">
-<nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
         <li class="nav-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Ferreteria Jotta-R" >
-          <a  href="inicio.php" ><img src="img/logob2.png" width="90" height="90"></img></a>
-          </li>
-         
+        <a  href="inicio.php" ><img src="img/logob2.png" width="90" height="90"></img></a></li>
         <div class="container">
-        
-          <a   class="navbar-brand" href="inicio.php" >INICIO</a>
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="nosotros.php">NOSOTROS</a>
-              </li>
-<li class="nav-item">
-              <div class="dropdown">
-                <a class="nav-link"
-                <button class="btn dropdown-toggle "  type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  SERVICIOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
-                </button>
-              </a>
-                <ul  class="dropdown-menu dropdown-menu-danger" >
-                  <li><a class="dropdown-item" href="cotizacion.php"><i class="fa-solid fa-tag" style="color: #e40c0c;" ></i> &nbsp; COTIZACION</a></li>
-                </ul>
-              </div>
-              <li class="nav-item">
-                <a class="nav-link active"  aria-current="page" href="contacto.php"> CONTACTO</a>
-              </li>
-              <div class="dropdown" >
-                <a class="nav-link"
-                <button class="btn dropdown-toggle" type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  PRODUCTOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
-                </button>
-              </a>
-              
-                <ul  class="dropdown-menu dropdown-menu-danger" >
-                <li> <a class="dropdown-item" href="productos.php">  <i class="fa-solid fa-list" style="color: #e40c0c;"></i> 
-                &nbsp;   TODOS
-                </a></li>
-                  <li><a class="dropdown-item" href="hogar.php"><i class="fa-solid fa-house" style="color: #e40c0c;"></i> &nbsp;   HOGAR</a></li>
-                  <li><a class="dropdown-item" href="plomeria.php"> <i class="fa-solid fa-toilet" style="color: #e40c0c;"></i> &nbsp; PLOMERIA</a></li>
-                  <li><a class="dropdown-item" href="pinturas.php"> <i class="fa-solid fa-palette" style="color: #e40c0c;"></i> &nbsp; PINTURAS</a></li>
-                  <li><a class="dropdown-item" href="electricos.php"> <i class="fa-solid fa-bolt" style="color: #e40c0c;"></i> &nbsp; ELÉCTRICOS</a></li>
-                  <li><a class="dropdown-item" href="construccion.php"> <i class="fa-solid fa-person-digging"  style="color: #e40c0c;"></i> &nbsp;CONSTRUCCIÓN</a></li>
-                  <li><a class="dropdown-item" href="bombillos.php"><i class="fa-solid fa-lightbulb"  style="color: #e40c0c;"></i> &nbsp; BOMBILLOS</a></li>
-                </ul>
-              </div>
-              
+        <a class="navbar-brand" href="inicio.php" >INICIO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="nosotros.php">NOSOTROS</a></li>
+        <li class="nav-item">
+        <div class="dropdown">
+        <a class="nav-link" class="btn dropdown-toggle "  type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        SERVICIOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-danger" >
+        <li><a class="dropdown-item" href="cotizacion.php"><i class="fa-solid fa-tag" style="color: #e40c0c;" ></i> &nbsp; COTIZACION</a></li></ul>
+        </div>
+        <li class="nav-item">
+        <a class="nav-link active"  aria-current="page" href="contacto.php"> CONTACTO</a></li>
+        <div class="dropdown" >
+        <a class="nav-link" class="btn dropdown-toggle" type="button" style="color: #fff;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        PRODUCTOS <i class="fa-sharp fa-solid fa-chevron-up fa-rotate-180 fa-xs" style="color: #f7f7f7;"></i>
+        </a>
+         <ul  class="dropdown-menu dropdown-menu-danger" >
+         <li> <a class="dropdown-item" href="productos.php">  <i class="fa-solid fa-list" style="color: #e40c0c;"></i> 
+          &nbsp;TODOS</a></li>
+               <li><a class="dropdown-item" href="hogar.php"><i class="fa-solid fa-house" style="color: #e40c0c;"></i> &nbsp; HOGAR</a></li>
+               <li><a class="dropdown-item" href="plomeria.php"> <i class="fa-solid fa-toilet" style="color: #e40c0c;"></i> &nbsp; PLOMERIA</a></li>
+               <li><a class="dropdown-item" href="pinturas.php"> <i class="fa-solid fa-palette" style="color: #e40c0c;"></i> &nbsp; PINTURAS</a></li>
+               <li><a class="dropdown-item" href="electricos.php"> <i class="fa-solid fa-bolt" style="color: #e40c0c;"></i> &nbsp; ELÉCTRICOS</a></li>
+               <li><a class="dropdown-item" href="construccion.php"> <i class="fa-solid fa-person-digging"  style="color: #e40c0c;"></i> &nbsp; CONSTRUCCIÓN</a></li>
+               <li><a class="dropdown-item" href="bombillos.php"><i class="fa-solid fa-lightbulb"  style="color: #e40c0c;"></i> &nbsp; BOMBILLOS</a></li>
+               </ul>
+               </div>
             </ul>
           </ul>
             
-          
-               
-  
-
-          
-      <form class="d-flex" id="form3" name="form3"  method="POST">
-              <select style="color: #CA0403;" class="btn btn-light dropdown-toggle"  data-bs-toggle="dropdown" class="form-select" aria-label="Default select example"  name="buscar" >
-                
-              <option   selected  >Categorias</option>
-  <option value="Hogar">Hogar</option>
-  <option value="Plomeria">Plomeria</option>
-  <option value="Pinturas">Pinturas</option>
-  <option value="Electricos">Electricos</option>
-  <option value="Construcción">Construcción</option>
-  <option value="Bombillos">Bombillos</option>
-  <div class="space">
-  </div>
+       <!--Filtro por categoria-->
+      
+<form class="d-flex" id="form3" name="form3"  method="POST">
+     <select style="color: #CA0403;" class="btn btn-light dropdown-toggle"  data-bs-toggle="dropdown" class="form-select" aria-label="Default select example"  name="buscar" >
+            <option   selected  >Categorias</option>
+            <option value="Hogar">Hogar</option>
+            <option value="Plomeria">Plomeria</option>
+            <option value="Pinturas">Pinturas</option>
+            <option value="Electricos">Electricos</option>
+            <option value="Construcción">Construcción</option>
+            <option value="Bombillos">Bombillos</option>
               <input style="margin-left: 10px"  class="btn btn-outline-light" value="Filtrar"  data-bs-placement="top" type="submit"></button>
             </form>
           </div>
         </div>
-      
-   
-              
-
       </nav>
-
 </div>
 
-<br>
-<br>
-<br>
+<br><br><br>
+
+      <!--Barra de busqueda-->
 
 <form class="d-flex" id="form2" name="form2"  method="POST">
     <div class="container mt-4">
         <div class="row d-flex justify-content-center">
             <div class="col-md-9">
                 <div class="1card p-2 mt-2">
-                    <a href="productos.php" title="Actualizar" class="fa-solid fa-spin fa-arrows-rotate " style=" background-color: transparent; color: #fff;"></a>
+                    <a href="productos.php" class="fa-solid fa-spin fa-arrows-rotate " style=" background-color: transparent; color: #fff;"></a>
                     <div class="d-flex justify-content-center px-5">
-                    
                         <div class="search" style=" border: 3px solid darkred;">
                          <input  type="search"  class="search-input" name="buscar" placeholder="¿Qué estás buscando?">                           
                             <br>
                         </div>
-                        
                     </div>
                 </div>
             </div>
@@ -308,12 +250,9 @@ hr {
     </div>
 </form>
 
-<br>
-<br>
-
+<br><br>
 
 <?php
-
 require 'conexion.php';
 $conexion = conexion();
 $por_pagina = 9;
@@ -331,67 +270,42 @@ if (!empty($_POST['buscar'])) {
 } else {
   
   $sql="SELECT * FROM registro LIMIT $empieza,$por_pagina";
-  
 }
 
 $query = mysqli_query($conexion, $sql);
 $resultados_encontrados = false;
 ?>
-
 <div class="container">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <?php
-        
         if ($query) {
             if (mysqli_num_rows($query) > 0) {
                 while ($data = mysqli_fetch_assoc($query)) {
                     $resultados_encontrados = true;
-                    // ... Tu código para mostrar los resultados ...
-                    
+                    // Consulta de los resultados 
                     ?>
                     <div class="col">
-                      
-                        <div class="card shadow-sm " style="max-width: 265px; border-radius: 15px;  border: 3px solid darkred;  ">
-                            <center>
-                              <br>
-                            <h5 class="card-title"><b><?php echo $data['Nombre'] ?></b></h5><br>
-                                <img alt="Imagen de producto" class="card-img-top"  width="135" height="135" src="<?php echo $data['ImgRuta']?>">
-                            </center>
-                            
-                            <div class="card-body">
-                                <center>
-                                    
-                                    <h5 class="card-title"><?php echo $data['Descripcion'] ?></h5>
-                                </center>
-                                <hr style="border: 1px solid #000;">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        
-                                    </div>
-                                    <h2 style="visibility:hidden" ><?php echo $data['categoria']?></h2>
-                                    <p class="card-text" style="color:green"> <b> <?php echo $data ['precio'] ?>$RD  </b></p>
-                                    
-                                </div>
-                                
-                            </div>
-                          
-                           
-                        </div>
-                        
+                    <div class="container1">
+                    <div class="card shadow-sm" style="max-width: 265px; border-radius: 15px;  border: 3px solid darkred;">
+                    <br>
+                    <h5 class="card-title"><b><?php echo $data['Nombre'] ?></b></h5><br>
+                    <img alt="Imagen de producto" class="card-img-top"  width="135" height="135" src="<?php echo $data['ImgRuta']?>">
+                    <div class="card-body">
+                    <h5 class="card-title"><?php echo $data['Descripcion'] ?></h5>
                     </div>
-
-                    
-                    
-                    <?php
-                }
-            } else {
-               
-            }
-        } else {
-            
-        }
-        
-        ?>
+                    <hr style="border: 1px solid #000;">
+                    <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group"> 
+                    </div>
+                    <h2 style="visibility:hidden" ><?php echo $data['categoria']?></h2>
+                    <p class="card-text" style="color:green"> <b> <?php echo $data ['precio'] ?>$RD &nbsp; </b></p>  
+                    </div>
+                </div> 
+              </div>
+            </div>
+            <?php
+                }}}
+                ?>
         
        
     </div>
@@ -431,16 +345,16 @@ echo "<br><center>";
 echo"<hr>";
 echo "<h5 style='color:#fff'><br>*Los precios mostrados en esta página pueden variar sin previo aviso.<br></h5>";
 ?>
+
 <br>
 <hr>
-    <br>
-    <center>
+<br>
+    <div class="container1">
       <h3 style="color:#EAECEC"><i class="fa-solid fa-wand-magic-sparkles fa-2xs" style="color: #EAECEC;"></i> &nbsp;<b>Novedades</b></h3>
-    </center>
-    <br>
-
+     </div>
+<br>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
+    <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="img/novedades1.png" class="d-block w-100" class="rounded" width="500px"  height="500px" alt="...">
     </div>
@@ -459,9 +373,9 @@ echo "<h5 style='color:#fff'><br>*Los precios mostrados en esta página pueden v
   </div>
 </div>
 
-<br>
+<br><br>
 
-    <br>
+     <!--Pie de pagina-->
 
 <center>
       <footer class="border-top footer text-muted" style="background-color: #CA0403;">
@@ -495,7 +409,7 @@ echo "<h5 style='color:#fff'><br>*Los precios mostrados en esta página pueden v
         </div>
     </footer>
     </div>
-    <!--Pie de pagina-->
+   
 
 </div>
 

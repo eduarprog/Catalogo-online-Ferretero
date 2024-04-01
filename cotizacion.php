@@ -69,11 +69,10 @@ hr {
 .container1{
   text-align: center;
 }
-
     </style>
 </head>
 
-  <!--Menu Principal-->
+     <!--Menu Principal-->
 
 <body>
 <div class="fijo">

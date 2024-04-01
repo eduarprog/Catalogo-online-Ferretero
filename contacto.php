@@ -11,7 +11,6 @@
     <link rel="shortcut icon" href="img/logob2.png">
     <title>Contacto | Ferretería Jotta-R</title>
     <style>
-
 body {
   font-family: 'Crimson Pro', serif;
   font-size: 20px;
@@ -133,11 +132,10 @@ hr{
 .container1{
   text-align:  center;
 }
-
     </style>
 </head>
  
-<!--Menu Principal-->
+     <!--Menu Principal-->
 
 <body>
 <div class="fijo">
