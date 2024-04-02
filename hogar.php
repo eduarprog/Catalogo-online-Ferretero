@@ -431,12 +431,11 @@ echo "<h5 style='color:#fff'><br>*Los precios mostrados en esta página pueden v
 
     <br>
 
+      <!--Pie de pagina-->
+
 <center>
       <footer class="border-top footer text-muted" style="background-color: #CA0403;">
-      
       <br>
-     
-        
       <div class="container" style="color:#fff" >
         <h4 style="color:#fff" >SIGUENOS!</h4>
         <li class="nav-link">
@@ -463,11 +462,9 @@ echo "<h5 style='color:#fff'><br>*Los precios mostrados en esta página pueden v
         </div>
     </footer>
     </div>
-    <!--Pie de pagina-->
+  
 
 </div>
-
-<!-- ... El pie de página y otros elementos HTML ... -->
 
 </body>
 </html>

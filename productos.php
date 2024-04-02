@@ -221,7 +221,7 @@ hr {
             <option value="Electricos">Electricos</option>
             <option value="Construcción">Construcción</option>
             <option value="Bombillos">Bombillos</option>
-              <input style="margin-left: 10px"  class="btn btn-outline-light" value="Filtrar"  data-bs-placement="top" type="submit"></button>
+            <input style="margin-left: 10px"  class="btn btn-outline-light" value="Filtrar"  data-bs-placement="top" type="submit"></button>
             </form>
           </div>
         </div>
@@ -252,23 +252,22 @@ hr {
 
 <br><br>
 
-<?php
-require 'conexion.php';
-$conexion = conexion();
+<?php                           
+require 'conexion.php';        // Conexion a base de datos
+$conexion = conexion();      
 $por_pagina = 9;
 
-if (isset($_GET['pagina']))
-    $pagina = $_GET['pagina'];
+if (isset($_GET['pagina']))   // Pagina a mostrar de inicio
+    $pagina = $_GET['pagina']; 
 else
     $pagina = 1;
 
 $empieza = ($pagina - 1) * $por_pagina;
 
-if (!empty($_POST['buscar'])) {
+if (!empty($_POST['buscar'])) {  // Logica para buscador de productos
     $buscar = $_POST['buscar'];
     $sql = "SELECT * FROM registro  WHERE Nombre LIKE '%$buscar%' OR Descripcion LIKE '%$buscar%' OR categoria LIKE '%$buscar%'";
 } else {
-  
   $sql="SELECT * FROM registro LIMIT $empieza,$por_pagina";
 }
 
@@ -282,7 +281,7 @@ $resultados_encontrados = false;
             if (mysqli_num_rows($query) > 0) {
                 while ($data = mysqli_fetch_assoc($query)) {
                     $resultados_encontrados = true;
-                    // Consulta de los resultados 
+                                 // Consulta de los resultados 
                     ?>
                     <div class="col">
                     <div class="container1">
@@ -292,8 +291,8 @@ $resultados_encontrados = false;
                     <img alt="Imagen de producto" class="card-img-top"  width="135" height="135" src="<?php echo $data['ImgRuta']?>">
                     <div class="card-body">
                     <h5 class="card-title"><?php echo $data['Descripcion'] ?></h5>
-                    </div>
                     <hr style="border: 1px solid #000;">
+                    </div>
                     <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group"> 
                     </div>
@@ -306,69 +305,57 @@ $resultados_encontrados = false;
             <?php
                 }}}
                 ?>
-        
-       
-    </div>
-
-    <?php
+           </div>
+  <?php                          // En caso de no encontrar resultados al consultar
     if (!$resultados_encontrados) {
         echo '<center><img src="img/datosno.png" width="360" height="360" ></center>';
     }
     ?>
 
-    <?php
+<?php                            //Paginacion
    $por_pagina=  1;
     $total_registros = mysqli_num_rows($query);
     $total_paginas = ceil($total_registros / $por_pagina);
     
-
     $pagina_actual = isset($_GET['pagina']) ? intval($_GET['pagina']) : 1;
-$empieza = ($pagina + 1);
+    $empieza = ($pagina + 1);
 
-echo "<br><center>";
-
-if ($pagina_actual > 1) {
-    echo "<a title='Atrás' style='margin-left: 10px' class='aa' href='productos.php?pagina=" . ($pagina_actual - 1) . "'>" . '<i class="fa-solid fa-chevron-up fa-rotate-270 fa-2xs" style="color: #CA0403;"></i>' . "</a>";
-}
-
-echo "<a title='Pagina actual' class='aa' style='margin-left: 10px'> " . $pagina_actual  . " / $empieza </a>";
-
-
-if ($pagina_actual < $total_paginas) {
+   echo "<br><center>";
+   if ($pagina_actual > 1) {
+   echo "<a title='Atrás' style='margin-left: 10px' class='aa' href='productos.php?pagina=" . ($pagina_actual - 1) . "'>" . '<i class="fa-solid fa-chevron-up fa-rotate-270 fa-2xs" style="color: #CA0403;"></i>' . "</a>";
+   }
+   echo "<a title='Pagina actual' class='aa' style='margin-left: 10px'> " . $pagina_actual  . " / $empieza </a>";
+    if ($pagina_actual < $total_paginas) {
     echo "<a title='Siguiente' class='aa' style='margin-left: 10px' href='productos.php?pagina=" . ($pagina_actual + 1) . "'>" . '<i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #CA0403;"></i>' . "</a>";
-}
-
-
-
-echo "</center>";
-echo "<br><center>";
-echo"<hr>";
-echo "<h5 style='color:#fff'><br>*Los precios mostrados en esta página pueden variar sin previo aviso.<br></h5>";
+   }
+   echo "<br><br>
+      <hr><h5 style='color:#fff'><br>*Los precios mostrados en esta página pueden variar sin previo aviso.<br></h5>";
 ?>
 
-<br>
+<br><br>
+
+      <!-- Carrusel de novedades -->
+
 <hr>
-<br>
     <div class="container1">
-      <h3 style="color:#EAECEC"><i class="fa-solid fa-wand-magic-sparkles fa-2xs" style="color: #EAECEC;"></i> &nbsp;<b>Novedades</b></h3>
-     </div>
-<br>
+    <h3 style="color:#EAECEC"><i class="fa-solid fa-wand-magic-sparkles fa-2xs" style="color: #EAECEC;"></i> &nbsp;<b>Novedades</b></h3>
+    </div><br>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/novedades1.png" class="d-block w-100" class="rounded" width="500px"  height="500px" alt="...">
+      <img src="img/novedades1.png" class="d-block w-100" class="rounded" width="500px"  height="500px" alt="Novedades 1">
     </div>
     <div class="carousel-item">
-      <img src="img/novedades2.png" class="d-block w-100" width="500px"  height="500px" alt="...">
+      <img src="img/novedades2.png" class="d-block w-100" width="500px"  height="500px" alt="Novedades 2">
     </div>
     <div class="carousel-item">
-      <img src="img/novedades3.png" class="d-block w-100" width="500px"  height="500px" alt="...">
+      <img src="img/novedades3.png" class="d-block w-100" width="500px"  height="500px" alt="Novedades 3">
     </div>
     <div class="carousel-item">
-      <img src="img/novedades4.png" class="d-block w-100" width="500px"  height="500px" alt="...">
+      <img src="img/novedades4.png" class="d-block w-100" width="500px"  height="500px" alt="Novedades 4">
     </div>
     <div class="carousel-item">
-      <img src="img/novedades5.png" class="d-block w-100" width="500px"  height="500px" alt="...">
+      <img src="img/novedades5.png" class="d-block w-100" width="500px"  height="500px" alt="Novedades 5">
     </div>
   </div>
 </div>
@@ -377,42 +364,29 @@ echo "<h5 style='color:#fff'><br>*Los precios mostrados en esta página pueden v
 
      <!--Pie de pagina-->
 
-<center>
-      <footer class="border-top footer text-muted" style="background-color: #CA0403;">
-      
+<div class="container1">
+    <footer class="border-top footer text-muted" style="background-color: #CA0403;">
       <br>
-     
-        
       <div class="container" style="color:#fff" >
-        <h4 style="color:#fff" >SIGUENOS!</h4>
-        <li class="nav-link">
-        <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" title="Instagram" target="_blank" rel="noopener">
-        <i class="fa-brands fa-instagram " style="color: #f7f7f8;"></i></a>
-        &nbsp;
-        <a href="https://www.youtube.com/@FerreteriaJotta-R" title="YouTube" target="_blank" rel="noopener" >
-        <i class="fa-brands fa-youtube" style="color: #f6f7f9;"></i></a>
-        &nbsp;
-        <a href="https://www.facebook.com/ferreteriajotta.r" title="Facebook" target="_blank" rel="noopener">
-        <i class="fa-brands fa-facebook " style="color: #fafafa;"></i></a>
-      &nbsp;
+      <img style="margin-left: 840px;" width="150" src="img/tarjeta.png" >
+      <h4 style="color:#fff">SIGUENOS!</h4>
+      <li class="nav-link">
+      <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" title="Instagram" target="_blank" rel="noopener">
+      <i class="fa-brands fa-instagram " style="color: #f7f7f8;"></i></a>&nbsp;
+      <a href="https://www.youtube.com/@FerreteriaJotta-R" title="YouTube" target="_blank" rel="noopener" >
+      <i class="fa-brands fa-youtube" style="color: #f6f7f9;"></i></a>&nbsp;
+      <a href="https://www.facebook.com/ferreteriajotta.r" title="Facebook" target="_blank" rel="noopener">
+      <i class="fa-brands fa-facebook " style="color: #fafafa;"></i></a>&nbsp;
       <a href="https://www.google.com/search?q=Ferreteria+JOTTA-R&stick=H4sIAAAAAAAA_-NgU1I1qLBITTQ1M0wztDQ0SjIxTjO3MqhINDYxsbAwNEu1SDGwNDcyW8Qq5JZaVJRaklqUmajg5R8S4qgbBAAQ6KcnPgAAAA&hl=es-419&mat=CS9Gc3mrRgX2ElYBeenfiIAh5igBiDrIRyrwST16V58WjeUQyJWsRdYAwl0L1aKSbOQrvobhDCa6aLXzNrRo0kaKEixRIi20u2cAa5uAb6NCnLQEUTLQZ32wA0zTybq_9g&authuser=0" title="Perfil de negocio" target="_blank" rel="noopener">
       <i class="fa-solid fa-shop" style="color: #eceff3;"></i></a>
-      </a>
-      
-          <div class="container" style="color:#fff" >
-          <br>
-         
-        <hr style="border: 1px solid white;">
-            &copy; 2024 - <b>Ferreteria Jotta-R</b> - Todos los derechos reservado</a> 
-           
-        </center>
-        </div>
-    </footer>
+      <div class="container" style="color:#fff" >
+      <br>
+      <hr style="border: 1px solid white;"> &copy; 2024 - <b>Ferreteria Jotta-R</b> - Todos los derechos reservado</a> 
+     </div>
     </div>
-   
-
+  </div>
+</footer>
 </div>
-
 
 </body>
 </html>

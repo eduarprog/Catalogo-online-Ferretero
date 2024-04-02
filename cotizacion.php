@@ -204,6 +204,7 @@ hr {
     <footer class="pie_pagina rounded" style="background-color: #CA0403;" >
       <br>
       <div class="container" style="color:#fff" >
+      <img style="margin-left: 840px;" width="150" src="img/tarjeta.png" >
       <h4 style="color:#fff" >SIGUENOS!</h4>
       <li class="nav-link">
       <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" title="Instagram" target="_blank" rel="noopener">
