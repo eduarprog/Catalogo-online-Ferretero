@@ -49,19 +49,6 @@ a:hover{
   height: 60px;
 }
 
-body::-webkit-scrollbar{
-  width: 11px;
-}
-
-body::-webkit-scrollbar-thumb{
-  background: #CA0403;
-  border-radius: 6px;
-}
-
-body::-webkit-scrollbar-thumb:hover{
-  background: #B7B6B5;
-}
-
 hr {
     border: 1px solid red; /* Cambia el color de la barra horizontal a rojo */
     margin: 10px 0; /* Añade un margen superior e inferior para separación visual */

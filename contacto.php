@@ -62,18 +62,6 @@ a:hover{
   pointer-events: auto;
 }
 
-body::-webkit-scrollbar{
-  width: 11px;
-}
-
-body::-webkit-scrollbar-thumb{
-  background: #CA0403;
-  border-radius: 6px;
-}
-
-body::-webkit-scrollbar-thumb:hover{
-  background: #B7B6B5;
-}
 .container .card{
   border-radius: 8px;
   box-shadow: 0 2px 2px rgba(0,0,0,0.2);

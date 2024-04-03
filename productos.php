@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/f97fcd2c02.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logob2.png">
     <title>Productos | Ferreteria Jotta-R</title>
     <style>
 body {
@@ -140,19 +140,6 @@ a:link {
 
 .nav-link{
   pointer-events: auto;
-}
-
-body::-webkit-scrollbar{
-  width: 11px;
-}
-
-body::-webkit-scrollbar-thumb{
-  background: #CA0403;
-  border-radius: 6px;
-}
-
-body::-webkit-scrollbar-thumb:hover{
-  background: #B7B6B5;
 }
 
 hr {
@@ -332,7 +319,7 @@ $resultados_encontrados = false;
       <hr><h5 style='color:#fff'><br>*Los precios mostrados en esta página pueden variar sin previo aviso.<br></h5>";
 ?>
 
-<br><br>
+<br>
 
       <!-- Carrusel de novedades -->
 

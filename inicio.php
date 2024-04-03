@@ -52,20 +52,6 @@ a:hover{
   pointer-events: auto;
 }
 
-body::-webkit-scrollbar{
-  width: 11px;
-}
-
-body::-webkit-scrollbar-thumb{
-  background: #CA0403;
-  border-radius: 6px;
-}
-
-body::-webkit-scrollbar-thumb:hover{
-  background: #B7B6B5;
-  
-}
-
 .container .card{
   border-radius: 8px;
   box-shadow: 0 2px 2px rgba(0,0,0,0.2);
@@ -319,7 +305,8 @@ hr {
           <br><br><br><br><br><br><br><br><br><br>
           Ir a la pagina de instagram para mas información: <li class="nav-link">
         <a href="https://www.instagram.com/ferreteriajotta.ralpordetalle/?hl=es-la" title="Instagram" target="_blank" rel="noopener">
-        <i class="fa-brands fa-instagram " style="color: #CA0403;"></i></a>
+          <br>
+        <i class="fa-brands fa-instagram fa-xl" style="color: #CA0403;"></i></a>
       </div>
       <div class="col-md-5">
         <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
