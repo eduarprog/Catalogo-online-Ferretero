@@ -339,7 +339,7 @@ $resultados_encontrados = false;
       <br>
       <div class="container" style="color:#fff" >
       <img style="margin-left: 840px;" width="150" src="img/tarjeta.png" >
-      <h4 style="color:#fff">SIGUENOS!</h4>
+      
       <li class="nav-link">
       <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" title="Instagram" target="_blank" rel="noopener">
       <i class="fa-brands fa-instagram " style="color: #f7f7f8;"></i></a>&nbsp;
