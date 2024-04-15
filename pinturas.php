@@ -24,7 +24,6 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-
 }
 
 .fijo ul li a {

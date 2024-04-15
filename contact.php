@@ -15,4 +15,3 @@ $carta .= "Mensaje: $mensaje";
 mail($destinatario, $asunto, $carta);
 
 
-?>
