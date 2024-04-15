@@ -67,7 +67,7 @@ hr {
     <nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
        <link rel="shortcut icon" href="img/logob2.png" type="image/x-icon">
        <li class="nav-link">
-       <a href="inicio.php"  ><img src="img/logob2.png" width="90" height="90"></img></a>
+       <a href="inicio.php"  ><img style="margin-left: 100px;" src="img/logob2.png" width="90" height="90"></img></a>
        </li>
        <div class="container">
        <a class="navbar-brand" href="inicio.php">INICIO</a>
@@ -187,7 +187,7 @@ hr {
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img  src="img/frente.jpg" width="400px"  height="400px" class="d-block w-100 rounded" alt="...">
+              <img  src="img/frente.jpg" width="400px"  height="400px" class="d-block w-100 rounded" alt="Imagen de Almacen">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Almacen</h5>
               </div>
@@ -253,8 +253,6 @@ hr {
       <footer class="border-top footer text-muted rounded" style="background-color: #CA0403;">
       <br>
       <div class="container1" style="color:#fff;">
-      <img style="margin-left: 840px;" width="150" src="img/tarjeta.png" >
-        <h4 style=" color:#fff;" >SIGUENOS!</h4>
         <li class="nav-link">
         <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" title="Instagram" target="_blank" rel="noopener">
         <i class="fa-brands fa-instagram " style="color: #f7f7f8;"></i></a> &nbsp;
@@ -266,11 +264,10 @@ hr {
         <i class="fa-solid fa-shop" style="color: #eceff3;"></i></a>
         </a>
         <div class="container1" style="color: #fff;">
-        <br>
         <hr style="border: 1px solid white;">
         &copy; 2024 - <b> Ferreteria Jotta-R </b>- Todos los derechos reservado</a>
      </div>
-    </footer>
-    
+    </footer> <div style="margin-top: 10px;"></div>
+
 </body>
 </html>

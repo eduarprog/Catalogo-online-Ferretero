@@ -65,7 +65,7 @@ hr {
 <div class="fijo">
 <nav class="navbar navbar-expand-lg navbar-dark bg-" style="background-color: #CA0403;">
         <li class="nav-link" data-bs-toggle="tooltip" data-bs-placement="top" title="Ferreteria Jotta-R" >
-          <a href="inicio.php" ><img src="img/logob2.png" width="90" height="90"></img></a>
+          <a href="inicio.php" ><img style="margin-left: 100px;" src="img/logob2.png" width="90" height="90"></img></a>
           </li>
         <div class="container">
           <a   class="navbar-brand" href="inicio.php" >INICIO</a> 
@@ -191,8 +191,6 @@ hr {
     <footer class="pie_pagina rounded" style="background-color: #CA0403;" >
       <br>
       <div class="container" style="color:#fff" >
-      <img style="margin-left: 840px;" width="150" src="img/tarjeta.png" >
-      <h4 style="color:#fff" >SIGUENOS!</h4>
       <li class="nav-link">
       <a href="https://www.instagram.com/ferreteriajotta.r/?hl=es-la" title="Instagram" target="_blank" rel="noopener">
       <i class="fa-brands fa-instagram " style="color: #f7f7f8;"></i></a>
@@ -207,13 +205,9 @@ hr {
       <i class="fa-solid fa-shop" style="color: #eceff3;"></i></a>
       </a>
       <div class="container" style="color:#fff" >
-      <br>
-      <hr style="border: 1px solid white;"> &copy; 2024 - <b> Ferreteria Jotta-R </b> - Todos los Derechos Reservados 
-      </a>
+      <hr style="border: 1px solid white;"> &copy; 2024 - <b> Ferreteria Jotta-R </b> - Todos los derechos reservados</div>
       </div>
-      </nav>
-      </div>
-      </footer>
+      </footer><div style="margin-top: 10px;"></div>
 
 </body>
 </html>
