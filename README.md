@@ -1,6 +1,6 @@
 - Descripción del proyecto:
 
-Este proyecto es un catálogo en línea para ferreterías, donde los usuarios pueden explorar una amplia gama de productos, ver sus precios y detalles, y realizar búsquedas y filtrados; Podran acceder a toda la informacion de el local, galeria, contactos y formularios de ayuda para cotizaciones.
+Este proyecto es un catálogo en línea para ferreterías o cualquier negocio comercial, donde los usuarios pueden explorar una amplia gama de productos, ver sus precios y detalles, y realizar búsquedas y filtrados; Podran acceder a toda la informacion de el local, galeria, contactos y formularios de ayuda para cotizaciones.
 
 **Tecnologias/Herramientas:** 
 
